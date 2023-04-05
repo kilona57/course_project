@@ -14,7 +14,9 @@ subject_domain_of_medicine
 
 		section_alternative_medicine
 		(*
-			=> nrel_section_base_order: section_of_aromatherapy;;
+			=> nrel_section_base_order: section_of_homeopathy;
+		section_of_naturopathy;
+		section_of_acupuncture;;
 		*);
 
 			section_subject_domain_of_medicine
