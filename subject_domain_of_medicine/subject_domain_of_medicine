@@ -1,0 +1,21 @@
+subject_domain_of_medicine
+=>nrel_main_idtf: [Предметная область медицина] (* <- lang_ru;; *);
+	<- not_enough_formed_structure;
+	<= nrel_section_decomposition:
+	{
+		section_of_traditional_medicine
+		(*
+			=> nrel_section_base_order: section_psychiatry;
+            ophthalmology;
+            dermatology;
+            cardiology;
+            pediatrics;;
+		*);
+
+		section_alternative_medicine
+		(*
+			=> nrel_section_base_order: section_of_aromatherapy;;
+		*);
+
+			section_subject_domain_of_medicine
+};;
