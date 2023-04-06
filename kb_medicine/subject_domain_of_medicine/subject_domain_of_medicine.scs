@@ -1,15 +1,15 @@
 subject_domain_of_medicine
-=>nrel_main_idtf: [Предметная область медицина] (* <- lang_ru;; *);
+=>nrel_main_idtf: [Предметная область медицины] (* <- lang_ru;; *);
 	<- not_enough_formed_structure;
 	<= nrel_section_decomposition:
 	{
 		section_of_traditional_medicine
 		(*
 			=> nrel_section_base_order: section_psychiatry;
-            ophthalmology;
-            dermatology;
-            cardiology;
-            pediatrics;;
+            section_ophthalmology;
+            section_dermatology;
+            section_cardiology;
+            section_pediatrics;;
 		*);
 
 		section_alternative_medicine
@@ -20,4 +20,4 @@ subject_domain_of_medicine
 		*);
 
 			section_subject_domain_of_medicine
-};;
+    };;
