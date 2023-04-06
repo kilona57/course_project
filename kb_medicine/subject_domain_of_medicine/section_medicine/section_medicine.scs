@@ -3,9 +3,19 @@ section_medicine
 		[Раздел. Медицины]
 			(* <- lang_ru;; *);;
 	
-section_medicine =  [*^"file://section_article.scsi"*];;
+section_medicine =  [*^"file://section_medicine.scsi"*];;
 
 section_medicine
 	-> rrel_key_sc_element:	
-        article;
-        journalism_article;;
+        medicine;
+        health;
+        organism;
+        organ;
+        disease;
+        drug;
+        doctor;
+        patient;
+        nrel_symptom;
+        nrel_syndrome;
+        nrel_cure;
+        nrel_active_substance;;
