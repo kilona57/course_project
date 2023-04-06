@@ -3,7 +3,14 @@ section_medicine
 		[Раздел. Медицины]
 			(* <- lang_ru;; *);;
 	
-section_medicine =  [*^"file://section_medicine.scsi"*];;
+//section_medicine =  [*^"file://section_medicine.scsi"*];;
+<= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://section_medicine.scsi" (*
+							<- lang_ru;;
+							=> nrel_format: format_scsi;;
+						*);;
+                *);;
 
 section_medicine
 	-> rrel_key_sc_element:	
