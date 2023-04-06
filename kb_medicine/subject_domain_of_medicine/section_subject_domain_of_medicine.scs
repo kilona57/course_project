@@ -4,6 +4,7 @@ section_medicine
 			(* <- lang_ru;; *);;
 	
 //section_medicine =  [*^"file://section_medicine.scsi"*];;
+<- rrel_key_sc_element: ...
 (*
 <= nrel_sc_text_translation: ... 
                 (*
