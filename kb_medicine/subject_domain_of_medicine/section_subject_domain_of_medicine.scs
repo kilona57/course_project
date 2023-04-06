@@ -5,7 +5,7 @@ section_medicine
 	
 section_medicine =  [*"file://section_subject_domain_of_medicine.scsi"*];;		
 
-section_medicine
+section_subject_domain_of_medicine
 	-> rrel_key_sc_element:	
         medicine;
         health;
