@@ -3,7 +3,7 @@ section_subject_domain_of_medicine
 		[Раздел. Медицины]
 			(* <- lang_ru;; *);;
 sc_statement -> ...(*			
-<=nrel_sc_text_translation: ...(*->rrel_example:["file://kb_medicine/subject_domain_of_medicine/section_subject_domain_of_medicine.scsi"](*<-lang_ru;;*);;*);;		
+<=nrel_sc_text_translation: ...(*->rrel_example:["file://kb_medicine/subject_domain_of_medicine/section_subject_domain_of_medicine.scs"](*<-lang_ru;;*);;*);;		
 *);;
 section_subject_domain_of_medicine
 	-> rrel_key_sc_element:	
