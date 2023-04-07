@@ -74,9 +74,26 @@ concept_organ
 						*);;
                 *);;
         *);;      
+concept_drug
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [бользнь]
+            (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (болезнь)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Drug_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;   
 
-                   
-				
            
 
 
