@@ -5,7 +5,7 @@ concept_medicine
             (*<-lang_ru;;*);
     <- rrel_key_sc_element: ... 
         (*
-            <- definition;;
+            <- sc_definition;;
             => nrel_main_idtf:
                 [Опр. (медицина)] (* <- lang_ru;; *);;
             
@@ -24,7 +24,7 @@ concept_health
             (*<-lang_ru;;*);
     <- rrel_key_sc_element: ... 
         (*
-            <- definition;;
+            <- sc_definition;;
             => nrel_main_idtf:
                 [Опр. (здоровье)] (* <- lang_ru;; *);;
             
@@ -43,7 +43,7 @@ concept_organism
             (*<-lang_ru;;*);
     <- rrel_key_sc_element: ... 
         (*
-            <- definition;;
+            <- sc_definition;;
             => nrel_main_idtf:
                 [Опр. (организм)] (* <- lang_ru;; *);;
             
@@ -62,7 +62,7 @@ concept_organ
             (*<-lang_ru;;*);
     <- rrel_key_sc_element: ... 
         (*
-            <- definition;;
+            <- sc_definition;;
             => nrel_main_idtf:
                 [Опр. (орган)] (* <- lang_ru;; *);;
             
@@ -81,7 +81,7 @@ concept_drug
             (*<-lang_ru;;*);
     <- rrel_key_sc_element: ... 
         (*
-            <- definition;;
+            <- sc_definition;;
             => nrel_main_idtf:
                 [Опр. (болезнь)] (* <- lang_ru;; *);;
             
@@ -100,7 +100,7 @@ concept_doctor
             (*<-lang_ru;;*);
     <- rrel_key_sc_element: ... 
         (*
-            <- definition;;
+            <- sc_definition;;
             => nrel_main_idtf:
                 [Опр. (врач)] (* <- lang_ru;; *);;
             
@@ -119,7 +119,7 @@ concept_patient
             (*<-lang_ru;;*);
     <- rrel_key_sc_element: ... 
         (*
-            <- definition;;
+            <- sc_definition;;
             => nrel_main_idtf:
                 [Опр. (пациент)] (* <- lang_ru;; *);;
             
