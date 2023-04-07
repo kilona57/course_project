@@ -3,8 +3,7 @@ section_subject_domain_of_medicine
 		[Раздел. Медицины]
 			(* <- lang_ru;; *);;
 
-section_subject_domain_of_medicine
-	-> rrel_key_sc_element:	
+section_subject_domain_of_medicine->rrel_key_sc_element:
         concept_medicine;
         concept_health;
         concept_organism;
