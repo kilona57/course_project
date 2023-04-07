@@ -18,7 +18,7 @@ section_subject_domain_of_medicine
         nrel_cure;
         nrel_active_substance;;
 	
-
+section_subject_domain_of_medicine =  [*^"file://section_subject_domain_of_medicine.scs"*];;	
 
 	
 
