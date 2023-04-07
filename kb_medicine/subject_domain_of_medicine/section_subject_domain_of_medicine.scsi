@@ -131,4 +131,27 @@ concept_patient
 						*);;
                 *);;
         *);;             
-
+nrel_symptom
+=> nrel_main_idtf:
+	[симптом*]
+	(* <- lang_ru;;	*);
+        [symptom*]
+        (* <- lang_en;;*);;
+nrel_syndrome
+=> nrel_main_idtf:
+	[синдром*]
+	(* <- lang_ru;;	*);
+        [syndrome*]
+        (* <- lang_en;;*);;
+nrel_cure
+=> nrel_main_idtf:
+	[лечение*]
+	(* <- lang_ru;;	*);
+        [cure*]
+        (* <- lang_en;;*);;
+nrel_active_substance
+=> nrel_main_idtf:
+	[активное вещество*]
+	(* <- lang_ru;;	*);
+        [active_substance*]
+        (* <- lang_en;;*);;
