@@ -132,12 +132,14 @@ concept_patient
                 *);;
         *);;             
 nrel_symptom
+ <-sc_node_norole_relation;
 => nrel_main_idtf:
 	[симптом*]
 	(* <- lang_ru;;	*);
         [symptom*]
         (* <- lang_en;;*);;
 nrel_syndrome
+ <-sc_node_norole_relation;
 => nrel_main_idtf:
 	[синдром*]
 	(* <- lang_ru;;	*);
@@ -150,6 +152,7 @@ nrel_cure
         [cure*]
         (* <- lang_en;;*);;
 nrel_active_substance
+ <-sc_node_norole_relation;
 => nrel_main_idtf:
 	[активное вещество*]
 	(* <- lang_ru;;	*);
