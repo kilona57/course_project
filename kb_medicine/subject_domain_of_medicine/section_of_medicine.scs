@@ -92,9 +92,28 @@ concept_drug
 							=> nrel_format: format_html;;
 						*);;
                 *);;
+        *);;    
+concept_doctor
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [врач]
+            (*<-lang_ru;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (врач)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Doctor_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
         *);;   
+         
 
-           
 
 
 
