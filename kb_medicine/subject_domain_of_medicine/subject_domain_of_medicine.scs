@@ -25,5 +25,6 @@ subject_domain_of_medicine
 
 	
   };;
-  subject_domain_of_medicine;;
+  
+ nrel_main_idtf<= subject_domain_of_medicine;;
 
