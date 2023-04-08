@@ -130,7 +130,7 @@ doctor
           [врач]
             (*<-lang_ru;;*);
           [doctor]
-            (*<-lang_ru;;*);
+            (*<-lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
@@ -151,7 +151,7 @@ patient
           [пациент]
             (*<-lang_ru;;*);
           [patient]
-            (*<-lang_ru;;*);
+            (*<-lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
