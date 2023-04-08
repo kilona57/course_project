@@ -134,29 +134,29 @@ patient
 nrel_symptom
  <-sc_node_norole_relation;
 => nrel_main_idtf:
-	[симптом*]
+	[симптом]
 	(* <- lang_ru;;	*);
-        [symptom*]
+        [symptom]
         (* <- lang_en;;*);;
 nrel_syndrome
  <-sc_node_norole_relation;
 => nrel_main_idtf:
-	[синдром*]
+	[синдром]
 	(* <- lang_ru;;	*);
-        [syndrome*]
+        [syndrome]
         (* <- lang_en;;*);;
 nrel_cure
 => nrel_main_idtf:
-	[лечение*]
+	[лечение]
 	(* <- lang_ru;;	*);
-        [cure*]
+        [cure]
         (* <- lang_en;;*);;
 nrel_active_substance
  <-sc_node_norole_relation;
 => nrel_main_idtf:
-	[активное вещество*]
+	[активное вещество]
 	(* <- lang_ru;;	*);
-        [active_substance*]
+        [active_substance]
         (* <- lang_en;;*);;
 
 
