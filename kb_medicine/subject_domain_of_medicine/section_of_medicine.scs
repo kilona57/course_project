@@ -186,10 +186,10 @@ nrel_symptom
 						*);;
                 *);;
         *);
-    <= nrel_first_domain:
-        //???;
-    <= nrel_second_domain:
-        //???;
+    // <= nrel_first_domain:
+    //     ???;
+    // <= nrel_second_domain:
+    //     ???;
     => nrel_inclusion: 
         oriented_relation;;
     
@@ -213,10 +213,10 @@ nrel_syndrome
 						*);;
                 *);;
         *);
-    <= nrel_first_domain:
-        //???;
-    <= nrel_second_domain:
-        //???;
+    // <= nrel_first_domain:
+    //     ???;
+    // <= nrel_second_domain:
+    //     ???;
     => nrel_inclusion: 
         oriented_relation;;    
 
@@ -239,10 +239,10 @@ nrel_cure
 						*);;
                 *);;
         *);
-    <= nrel_first_domain:
-        //???;
-    <= nrel_second_domain:
-        //???;
+    // <= nrel_first_domain:
+    //     ???;
+    // <= nrel_second_domain:
+    //     ???;
     => nrel_inclusion: 
         oriented_relation;;
 
@@ -266,10 +266,10 @@ nrel_active_substance
 						*);;
                 *);;
         *);
-    <= nrel_first_domain:
-        //???;
-    <= nrel_second_domain:
-        //??;
+    // <= nrel_first_domain:
+    //     ???;
+    // <= nrel_second_domain:
+    //     ??;
     => nrel_inclusion: 
         oriented_relation;;      
 
