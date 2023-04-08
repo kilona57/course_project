@@ -1,4 +1,4 @@
-concept_medicine
+medicine
     <-sc_node_not_relation;
     => nrel_main_idtf:
           [медицина]
@@ -17,7 +17,7 @@ concept_medicine
 						*);;
                 *);;
         *);;
-concept_health
+health
     <-sc_node_not_relation;
     => nrel_main_idtf:
           [здоровье]
@@ -36,7 +36,7 @@ concept_health
 						*);;
                 *);;
         *);;
-concept_organism
+organism
     <-sc_node_not_relation;
     => nrel_main_idtf:
           [организм]
@@ -55,7 +55,7 @@ concept_organism
 						*);;
                 *);;
         *);;
-concept_organ
+organ
     <-sc_node_not_relation;
     => nrel_main_idtf:
           [орган]
@@ -74,7 +74,7 @@ concept_organ
 						*);;
                 *);;
         *);;      
-concept_drug
+drug
     <-sc_node_not_relation;
     => nrel_main_idtf:
           [бользнь]
@@ -93,7 +93,7 @@ concept_drug
 						*);;
                 *);;
         *);;    
-concept_doctor
+doctor
     <-sc_node_not_relation;
     => nrel_main_idtf:
           [врач]
@@ -112,7 +112,7 @@ concept_doctor
 						*);;
                 *);;
         *);;   
-concept_patient
+patient
     <-sc_node_not_relation;
     => nrel_main_idtf:
           [пациент]
