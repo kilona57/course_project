@@ -4,14 +4,14 @@ section_subject_domain_of_medicine
 			(* <- lang_ru;; *);;
 
 section_subject_domain_of_medicine->rrel_key_sc_element:
-        concept_medicine;
-        concept_health;
-        concept_organism;
-        concept_organ;
-        concept_disease;
-        concept_drug;
-        concept_doctor;
-        concept_patient;
+        medicine;
+        health;
+        organism;
+        organ;
+        disease;
+        drug;
+        doctor;
+        patient;
         nrel_symptom;
         nrel_syndrome;
         nrel_cure;
