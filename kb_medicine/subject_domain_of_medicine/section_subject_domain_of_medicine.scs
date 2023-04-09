@@ -10,9 +10,11 @@ section_subject_domain_of_medicine->rrel_key_sc_element:
         organ;
         disease;
         drug;
+        prescription;
         doctor;
         patient;
-        rehabilitation;//реабилитация
+        //rehabilitation;//реабилитация
+        //therapy;//терапия
         nrel_symptom;
         nrel_syndrome;
         nrel_cure;
