@@ -9,7 +9,7 @@ subject_domain_of_psychiatry
 		section_of_geriatric_psychiatry;//позднего возраста
 		section_of_military_psychiatry;//военная
 		section_of_forensic_psychiatry;//судебная
-	};
+	}
   
   subject_domain_of_psychiatry ->rrel_key_sc_element:
   section_of_psychiatry;;
