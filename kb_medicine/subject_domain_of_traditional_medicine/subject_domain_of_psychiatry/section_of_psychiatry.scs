@@ -1,0 +1,294 @@
+psychiatry
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [психиатрия]
+            (*<-lang_ru;;*);
+          [psychiatry]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (психиатрия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Psychiatry_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+psychiatrist
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [психиатр]
+            (*<-lang_ru;;*);
+          [psychiatrist]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (психиатр)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Psychiatrist_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+disorder
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [расстройство]
+            (*<-lang_ru;;*);
+          [disorder]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (расстройство)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Disorder_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;    
+psychotropic_drug
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [психотропное средство]
+            (*<-lang_ru;;*);
+          [psychotropic drug]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (психотропное средство)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Psychotropic_drug_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+schizophrenia
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [шизофрения]
+            (*<-lang_ru;;*);
+          [schizophrenia]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (шизофрения)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Schizophrenia_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;   
+emotions
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [эмоции]
+            (*<-lang_ru;;*);
+          [emotions]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (эмоции)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Emotions_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;  
+memory
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [память]
+            (*<-lang_ru;;*);
+          [memory]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (память)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Memory_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;  
+thinking
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [мышление]
+            (*<-lang_ru;;*);
+          [thinking]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (мышление)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Thinking_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;   
+attention
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [внимание]
+            (*<-lang_ru;;*);
+          [attention]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (внимание)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Attention_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);; 
+conscience
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [сознание]
+            (*<-lang_ru;;*);
+          [conscience]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (сознание)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Conscience_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);; 
+hallucination
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [галлюцинация]
+            (*<-lang_ru;;*);
+          [hallucination]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (галлюцинация)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Hallucination_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);; 
+delusion
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [бред]
+            (*<-lang_ru;;*);
+          [delusion]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (бред)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Delusion_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);; 
+excitement
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [возбуждение]
+            (*<-lang_ru;;*);
+          [excitement]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (возбуждение)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Excitement_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);; 
+anxiety
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [тревога]
+            (*<-lang_ru;;*);
+          [anxiety]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (тревога)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Anxiety_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);; 
