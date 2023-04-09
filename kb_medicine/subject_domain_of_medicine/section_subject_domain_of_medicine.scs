@@ -12,6 +12,7 @@ section_subject_domain_of_medicine->rrel_key_sc_element:
         drug;
         doctor;
         patient;
+        rehabilitation;//реабилитация
         nrel_symptom;
         nrel_syndrome;
         nrel_cure;
