@@ -5,17 +5,17 @@ section_of_psychiatry
 
 section_of_psychiatry->rrel_key_sc_element:
         psychiatry;
+        mentality;//психика
         psychiatrist;
-        disorder;//расстройство
-        psychotropic_drug;//психотропное средство 
-        schizophrenia;//шизофрения
+        personality;//личность
+        psychiatric_disorder;//расстройство
+        psychotropic_substances;//психотропное средство 
+        behaviour;//поведение
         emotions;//эмоции
         memory;//память
         thinking;//мышление
-        attention;//внимание
         conscience;//сознание
-        hallucination;//галлюцинация
+        hallucination;//галлюцинации
         delusion;//бред
         excitement;//возбуждение
         anxiety;;//тревога
-	

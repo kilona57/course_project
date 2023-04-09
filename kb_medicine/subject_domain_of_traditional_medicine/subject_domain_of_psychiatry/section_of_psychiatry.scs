@@ -19,6 +19,27 @@ psychiatry
 						*);;
                 *);;
         *);;
+mentality
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [психика]
+            (*<-lang_ru;;*);
+          [mentality]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (психика)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Mentality_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
 psychiatrist
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -40,69 +61,90 @@ psychiatrist
 						*);;
                 *);;
         *);;
-disorder
+personality
     <-sc_node_not_relation;
     => nrel_main_idtf:
-          [расстройство]
+          [личность]
             (*<-lang_ru;;*);
-          [disorder]
+          [personality]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (расстройство)] (* <- lang_ru;; *);;
+                [Опр. (личность)] (* <- lang_ru;; *);;
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html/Disorder_idtf.html" (*
-							<- lang_ru;;
-							=> nrel_format: format_html;;
-						*);;
-                *);;
-        *);;    
-psychotropic_drug
-    <-sc_node_not_relation;
-    => nrel_main_idtf:
-          [психотропное средство]
-            (*<-lang_ru;;*);
-          [psychotropic drug]
-            (* <- lang_en;;*);
-    <- rrel_key_sc_element: ... 
-        (*
-            <- sc_definition;;
-            => nrel_main_idtf:
-                [Опр. (психотропное средство)] (* <- lang_ru;; *);;
-            
-             <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://html/Psychotropic_drug_idtf.html" (*
+                    -> rrel_example: "file://html/Personality_idtf.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
                 *);;
         *);;
-schizophrenia
+psychiatric_disorder
     <-sc_node_not_relation;
     => nrel_main_idtf:
-          [шизофрения]
+          [пстхическое расстройство]
             (*<-lang_ru;;*);
-          [schizophrenia]
+          [psychiatric_disorder]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (шизофрения)] (* <- lang_ru;; *);;
+                [Опр. (психическое расстройство)] (* <- lang_ru;; *);;
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html/Schizophrenia_idtf.html" (*
+                    -> rrel_example: "file://html/Psychiatric_disorder_idtf.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
                 *);;
-        *);;   
+        *);;    
+psychotropic_substances
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [психотропное вещество]
+            (*<-lang_ru;;*);
+          [psychotropic substances]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (психотропное вещество)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Psychotropic_substances_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+behaviour
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [поведение]
+            (*<-lang_ru;;*);
+          [behaviour]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (поведение)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Behaviour_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;            
 emotions
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -166,27 +208,6 @@ thinking
 						*);;
                 *);;
         *);;   
-attention
-    <-sc_node_not_relation;
-    => nrel_main_idtf:
-          [внимание]
-            (*<-lang_ru;;*);
-          [attention]
-            (* <- lang_en;;*);
-    <- rrel_key_sc_element: ... 
-        (*
-            <- sc_definition;;
-            => nrel_main_idtf:
-                [Опр. (внимание)] (* <- lang_ru;; *);;
-            
-             <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://html/Attention_idtf.html" (*
-							<- lang_ru;;
-							=> nrel_format: format_html;;
-						*);;
-                *);;
-        *);; 
 conscience
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -211,7 +232,7 @@ conscience
 hallucination
     <-sc_node_not_relation;
     => nrel_main_idtf:
-          [галлюцинация]
+          [галлюцинации]
             (*<-lang_ru;;*);
           [hallucination]
             (* <- lang_en;;*);
@@ -219,7 +240,7 @@ hallucination
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (галлюцинация)] (* <- lang_ru;; *);;
+                [Опр. (галлюцинации)] (* <- lang_ru;; *);;
             
              <= nrel_sc_text_translation: ... 
                 (*
