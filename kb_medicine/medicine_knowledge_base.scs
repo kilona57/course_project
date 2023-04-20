@@ -30,4 +30,4 @@ medicine_knowledge_base
 	subject_domain_of_naturopathy;
 	subject_domain_of_acupuncture
 	};;
-<-ui_start_sc_element;
+<-ui_start_sc_element;;
