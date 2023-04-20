@@ -7,6 +7,7 @@ medicine_knowledge_base
 	    (* <- lang_en;; *);
 
 <- not_enough_formed_structure;
+<-ui_start_sc_element;
 <- sc_model_of_knowledge_base
 	(*
 		=> nrel_main_idtf:
@@ -30,4 +31,3 @@ medicine_knowledge_base
 	subject_domain_of_naturopathy;
 	subject_domain_of_acupuncture
 	};;
-<-ui_start_sc_element;;
