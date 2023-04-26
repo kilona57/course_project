@@ -1,7 +1,7 @@
 dermatologist_venereologist 
     <-sc_node_not_relation;
     => nrel_main_idtf:
-            [дерматолог-венеролог]
+            [дерматолог венеролог]
             (*<-lang_ru;;*);
             [dermatologist venereologist]
             (* <- lang_en;;*);
@@ -9,7 +9,7 @@ dermatologist_venereologist
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (дермотолог-венеролог)] (* <- lang_ru;; *);;
+                [Опр. (дермотолог венеролог)] (* <- lang_ru;; *);;
             
                 <= nrel_sc_text_translation: ... 
                 (*
