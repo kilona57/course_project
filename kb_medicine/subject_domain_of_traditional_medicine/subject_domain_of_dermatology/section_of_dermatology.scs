@@ -11,11 +11,5 @@ dermatologist_venereologist
             => nrel_main_idtf:
                 [Опр. (дермотолог венеролог)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Dermatologist_venereologist_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+         
         *);;
