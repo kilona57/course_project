@@ -1,0 +1,820 @@
+dermatology //дерматология
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматология]
+            (*<-lang_ru;;*);
+            [dermatology]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотология)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Dermatology_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+dermatologist //дерматолог
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматолог]
+            (*<-lang_ru;;*);
+            [dermatologist]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотолог)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Dermatologist_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+dermatologist_venereologist //дерматолог-венеролог
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматолог-венеролог]
+            (*<-lang_ru;;*);
+            [dermatologist venereologist]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотолог-венеролог)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Dermatologist_venereologist_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+dermatologist_oncologist //дерматолог-онколог
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматолог-онколог]
+            (*<-lang_ru;;*);
+            [dermatologist oncologist]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотолог-онколог)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Dermatologist_oncologist_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+dermatologist_trichologist //дерматолог-трихолог
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматолог-трихолог]
+            (*<-lang_ru;;*);
+            [dermatologist trichologist]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотолог-трихолог)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Dermatologist_trichologist_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+dermatologist_cosmetologist //дерматолог-косметолог
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматолог-косметолог]
+            (*<-lang_ru;;*);
+            [dermatologist cosmetologist]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотолог-косметолог)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Dermatologist_cosmetologist_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+dermatologist_allergist //дерматолог-аллерголог
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматолог-аллерголог]
+            (*<-lang_ru;;*);
+            [dermatologist allergist]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотолог-аллерголог)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Dermatologist_allergist_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+dermatologist_surgeon //дерматолог-хирург
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматолог-хирург]
+            (*<-lang_ru;;*);
+            [dermatologist surgeon]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотолог-хирург)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Dermatologist_surgeon_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+skin_covers //кожные покровы
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [кожные покровы]
+            (*<-lang_ru;;*);
+            [skin covers]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (кожные покровы)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Skin_covers_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+structure //строение
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [включение]
+            (*<-lang_ru;;*);
+            [structure]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (включение)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Structure_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+epidermis //эпидермис
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [эпидермис]
+            (*<-lang_ru;;*);
+            [epidermis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (эпидермис)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Epidermis_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+derma //дерма
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерма]
+            (*<-lang_ru;;*);
+            [derma]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дерма)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Derma_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+hypoderm //гиподерма
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [гиподерма]
+            (*<-lang_ru;;*);
+            [hypoderm]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (гиподерма)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Hypoderm_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+
+hair //волос
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [волос]
+            (*<-lang_ru;;*);
+            [hair]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (волос)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Hair_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+stratum_corneum //роговой слой
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [роговой слой]
+            (*<-lang_ru;;*);
+            [stratum corneum]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (роговой слой)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Stratum_corneum_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+basal_layer //базальный слой
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [базальный слой]
+            (*<-lang_ru;;*);
+            [basal layer]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (базальный слой)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Basal_layer_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+papillary_layer //сосочковый слой
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [сосочковый слой]
+            (*<-lang_ru;;*);
+            [papillary layer]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (сосочковый слой)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Papillary_layer_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+collagen_fibers //коллагеновые волокна
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [коллагеновые волокна]
+            (*<-lang_ru;;*);
+            [collagen fibers]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (коллагеновые волокна)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Collagen_fibers_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+mesh_layer //сетчатый слой
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [сетчатый слой]
+            (*<-lang_ru;;*);
+            [mesh layer]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (сетчатый слой)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Mesh_layer_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+keratinocytes //кератинициты
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [кератинициты]
+            (*<-lang_ru;;*);
+            [keratinocytes]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (кератинициты)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Keratinocytes_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+sebaceous_gland //сальная железа
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [сальная железа]
+            (*<-lang_ru;;*);
+            [sebaceous gland]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (сальная железа)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Sebaceous_gland_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+deep_vascular_network //глубокая сосудистая сеть
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [глубокая сосудистая сеть]
+            (*<-lang_ru;;*);
+            [deep vascular network]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (глубокая сосудистая сеть)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Deep_vascular_network_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+fibroblasts //фибробласты
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [фибробласты]
+            (*<-lang_ru;;*);
+            [fibroblasts]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (фибробласты)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Fibroblasts_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+skin_functions //функции кожи
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [функции кожи]
+            (*<-lang_ru;;*);
+            [skin functions]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (функции кожи)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Skin functions_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+nail //ноготь
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [ноготь]
+            (*<-lang_ru;;*);
+            [nail]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ноготь)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Nail_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+matrix //матрикс
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [матрикс]
+            (*<-lang_ru;;*);
+            [matrix]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (матрикс)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Matrix_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+eponychius //ногтевая пластина
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [ногтевая пластина]
+            (*<-lang_ru;;*);
+            [eponychius]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ногтевая пластина)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Eponychius_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+cuticle //кутикула
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [кутикула]
+            (*<-lang_ru;;*);
+            [cuticle]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (кутикула)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Cuticle_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+hole //лунка
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [лунка]
+            (*<-lang_ru;;*);
+            [hole]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (лунка)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Hole_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+nail_bed //ногтевое ложе
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [ногтевое ложе]
+            (*<-lang_ru;;*);
+            [nail bed]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ногтевое ложе)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Hail_bed_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+nail_plate //ногтевая пластина
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [ногтевая пластина]
+            (*<-lang_ru;;*);
+            [nail plate]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ногтевая пластина)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Hail_plate_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+side_nail_roller //боковой валик ногтя
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [боковой валик ногтя]
+            (*<-lang_ru;;*);
+            [side nail roller]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (боковой валик ногтя)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Side_nail_roller_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+nail_sinus //ногтевая пазуха
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [ногтевая пазуха]
+            (*<-lang_ru;;*);
+            [nail sinus]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ногтевая пазуха)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Nail_sinus_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+nail_body //тело ногтя
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [тело ногтя]
+            (*<-lang_ru;;*);
+            [nail body]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (тело ногтя)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Nail_body_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+free_edge //свободный край
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [свободный край]
+            (*<-lang_ru;;*);
+            [free edge]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (свободный край)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Free_edge_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+hyponychius //подногтевая пластина
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [подногтевая пластина]
+            (*<-lang_ru;;*);
+            [hyponychius]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (подногтевая пластина)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Hyponychius_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+itching //зуд
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [зуд]
+            (*<-lang_ru;;*);
+            [itching]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (зуд)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Itching_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+peeling //шелушение 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [шелушение]
+            (*<-lang_ru;;*);
+            [peeling]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (шелушение)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Peeling_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+dandruff //перхоть  
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [перхоть]
+            (*<-lang_ru;;*);
+            [dandruff]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (перхоть)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_/Dandruff_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;    
