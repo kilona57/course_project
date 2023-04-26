@@ -19,22 +19,22 @@ dermatology
                         *);;
                 *);;
         *);;
-dermatologist 
+dermatologist_venereologist 
     <-sc_node_not_relation;
     => nrel_main_idtf:
-            [дерматолог]
+            [дерматолог-венеролог]
             (*<-lang_ru;;*);
-            [dermatologist]
+            [dermatologist venereologist]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (дермотолог)] (* <- lang_ru;; *);;
+                [Опр. (дермотолог-венеролог)] (* <- lang_ru;; *);;
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTMl/Dermatologist_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Dermatologist_venereologist_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
