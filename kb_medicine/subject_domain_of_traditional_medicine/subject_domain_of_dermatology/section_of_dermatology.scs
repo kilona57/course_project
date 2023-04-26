@@ -497,7 +497,7 @@ skin_functions
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTMl/Skin functions_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Skin_functions_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
