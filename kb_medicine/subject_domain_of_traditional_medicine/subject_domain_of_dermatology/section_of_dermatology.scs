@@ -31,14 +31,6 @@ dermatologist
             <- sc_definition;;
             => nrel_main_idtf:
                 [Опр. (дермотолог)] (* <- lang_ru;; *);;
-            
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Dermatologist_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
         *);;
 dermatologist_venereologist 
     <-sc_node_not_relation;
@@ -53,13 +45,7 @@ dermatologist_venereologist
             => nrel_main_idtf:
                 [Опр. (дермотолог-венеролог)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Dermatologist_venereologist_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 dermatologist_oncologist 
     <-sc_node_not_relation;
@@ -74,13 +60,7 @@ dermatologist_oncologist
             => nrel_main_idtf:
                 [Опр. (дермотолог-онколог)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Dermatologist_oncologist_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+               
         *);;
 dermatologist_trichologist 
     <-sc_node_not_relation;
@@ -95,13 +75,7 @@ dermatologist_trichologist
             => nrel_main_idtf:
                 [Опр. (дермотолог-трихолог)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Dermatologist_trichologist_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+               
         *);;
 dermatologist_cosmetologist 
     <-sc_node_not_relation;
@@ -116,13 +90,7 @@ dermatologist_cosmetologist
             => nrel_main_idtf:
                 [Опр. (дермотолог-косметолог)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Dermatologist_cosmetologist_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 dermatologist_allergist 
     <-sc_node_not_relation;
@@ -137,13 +105,7 @@ dermatologist_allergist
             => nrel_main_idtf:
                 [Опр. (дермотолог-аллерголог)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Dermatologist_allergist_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+               
         *);;
 dermatologist_surgeon 
     <-sc_node_not_relation;
@@ -158,13 +120,7 @@ dermatologist_surgeon
             => nrel_main_idtf:
                 [Опр. (дермотолог-хирург)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Dermatologist_surgeon_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 skin_covers 
     <-sc_node_not_relation;
@@ -179,13 +135,7 @@ skin_covers
             => nrel_main_idtf:
                 [Опр. (кожные покровы)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Skin_covers_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 structure 
     <-sc_node_not_relation;
@@ -200,13 +150,6 @@ structure
             => nrel_main_idtf:
                 [Опр. (включение)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Structure_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
         *);;
 epidermis 
     <-sc_node_not_relation;
@@ -221,13 +164,7 @@ epidermis
             => nrel_main_idtf:
                 [Опр. (эпидермис)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Epidermis_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 derma 
     <-sc_node_not_relation;
@@ -242,13 +179,7 @@ derma
             => nrel_main_idtf:
                 [Опр. (дерма)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Derma_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 hypoderm 
     <-sc_node_not_relation;
@@ -263,13 +194,7 @@ hypoderm
             => nrel_main_idtf:
                 [Опр. (гиподерма)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Hypoderm_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 
 hair 
@@ -285,13 +210,7 @@ hair
             => nrel_main_idtf:
                 [Опр. (волос)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Hair_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 stratum_corneum 
     <-sc_node_not_relation;
@@ -306,13 +225,7 @@ stratum_corneum
             => nrel_main_idtf:
                 [Опр. (роговой слой)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Stratum_corneum_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 basal_layer 
     <-sc_node_not_relation;
@@ -327,13 +240,7 @@ basal_layer
             => nrel_main_idtf:
                 [Опр. (базальный слой)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Basal_layer_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 papillary_layer 
     <-sc_node_not_relation;
@@ -348,13 +255,7 @@ papillary_layer
             => nrel_main_idtf:
                 [Опр. (сосочковый слой)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Papillary_layer_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+               
         *);;
 collagen_fibers 
     <-sc_node_not_relation;
@@ -369,13 +270,7 @@ collagen_fibers
             => nrel_main_idtf:
                 [Опр. (коллагеновые волокна)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Collagen_fibers_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 mesh_layer 
     <-sc_node_not_relation;
@@ -390,13 +285,7 @@ mesh_layer
             => nrel_main_idtf:
                 [Опр. (сетчатый слой)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Mesh_layer_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 keratinocytes 
     <-sc_node_not_relation;
@@ -411,13 +300,7 @@ keratinocytes
             => nrel_main_idtf:
                 [Опр. (кератинициты)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Keratinocytes_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 sebaceous_gland 
     <-sc_node_not_relation;
@@ -432,13 +315,7 @@ sebaceous_gland
             => nrel_main_idtf:
                 [Опр. (сальная железа)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Sebaceous_gland_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 deep_vascular_network 
     <-sc_node_not_relation;
@@ -453,13 +330,7 @@ deep_vascular_network
             => nrel_main_idtf:
                 [Опр. (глубокая сосудистая сеть)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Deep_vascular_network_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 fibroblasts 
     <-sc_node_not_relation;
@@ -474,13 +345,7 @@ fibroblasts
             => nrel_main_idtf:
                 [Опр. (фибробласты)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Fibroblasts_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 skin_functions 
     <-sc_node_not_relation;
@@ -495,13 +360,7 @@ skin_functions
             => nrel_main_idtf:
                 [Опр. (функции кожи)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Skin functions_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 nail 
     <-sc_node_not_relation;
@@ -516,13 +375,7 @@ nail
             => nrel_main_idtf:
                 [Опр. (ноготь)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Nail_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 matrix 
     <-sc_node_not_relation;
@@ -537,13 +390,7 @@ matrix
             => nrel_main_idtf:
                 [Опр. (матрикс)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Matrix_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 eponychius 
     <-sc_node_not_relation;
@@ -558,13 +405,7 @@ eponychius
             => nrel_main_idtf:
                 [Опр. (ногтевая пластина)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Eponychius_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+               
         *);;
 cuticle 
     <-sc_node_not_relation;
@@ -579,13 +420,7 @@ cuticle
             => nrel_main_idtf:
                 [Опр. (кутикула)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Cuticle_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+               
         *);;
 hole 
     <-sc_node_not_relation;
@@ -600,13 +435,7 @@ hole
             => nrel_main_idtf:
                 [Опр. (лунка)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Hole_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 nail_bed 
     <-sc_node_not_relation;
@@ -621,13 +450,7 @@ nail_bed
             => nrel_main_idtf:
                 [Опр. (ногтевое ложе)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Hail_bed_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+               
         *);;
 nail_plate 
     <-sc_node_not_relation;
@@ -642,13 +465,7 @@ nail_plate
             => nrel_main_idtf:
                 [Опр. (ногтевая пластина)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Hail_plate_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 side_nail_roller 
     <-sc_node_not_relation;
@@ -663,13 +480,7 @@ side_nail_roller
             => nrel_main_idtf:
                 [Опр. (боковой валик ногтя)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Side_nail_roller_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 nail_sinus 
     <-sc_node_not_relation;
@@ -684,13 +495,7 @@ nail_sinus
             => nrel_main_idtf:
                 [Опр. (ногтевая пазуха)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Nail_sinus_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 nail_body 
     <-sc_node_not_relation;
@@ -705,13 +510,7 @@ nail_body
             => nrel_main_idtf:
                 [Опр. (тело ногтя)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Nail_body_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 free_edge 
     <-sc_node_not_relation;
@@ -726,13 +525,7 @@ free_edge
             => nrel_main_idtf:
                 [Опр. (свободный край)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Free_edge_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+               
         *);;
 hyponychius 
     <-sc_node_not_relation;
@@ -747,13 +540,7 @@ hyponychius
             => nrel_main_idtf:
                 [Опр. (подногтевая пластина)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Hyponychius_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 itching 
     <-sc_node_not_relation;
@@ -768,13 +555,7 @@ itching
             => nrel_main_idtf:
                 [Опр. (зуд)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Itching_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 peeling  
     <-sc_node_not_relation;
@@ -789,13 +570,7 @@ peeling
             => nrel_main_idtf:
                 [Опр. (шелушение)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Peeling_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;
 dandruff  
     <-sc_node_not_relation;
@@ -810,11 +585,5 @@ dandruff
             => nrel_main_idtf:
                 [Опр. (перхоть)] (* <- lang_ru;; *);;
             
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Dandruff_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
+                
         *);;    
