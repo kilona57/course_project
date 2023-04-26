@@ -20,10 +20,10 @@ section_of_dermatology->rrel_key_sc_element:
         hair;//волос
         stratum_corneum;//роговой слой
         basal_layer;//базальный слой
-        papillary_layer;сосочковый слой
+        papillary_layer;//сосочковый слой
         collagen_fibers;//коллагеновые волокна
         mesh_layer;//сетчатый слой
-        keratinocytes;кератинициты
+        keratinocytes;//кератинициты
         sebaceous_gland;//сальная железа
         deep_vascular_network;//глубокая сосудистая сеть
         fibroblasts;//фибробласты
@@ -41,5 +41,5 @@ section_of_dermatology->rrel_key_sc_element:
         free_edge;//свободный край
         hyponychius;//подногтевая пластина
         itching;//зуд
-        peeling;//шелушение //перхоть
+        peeling;//шелушение//перхоть
         dandruff;;
