@@ -1,4 +1,4 @@
-dermatology //дерматология
+dermatology 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [дерматология]
@@ -19,7 +19,7 @@ dermatology //дерматология
                         *);;
                 *);;
         *);;
-dermatologist //дерматолог
+dermatologist
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [дерматолог]
@@ -40,7 +40,7 @@ dermatologist //дерматолог
                         *);;
                 *);;
         *);;
-dermatologist_venereologist //дерматолог-венеролог
+dermatologist_venereologist 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [дерматолог-венеролог]
@@ -61,7 +61,7 @@ dermatologist_venereologist //дерматолог-венеролог
                         *);;
                 *);;
         *);;
-dermatologist_oncologist //дерматолог-онколог
+dermatologist_oncologist 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [дерматолог-онколог]
@@ -82,7 +82,7 @@ dermatologist_oncologist //дерматолог-онколог
                         *);;
                 *);;
         *);;
-dermatologist_trichologist //дерматолог-трихолог
+dermatologist_trichologist 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [дерматолог-трихолог]
@@ -103,7 +103,7 @@ dermatologist_trichologist //дерматолог-трихолог
                         *);;
                 *);;
         *);;
-dermatologist_cosmetologist //дерматолог-косметолог
+dermatologist_cosmetologist 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [дерматолог-косметолог]
@@ -124,7 +124,7 @@ dermatologist_cosmetologist //дерматолог-косметолог
                         *);;
                 *);;
         *);;
-dermatologist_allergist //дерматолог-аллерголог
+dermatologist_allergist 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [дерматолог-аллерголог]
@@ -145,7 +145,7 @@ dermatologist_allergist //дерматолог-аллерголог
                         *);;
                 *);;
         *);;
-dermatologist_surgeon //дерматолог-хирург
+dermatologist_surgeon 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [дерматолог-хирург]
@@ -166,7 +166,7 @@ dermatologist_surgeon //дерматолог-хирург
                         *);;
                 *);;
         *);;
-skin_covers //кожные покровы
+skin_covers 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [кожные покровы]
@@ -187,7 +187,7 @@ skin_covers //кожные покровы
                         *);;
                 *);;
         *);;
-structure //строение
+structure 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [включение]
@@ -208,7 +208,7 @@ structure //строение
                         *);;
                 *);;
         *);;
-epidermis //эпидермис
+epidermis 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [эпидермис]
@@ -229,7 +229,7 @@ epidermis //эпидермис
                         *);;
                 *);;
         *);;
-derma //дерма
+derma 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [дерма]
@@ -250,7 +250,7 @@ derma //дерма
                         *);;
                 *);;
         *);;
-hypoderm //гиподерма
+hypoderm 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [гиподерма]
@@ -272,7 +272,7 @@ hypoderm //гиподерма
                 *);;
         *);;
 
-hair //волос
+hair 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [волос]
@@ -293,7 +293,7 @@ hair //волос
                         *);;
                 *);;
         *);;
-stratum_corneum //роговой слой
+stratum_corneum 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [роговой слой]
@@ -314,7 +314,7 @@ stratum_corneum //роговой слой
                         *);;
                 *);;
         *);;
-basal_layer //базальный слой
+basal_layer 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [базальный слой]
@@ -335,7 +335,7 @@ basal_layer //базальный слой
                         *);;
                 *);;
         *);;
-papillary_layer //сосочковый слой
+papillary_layer 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [сосочковый слой]
@@ -356,7 +356,7 @@ papillary_layer //сосочковый слой
                         *);;
                 *);;
         *);;
-collagen_fibers //коллагеновые волокна
+collagen_fibers 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [коллагеновые волокна]
@@ -377,7 +377,7 @@ collagen_fibers //коллагеновые волокна
                         *);;
                 *);;
         *);;
-mesh_layer //сетчатый слой
+mesh_layer 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [сетчатый слой]
@@ -398,7 +398,7 @@ mesh_layer //сетчатый слой
                         *);;
                 *);;
         *);;
-keratinocytes //кератинициты
+keratinocytes 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [кератинициты]
@@ -419,7 +419,7 @@ keratinocytes //кератинициты
                         *);;
                 *);;
         *);;
-sebaceous_gland //сальная железа
+sebaceous_gland 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [сальная железа]
@@ -440,7 +440,7 @@ sebaceous_gland //сальная железа
                         *);;
                 *);;
         *);;
-deep_vascular_network //глубокая сосудистая сеть
+deep_vascular_network 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [глубокая сосудистая сеть]
@@ -461,7 +461,7 @@ deep_vascular_network //глубокая сосудистая сеть
                         *);;
                 *);;
         *);;
-fibroblasts //фибробласты
+fibroblasts 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [фибробласты]
@@ -482,7 +482,7 @@ fibroblasts //фибробласты
                         *);;
                 *);;
         *);;
-skin_functions //функции кожи
+skin_functions 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [функции кожи]
@@ -503,7 +503,7 @@ skin_functions //функции кожи
                         *);;
                 *);;
         *);;
-nail //ноготь
+nail 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [ноготь]
@@ -524,7 +524,7 @@ nail //ноготь
                         *);;
                 *);;
         *);;
-matrix //матрикс
+matrix 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [матрикс]
@@ -545,7 +545,7 @@ matrix //матрикс
                         *);;
                 *);;
         *);;
-eponychius //ногтевая пластина
+eponychius 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [ногтевая пластина]
@@ -566,7 +566,7 @@ eponychius //ногтевая пластина
                         *);;
                 *);;
         *);;
-cuticle //кутикула
+cuticle 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [кутикула]
@@ -587,7 +587,7 @@ cuticle //кутикула
                         *);;
                 *);;
         *);;
-hole //лунка
+hole 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [лунка]
@@ -608,7 +608,7 @@ hole //лунка
                         *);;
                 *);;
         *);;
-nail_bed //ногтевое ложе
+nail_bed 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [ногтевое ложе]
@@ -629,7 +629,7 @@ nail_bed //ногтевое ложе
                         *);;
                 *);;
         *);;
-nail_plate //ногтевая пластина
+nail_plate 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [ногтевая пластина]
@@ -650,7 +650,7 @@ nail_plate //ногтевая пластина
                         *);;
                 *);;
         *);;
-side_nail_roller //боковой валик ногтя
+side_nail_roller 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [боковой валик ногтя]
@@ -671,7 +671,7 @@ side_nail_roller //боковой валик ногтя
                         *);;
                 *);;
         *);;
-nail_sinus //ногтевая пазуха
+nail_sinus 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [ногтевая пазуха]
@@ -692,7 +692,7 @@ nail_sinus //ногтевая пазуха
                         *);;
                 *);;
         *);;
-nail_body //тело ногтя
+nail_body 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [тело ногтя]
@@ -713,7 +713,7 @@ nail_body //тело ногтя
                         *);;
                 *);;
         *);;
-free_edge //свободный край
+free_edge 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [свободный край]
@@ -734,7 +734,7 @@ free_edge //свободный край
                         *);;
                 *);;
         *);;
-hyponychius //подногтевая пластина
+hyponychius 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [подногтевая пластина]
@@ -755,7 +755,7 @@ hyponychius //подногтевая пластина
                         *);;
                 *);;
         *);;
-itching //зуд
+itching 
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [зуд]
@@ -776,7 +776,7 @@ itching //зуд
                         *);;
                 *);;
         *);;
-peeling //шелушение 
+peeling  
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [шелушение]
@@ -797,7 +797,7 @@ peeling //шелушение
                         *);;
                 *);;
         *);;
-dandruff //перхоть  
+dandruff  
     <-sc_node_not_relation;
     => nrel_main_idtf:
             [перхоть]
