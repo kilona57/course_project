@@ -13,7 +13,7 @@ dermatology
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Dermatology_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Dermatology_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -34,7 +34,7 @@ dermatologist
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Dermatologist_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Dermatologist_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -55,7 +55,7 @@ dermatologist_venereologist
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Dermatologist_venereologist_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Dermatologist_venereologist_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -76,7 +76,7 @@ dermatologist_oncologist
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Dermatologist_oncologist_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Dermatologist_oncologist_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -97,7 +97,7 @@ dermatologist_trichologist
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Dermatologist_trichologist_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Dermatologist_trichologist_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -118,7 +118,7 @@ dermatologist_cosmetologist
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Dermatologist_cosmetologist_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Dermatologist_cosmetologist_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -139,7 +139,7 @@ dermatologist_allergist
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Dermatologist_allergist_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Dermatologist_allergist_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -160,7 +160,7 @@ dermatologist_surgeon
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Dermatologist_surgeon_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Dermatologist_surgeon_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -181,7 +181,7 @@ skin_covers
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Skin_covers_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Skin_covers_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -202,7 +202,7 @@ structure
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Structure_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Structure_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -223,7 +223,7 @@ epidermis
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Epidermis_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Epidermis_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -244,7 +244,7 @@ derma
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Derma_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Derma_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -265,7 +265,7 @@ hypoderm
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Hypoderm_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Hypoderm_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -287,7 +287,7 @@ hair
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Hair_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Hair_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -308,7 +308,7 @@ stratum_corneum
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Stratum_corneum_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Stratum_corneum_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -329,7 +329,7 @@ basal_layer
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Basal_layer_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Basal_layer_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -350,7 +350,7 @@ papillary_layer
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Papillary_layer_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Papillary_layer_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -371,7 +371,7 @@ collagen_fibers
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Collagen_fibers_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Collagen_fibers_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -392,7 +392,7 @@ mesh_layer
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Mesh_layer_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Mesh_layer_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -413,7 +413,7 @@ keratinocytes
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Keratinocytes_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Keratinocytes_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -434,7 +434,7 @@ sebaceous_gland
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Sebaceous_gland_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Sebaceous_gland_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -455,7 +455,7 @@ deep_vascular_network
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Deep_vascular_network_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Deep_vascular_network_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -476,7 +476,7 @@ fibroblasts
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Fibroblasts_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Fibroblasts_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -497,7 +497,7 @@ skin_functions
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Skin functions_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Skin functions_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -518,7 +518,7 @@ nail
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Nail_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Nail_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -539,7 +539,7 @@ matrix
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Matrix_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Matrix_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -560,7 +560,7 @@ eponychius
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Eponychius_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Eponychius_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -581,7 +581,7 @@ cuticle
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Cuticle_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Cuticle_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -602,7 +602,7 @@ hole
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Hole_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Hole_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -623,7 +623,7 @@ nail_bed
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Hail_bed_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Hail_bed_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -644,7 +644,7 @@ nail_plate
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Hail_plate_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Hail_plate_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -665,7 +665,7 @@ side_nail_roller
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Side_nail_roller_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Side_nail_roller_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -686,7 +686,7 @@ nail_sinus
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Nail_sinus_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Nail_sinus_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -707,7 +707,7 @@ nail_body
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Nail_body_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Nail_body_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -728,7 +728,7 @@ free_edge
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Free_edge_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Free_edge_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -749,7 +749,7 @@ hyponychius
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Hyponychius_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Hyponychius_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -770,7 +770,7 @@ itching
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Itching_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Itching_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -791,7 +791,7 @@ peeling
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Peeling_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Peeling_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
@@ -812,7 +812,7 @@ dandruff
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://html_/Dandruff_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Dandruff_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
