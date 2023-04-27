@@ -10,8 +10,7 @@ section_of_dermatology->rrel_key_sc_element:
         dermatologist_oncologist;//дерматолог-онколог
         dermatologist_trichologist;//дерматолог-трихолог
         dermatologist_cosmetologist;//дерматолог-косметолог
-        dermatologist_allergist;//дерматолог аллерголог
-        dermatologist_surgeon;//дерматолог-хирург
+        dermatologist_allergist;//дерматолог-аллерголог
         skin_covers;//кожные покровы
         structure;//строение
         epidermis;//эпидермис
@@ -23,14 +22,14 @@ section_of_dermatology->rrel_key_sc_element:
         papillary_layer;//сосочковый слой
         collagen_fibers;//коллагеновые волокна
         mesh_layer;//сетчатый слой
-        keratinocytes;//кератинициты
+        keratinocytes;//кератиноциты
         sebaceous_gland;//сальная железа
         deep_vascular_network;//глубокая сосудистая сеть
         fibroblasts;//фибробласты
         skin_functions;//функции кожи
         nail;//ноготь
         matrix;//матрикс
-        eponychius;//ногтевая пластина
+        eponychius;//эпонихий
         cuticle;//кутикула
         hole;//лунка
         nail_bed;//ногтевое ложе
@@ -39,7 +38,7 @@ section_of_dermatology->rrel_key_sc_element:
         nail_sinus;//ногтевая пазуха
         nail_body;//тело ногтя
         free_edge;//свободный край
-        hyponychius;//подногтевая пластина
+        hyponychius;//гипонихий
         itching;//зуд
         peeling;//шелушение //перхоть
         dandruff;;
