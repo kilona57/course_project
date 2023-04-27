@@ -18,6 +18,8 @@ dermatology
                             => nrel_format: format_html;;
                         *);;
                 *);;
+     *);;
+
         *);;
 dermatologist 
     <-sc_node_not_relation;
@@ -185,6 +187,14 @@ skin_covers
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
+                *);;
+
+            <- illustration;;
+            <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://images//skin_covers.jpg"
+                (*
+                    => nrel_format: format_jpg;;
+                *);;
                 *);;
         *);;
 structure 
