@@ -18,6 +18,14 @@ dermatology
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                => nrel_latin_language:
+                   dermatologia
+                    (*
+                        => nrel_main_idtf:
+                            [dermatologia]
+                                (* <- lang_en;; *);;
+                    *);;
      *);;
 
 dermatologist 
