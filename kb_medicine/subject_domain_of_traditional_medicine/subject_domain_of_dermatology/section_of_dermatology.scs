@@ -239,7 +239,7 @@ epidermis
                 *);;
                 <- illustration;;
                 <= nrel_sc_text_translation: ... (*
-                    -> rrel_example: "file://images//epidermis.jpg"
+                    -> rrel_example: "file://images//epidermis.JPG"
                     (*
                         => nrel_format: format_jpg;;
                     *);;
