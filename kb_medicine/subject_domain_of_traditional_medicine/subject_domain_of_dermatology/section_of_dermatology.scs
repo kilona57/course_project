@@ -20,24 +20,6 @@ dermatology
                 *);;
      *);;
 
-dermatology 
-    <- rrel_key_sc_element: ... 
-        (*
-            <- sc_definition;;
-            => nrel_main_idtf:
-                [Утв.(дермотология)] (* <- lang_ru;;*);;
-            <= nrel_sc_text_translation:...
-            (*
-                -> rrel_example: "file://approvals/dermatology.html"
-                (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-            *);;
-     *);;
-     
-
-
 dermatologist 
     <-sc_node_not_relation;
     => nrel_main_idtf:

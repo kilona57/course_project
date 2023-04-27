@@ -1,0 +1,79 @@
+dermatology 
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв.(дермотология)] (* <- lang_ru;;*);;
+            <= nrel_sc_text_translation:...
+            (*
+                -> rrel_example: "file://approvals/dermatology.html"
+                (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+            *);;
+     *);;
+
+dermatologist
+    <- rrel_key_sc_element: ... 
+            (*
+                <- sc_definition;;
+                => nrel_main_idtf:
+                    [Утв.(дерматолог)] (* <- lang_ru;;*);;
+                <= nrel_sc_text_translation:...
+                (*
+                    -> rrel_example: "file://approvals/dermatology.html"
+                    (*
+                                <- lang_ru;;
+                                => nrel_format: format_html;;
+                            *);;
+                *);;
+        *);;
+
+dermatologist_venereologist
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(дермотолог-венеролог)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/dermatologist_venereologist.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+dermatologist_oncologist
+<- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(дермотолог-онголог)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/dermatologist_oncologist.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+dermatologist_trichologist
+<- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(дерматолог-трихолог)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/dermatologist_trichologist.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
