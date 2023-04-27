@@ -18,11 +18,6 @@ dermatology
                             => nrel_format: format_html;;
                         *);;
                 *);;
-            => nrel_main_idtf:[Утв.(дермотология)] (* <- lang_ru;;*);;
-            <= nrel_sc_text_translation:...
-            (*
-                -> rrel_example: "file://approvals/dermatology.html";;
-            *);;
      *);;
 
 dermatology 
@@ -33,7 +28,11 @@ dermatology
                 [Утв.(дермотология)] (* <- lang_ru;;*);;
             <= nrel_sc_text_translation:...
             (*
-                -> rrel_example: "file://approvals/dermatology.html";;
+                -> rrel_example: "file://approvals/dermatology.html"
+                (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
             *);;
      *);;
      
