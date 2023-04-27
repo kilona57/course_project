@@ -5,8 +5,6 @@ dermatology
             (*<-lang_ru;;*);
             [dermatology]
             (* <- lang_en;;*);
-            [dermatologia]
-            (* <- lang_la;;*);
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
@@ -239,6 +237,13 @@ epidermis
                             => nrel_format: format_html;;
                         *);;
                 *);;
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//epidermis.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+                    *);;
         *);;
 derma 
     <-sc_node_not_relation;
@@ -260,6 +265,14 @@ derma
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//derma.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+                    *);;
         *);;
 hypoderm 
     <-sc_node_not_relation;
@@ -281,6 +294,13 @@ hypoderm
                             => nrel_format: format_html;;
                         *);;
                 *);;
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//hypoderm.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
         *);;
 
 hair 
@@ -303,6 +323,13 @@ hair
                             => nrel_format: format_html;;
                         *);;
                 *);;
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//hypoderm.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+                    *);;
         *);;
 stratum_corneum 
     <-sc_node_not_relation;
@@ -324,6 +351,13 @@ stratum_corneum
                             => nrel_format: format_html;;
                         *);;
                 *);;
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//stratum_corneum.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
         *);;
 basal_layer 
     <-sc_node_not_relation;
@@ -345,6 +379,13 @@ basal_layer
                             => nrel_format: format_html;;
                         *);;
                 *);;
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//basal_layer.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
         *);;
 papillary_layer 
     <-sc_node_not_relation;
@@ -387,6 +428,13 @@ collagen_fibers
                             => nrel_format: format_html;;
                         *);;
                 *);;
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//collagen_fibers.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+                    *);;
         *);;
 mesh_layer 
     <-sc_node_not_relation;
@@ -408,11 +456,18 @@ mesh_layer
                             => nrel_format: format_html;;
                         *);;
                 *);;
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//mesh_layer.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+                    *);;
         *);;
 keratinocytes 
     <-sc_node_not_relation;
     => nrel_main_idtf:
-            [кератинициты]
+            [кератиноциты]
             (*<-lang_ru;;*);
             [keratinocytes]
             (* <- lang_en;;*);
@@ -420,7 +475,7 @@ keratinocytes
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (кератинициты)] (* <- lang_ru;; *);;
+                [Опр. (кератиноциты)] (* <- lang_ru;; *);;
             
                 <= nrel_sc_text_translation: ... 
                 (*
@@ -471,6 +526,13 @@ deep_vascular_network
                             => nrel_format: format_html;;
                         *);;
                 *);;
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//deep_vascular_network.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+                    *);;
         *);;
 fibroblasts 
     <-sc_node_not_relation;
@@ -492,6 +554,13 @@ fibroblasts
                             => nrel_format: format_html;;
                         *);;
                 *);;
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//fibroblasts.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
         *);;
 skin_functions 
     <-sc_node_not_relation;
@@ -534,6 +603,13 @@ nail
                             => nrel_format: format_html;;
                         *);;
                 *);;
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//nail.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+                    *);;
         *);;
 matrix 
     <-sc_node_not_relation;
