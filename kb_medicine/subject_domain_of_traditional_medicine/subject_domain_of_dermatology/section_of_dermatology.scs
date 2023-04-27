@@ -20,7 +20,7 @@ dermatology
                 *);;
 
                 => nrel_latin_language:
-                   dermatologia
+                   dermatology
                     (*
                         => nrel_main_idtf:
                             [dermatologia]
