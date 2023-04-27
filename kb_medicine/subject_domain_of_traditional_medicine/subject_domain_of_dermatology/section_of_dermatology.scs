@@ -18,15 +18,14 @@ dermatology
                             => nrel_format: format_html;;
                         *);;
                 *);;
-
-                => nrel_latin_language:
-                   dermatology
-                    (*
-                        => nrel_main_idtf:
-                            [dermatologia]
-                                (* <- lang_en;; *);;
-                    *);;
+            => nrel_main_idtf:[Утв.(дермотология)] (* <- lang_ru;;*);;
+            <= nrel_sc_text_translation:...
+            (*
+                -> rrel_example: "file://approvals/dermatology.html";;
+            *);;
      *);;
+     
+
 
 dermatologist 
     <-sc_node_not_relation;
