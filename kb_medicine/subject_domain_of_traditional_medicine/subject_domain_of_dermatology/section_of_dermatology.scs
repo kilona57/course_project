@@ -1,7 +1,43 @@
+dermatology 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматология]
+            (*<-lang_ru;;*);
+            [dermatology]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотология)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Dermatology_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+dermatologist 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматолог]
+            (*<-lang_ru;;*);
+            [dermatologist]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотолог)] (* <- lang_ru;; *);;
+            
+               
+        *);;
 dermatologist_venereologist 
     <-sc_node_not_relation;
     => nrel_main_idtf:
-            [дерматолог венеролог]
+            [дерматолог-венеролог]
             (*<-lang_ru;;*);
             [dermatologist venereologist]
             (* <- lang_en;;*);
@@ -9,7 +45,82 @@ dermatologist_venereologist
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (дермотолог венеролог)] (* <- lang_ru;; *);;
+                [Опр. (дермотолог-венеролог)] (* <- lang_ru;; *);;
             
-         
+              
+        *);;
+dermatologist_oncologist 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматолог-онколог]
+            (*<-lang_ru;;*);
+            [dermatologist oncologist]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотолог-онколог)] (* <- lang_ru;; *);;
+            
+                
+        *);;
+dermatologist_trichologist 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматолог-трихолог]
+            (*<-lang_ru;;*);
+            [dermatologist trichologist]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотолог-трихолог)] (* <- lang_ru;; *);;
+            
+               
+        *);;
+dermatologist_cosmetologist 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматолог-косметолог]
+            (*<-lang_ru;;*);
+            [dermatologist cosmetologist]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотолог-косметолог)] (* <- lang_ru;; *);;
+            
+               
+        *);;
+dermatologist_allergist 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматолог-аллерголог]
+            (*<-lang_ru;;*);
+            [dermatologist allergist]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотолог-аллерголог)] (* <- lang_ru;; *);;
+            
+               
+        *);;
+dermatologist_surgeon 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [дерматолог-хирург]
+            (*<-lang_ru;;*);
+            [dermatologist surgeon]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дермотолог-хирург)] (* <- lang_ru;; *);;
+            
+               
         *);;
