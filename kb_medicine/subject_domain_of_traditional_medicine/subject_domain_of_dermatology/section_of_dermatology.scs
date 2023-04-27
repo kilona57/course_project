@@ -239,9 +239,9 @@ epidermis
                 *);;
                 <- illustration;;
                 <= nrel_sc_text_translation: ... (*
-                    -> rrel_example: "file://images//epidermis.JPG"
+                    -> rrel_example: "file://images//epidermis.png"
                     (*
-                        => nrel_format: format_jpg;;
+                        => nrel_format: format_png;;
                     *);;
                     *);;
         *);;
@@ -325,9 +325,9 @@ hair
                 *);;
                 <- illustration;;
                 <= nrel_sc_text_translation: ... (*
-                    -> rrel_example: "file://images//hypoderm.jpg"
+                    -> rrel_example: "file://images//hair.jpeg"
                     (*
-                        => nrel_format: format_jpg;;
+                        => nrel_format: format_jpeg;;
                     *);;
                     *);;
         *);;
