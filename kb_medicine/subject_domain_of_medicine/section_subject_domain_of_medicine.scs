@@ -18,8 +18,7 @@ section_subject_domain_of_medicine->rrel_key_sc_element:
         nrel_symptom;
         nrel_syndrome;
         nrel_cure;
-        nrel_active_substance;
-        nrel_latin_language;;
+        nrel_active_substance;;
 
 	
 	
