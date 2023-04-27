@@ -5,6 +5,8 @@ dermatology
             (*<-lang_ru;;*);
             [dermatology]
             (* <- lang_en;;*);
+            [dermatologia]
+            (* <- lang_la;;*);
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
