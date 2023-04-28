@@ -146,27 +146,7 @@ dermatologist_allergist
                         *);;
                 *);;
         *);;
-dermatologist_surgeon 
-    <-sc_node_not_relation;
-    => nrel_main_idtf:
-            [дерматолог-хирург]
-            (*<-lang_ru;;*);
-            [dermatologist surgeon]
-            (* <- lang_en;;*);
-    <- rrel_key_sc_element: ... 
-        (*
-            <- sc_definition;;
-            => nrel_main_idtf:
-                [Опр. (дермотолог-хирург)] (* <- lang_ru;; *);;
-            
-                <= nrel_sc_text_translation: ... 
-                (*
-                    -> rrel_example: "file://HTMl/Dermatologist_surgeon_idtf.html" (*
-                            <- lang_ru;;
-                            => nrel_format: format_html;;
-                        *);;
-                *);;
-        *);;
+
 skin_covers 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -635,7 +615,7 @@ matrix
 eponychius 
     <-sc_node_not_relation;
     => nrel_main_idtf:
-            [ногтевая пластина]
+            [эпонихий]
             (*<-lang_ru;;*);
             [eponychius]
             (* <- lang_en;;*);
@@ -643,7 +623,7 @@ eponychius
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (ногтевая пластина)] (* <- lang_ru;; *);;
+                [Опр. (эпонихий)] (* <- lang_ru;; *);;
             
                 <= nrel_sc_text_translation: ... 
                 (*

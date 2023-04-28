@@ -12,7 +12,7 @@ section_of_dermatology->rrel_key_sc_element:
         dermatologist_cosmetologist;//дерматолог-косметолог
         dermatologist_allergist;//дерматолог-аллерголог
         skin_covers;//кожные покровы
-        structure;//строение
+        //structure;//строение
         epidermis;//эпидермис
         derma;//дерма
         hypoderm;//гиподерма
