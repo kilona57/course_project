@@ -1,0 +1,10 @@
+section_of_pathology_of_the_optic_nerve
+	=> nrel_main_idtf:
+		[Раздел. Патологии зрительного нерва]
+			(* <- lang_ru;; *);;
+
+section_of_pathology_of_the_optic_nerve->rrel_key_sc_element:
+    glaucoma;
+    ischemic_neuropathy_of_the_optic_nerve;
+    neuritis;
+    nerve_atrophy;;
