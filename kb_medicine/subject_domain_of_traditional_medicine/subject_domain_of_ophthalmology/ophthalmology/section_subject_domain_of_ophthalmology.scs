@@ -1,0 +1,9 @@
+section_of_ophthalmology
+	=> nrel_main_idtf:
+		[Раздел. Офтальмологии]
+			(* <- lang_ru;; *);;
+
+section_of_ophthalmology->rrel_key_sc_element:
+    ophthalmology;
+    ophthalmologist;
+    eye;;
