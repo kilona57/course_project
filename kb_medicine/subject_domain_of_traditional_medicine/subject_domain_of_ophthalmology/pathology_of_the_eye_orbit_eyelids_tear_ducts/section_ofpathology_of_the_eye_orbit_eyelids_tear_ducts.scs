@@ -1,1 +1,282 @@
-
+blepharitis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [блефарит]
+            (*<-lang_ru;;*);
+          [blepharitis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (блефарит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit_eyelids_tear_ducts/Blepharitis_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+blepharitis
+ <- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (блефарит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://html_eye_orbit_eyelids_tear_ducts/Blepharitis_symptom.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+cryptophthalmos
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [криптофтальм]
+            (*<-lang_ru;;*);
+          [cryptophthalmos]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (криптофтальм)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit_eyelids_tear_ducts/Cryptophthalmos_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+cryptophthalmos
+ <- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (Последствия криптофтальма)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit_eyelids_tear_ducts/Cryptophthalmos_statement.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+cryptophthalmos
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (криптофтальм)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://html_eye_orbit_eyelids_tear_ducts/Cryptophthalmos_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+lagophthalmos
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [лагофтальм]
+            (*<-lang_ru;;*);
+          [lagophthalmos]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (лагофтальм)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit_eyelids_tear_ducts/Lagophthalmos_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+lagophthalmos
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (лагофтальм)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://html_eye_orbit_eyelids_tear_ducts/Lagophthalmos_symptom.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+inversion_of_the_eyelid
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [заворот века]
+            (*<-lang_ru;;*);
+          [inversion_of_the_eyelid]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (заворот века)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit_eyelids_tear_ducts/Inversion_of_the_eyelid_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+inversion_of_the_eyelid
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (заворот века)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://html_eye_orbit_eyelids_tear_ducts/Inversion_of_the_eyelid_symptom.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+edema_of_the_eyelid
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [отёк века]
+            (*<-lang_ru;;*);
+          [edema of the eyelid]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (отёк века)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit_eyelids_tear_ducts/Edema_of_the_eyelid_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+edema_of_the_eyelid
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (отёк века)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://html_eye_orbit_eyelids_tear_ducts/Edema_of_the_eyelid_symptom.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+barley
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [ячмень]
+            (*<-lang_ru;;*);
+          [barley]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ячмень)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit_eyelids_tear_ducts/Barley_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+barley
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (ячмень)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://html_eye_orbit_eyelids_tear_ducts/Barley_symptom.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+dacryocystitis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [дакриоцистит]
+            (*<-lang_ru;;*);
+          [dacryocystitis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дакриоцистит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit_eyelids_tear_ducts/Dacryocystitis_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+dacryocystitis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (Виды дакриоцистита)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_eye_orbit_eyelids_tear_ducts/Dacryocystitis_statement.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+dacryocystitis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (дакриоцистит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://html_eye_orbit_eyelids_tear_ducts/Dacryocystitis_symptom.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

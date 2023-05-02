@@ -1,0 +1,13 @@
+section_of_pathology_of_the_eye_orbit_eyelids_tear_ducts
+	=> nrel_main_idtf:
+		[Раздел. Патологии глазной орбиты, век, слезных каналов]
+			(* <- lang_ru;; *);;
+
+section_of_pathology_of_the_eye_orbit_eyelids_tear_ducts->rrel_key_sc_element:
+    blepharitis;
+    cryptophthalmos;
+    lagophthalmos;
+    inversion_of_the_eyelid;
+    edema_of_the_eyelid;
+    barley;
+    dacryocystitis;;
