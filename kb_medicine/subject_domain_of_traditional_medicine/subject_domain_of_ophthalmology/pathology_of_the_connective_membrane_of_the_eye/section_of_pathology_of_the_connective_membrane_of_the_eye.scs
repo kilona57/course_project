@@ -1,1 +1,103 @@
+xerophthalmia
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [ксерофтальмия]
+            (*<-lang_ru;;*);
+          [xerophthalmia]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ксерофтальмия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_connective_membrane/Xerophthalmia_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
 
+xerophthalmia
+<- rrel_key_sc_element: ... 
+        (*        
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (ксерофтальмия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://html_connective_membrane/Xerophthalmia_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;  
+conjunctivitis        
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [конъюнктивит]
+            (*<-lang_ru;;*);
+          [conjunctivitis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (конъюнктивит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_connective_membrane/Conjunctivitis_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+conjunctivitis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (Виды конъюнктивита)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_connective_membrane/Conjunctivitis_statement_1.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+conjunctivitis
+<- rrel_key_sc_element: ... 
+        (*        
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (Заражение конъюнктивитом)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_connective_membrane/Conjunctivitis_statement_2.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;   
+conjunctivitis
+<- rrel_key_sc_element: ... 
+        (*        
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (конъюнктивит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://html_connective_membrane/Conjunctivitis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;   
