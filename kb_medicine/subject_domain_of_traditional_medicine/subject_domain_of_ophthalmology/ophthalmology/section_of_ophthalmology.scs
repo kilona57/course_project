@@ -1,0 +1,63 @@
+ophthalmology
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [офтальмология]
+            (*<-lang_ru;;*);
+          [ophthalmology]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (офтальмология)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_for_ophthalmology/Ophthalmology_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+ophthalmologist
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [офтальмолог]
+            (*<-lang_ru;;*);
+          [ophthalmologist]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (офтальмолог)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_for_ophthalmology/Ophthalmologist_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+eye
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [глаз]
+            (*<-lang_ru;;*);
+          [eye]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (глаз)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html_for_ophthalmology/Eye_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
