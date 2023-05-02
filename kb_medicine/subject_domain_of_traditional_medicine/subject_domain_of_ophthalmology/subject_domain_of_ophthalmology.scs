@@ -1,1 +1,16 @@
+subject_domain_of_ophthalmology 
+=>nrel_main_idtf: [Предметная область офтальмологии] (* <- lang_ru;; *);
 
+<- not_enough_formed_structure;
+<= nrel_section_decomposition:
+	{
+		section_of_anatomy_of_the_eye;
+		section_of_pathology_of_the_optic_nerve;
+		section_of_pathology_of_the_eye_orbit_eyelids_tear_ducts;
+        section_of_pathology_of_the_tear_producing_system;
+        section_of_pathology_of_the_connective_membrane_of_the_eye;
+		section_of_pathology_of_the_lens
+	};;
+  
+  subject_domain_of_ophthalmology ->rrel_key_sc_element:
+  section_of_ophthalmology;;
