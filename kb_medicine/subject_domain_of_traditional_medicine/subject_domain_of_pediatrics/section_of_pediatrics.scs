@@ -1,0 +1,128 @@
+pediatrics 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [педиатрия]
+            (*<-lang_ru;;*);
+            [pediatrics]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (педиатрия)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Pediatrics_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+
+pediatrician 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [педиатр]
+            (*<-lang_ru;;*);
+            [pediatrician]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (педиатр)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Pediatrician_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+periods_of_development 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [периоды развития]
+            (*<-lang_ru;;*);
+            [periods_of_development]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (периоды развития)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Periods_of_development_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+kid 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [ребенок]
+            (*<-lang_ru;;*);
+            [kid]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ребенок)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Kid_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+newborn
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+            [новорожденный]
+            (*<-lang_ru;;*);
+            [newborn]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (новорожденный)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Newborn_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
+
+teenager
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+            [подросток]
+            (*<-lang_ru;;*);
+            [teenager]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (подросток)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Teenager_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);;
