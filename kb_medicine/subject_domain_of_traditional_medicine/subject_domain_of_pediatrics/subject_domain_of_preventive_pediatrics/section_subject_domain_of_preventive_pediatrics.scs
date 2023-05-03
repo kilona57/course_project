@@ -4,10 +4,7 @@ section_of_preventive_pediatrics
 			(* <- lang_ru;; *);;
 
 section_of_preventive_pediatrics->rrel_key_sc_element:
-        vaccination;//прививка
-        aseptic;//асептик
-		screening_programs;//стрининг-программа
-		medical_examination;//диспансеризация //диспансер
-		dispensary;;
+        preventive_pediatrics;;
+        
         
         
