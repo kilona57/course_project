@@ -7,7 +7,7 @@ section_of_preventive_pediatrics->rrel_key_sc_element:
         vaccination;//прививка
         aseptic;//асептик
 		screening_programs;//стрининг-программа
-		medical examination;//диспансеризация //диспансер
+		medical_examination;;//диспансеризация //диспансер
 		dispensary;;
         
         
