@@ -4,3 +4,5 @@ subject_domain_of_acupuncture
 	{
 		section_subject_domain_of_acupuncture
 };;
+subject_domain_of_acupuncture->rrel_key_sc_element:
+		section_of_acupuncture;;
