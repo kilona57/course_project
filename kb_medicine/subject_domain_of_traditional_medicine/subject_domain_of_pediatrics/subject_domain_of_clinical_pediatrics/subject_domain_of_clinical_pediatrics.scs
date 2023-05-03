@@ -1,14 +1,7 @@
 subject_domain_of_clinical_pediatrics
 =>nrel_main_idtf: [Предметная область клинической педиатрии] (* <- lang_ru;; *);
 
-<- not_enough_formed_structure;
-	
-<= nrel_section_decomposition:
-	{
-		section_of_diagnosis_diseases; //диагностика заболевания
-		section_of_treatment_diseases; //лечения заболеваний //реабилитации
-		section_of_rehabilitation
-	};;
+<- not_enough_formed_structure;;
   
   subject_domain_of_clinical_pediatrics ->rrel_key_sc_element:
   section_of_clinical_pediatrics;;
