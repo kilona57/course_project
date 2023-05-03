@@ -1,4 +1,6 @@
-section_subject_domain_of_traditional_medicine
+section_of_traditional_medicine
 	=> nrel_main_idtf:
 		[Раздел. Традиционной медицины]
 			(* <- lang_ru;; *);;
+			section_of_traditional_medicine->rrel_key_sc_element:
+			traditional_medicine;;
