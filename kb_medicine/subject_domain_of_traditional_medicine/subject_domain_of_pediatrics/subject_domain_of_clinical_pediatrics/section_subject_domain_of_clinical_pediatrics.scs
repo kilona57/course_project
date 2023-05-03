@@ -1,0 +1,9 @@
+section_of_clinical_pediatrics
+	=> nrel_main_idtf:
+		[Раздел. Клинической педиатрии]
+			(* <- lang_ru;; *);;
+
+section_of_clinical_pediatrics->rrel_key_sc_element:
+        clinical_pediatrics;;
+        
+        
