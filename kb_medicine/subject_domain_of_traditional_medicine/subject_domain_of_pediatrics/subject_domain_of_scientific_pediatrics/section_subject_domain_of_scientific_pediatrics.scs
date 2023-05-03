@@ -1,0 +1,9 @@
+section_of_scientific_pediatrics
+	=> nrel_main_idtf:
+		[Раздел. Научной педиатрии]
+			(* <- lang_ru;; *);;
+
+section_of_scientific_pediatrics->rrel_key_sc_element:
+        scientific_pediatrics;;
+        
+        
