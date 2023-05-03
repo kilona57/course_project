@@ -1,0 +1,9 @@
+section_of_periods_of_development
+	=> nrel_main_idtf:
+		[Раздел. Диагностики развития]
+			(* <- lang_ru;; *);;
+
+section_of_periods_of_development->rrel_key_sc_element:
+        periods_of_development;;
+        
+        
