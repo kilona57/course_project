@@ -55,7 +55,7 @@ nrel_homeopathic_drug
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTML/Nrel_homeopathic_drug_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Nrel_homeopathic_drug_idtf.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
