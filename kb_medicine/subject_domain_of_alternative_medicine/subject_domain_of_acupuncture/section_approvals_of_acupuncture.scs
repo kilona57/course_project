@@ -1,1 +1,48 @@
+acupuncture 
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв.(акупунктура)] (* <- lang_ru;;*);;
+            <= nrel_sc_text_translation:...
+            (*
+                -> rrel_example: "file://approvals/acupuncture.html"
+                (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+            *);;
+     *);;
+
+needle
+    <- rrel_key_sc_element: ... 
+            (*
+                <- sc_definition;;
+                => nrel_main_idtf:
+                    [Утв.(игла медицинская)] (* <- lang_ru;;*);;
+                <= nrel_sc_text_translation:...
+                (*
+                    -> rrel_example: "file://approvals/needle.html"
+                    (*
+                                <- lang_ru;;
+                                => nrel_format: format_html;;
+                            *);;
+                *);;
+        *);;
+
+acupoint
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(акупунктурная точка)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/acupoint.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
 

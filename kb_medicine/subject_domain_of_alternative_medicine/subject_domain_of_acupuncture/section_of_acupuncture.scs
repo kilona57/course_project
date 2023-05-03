@@ -1,0 +1,63 @@
+acupuncture 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [акупунктура]
+            (*<-lang_ru;;*);
+            [acupuncture]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (акупунктура)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Acupuncture_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+    *);;
+needle 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [игла медицинская]
+            (*<-lang_ru;;*);
+            [needle]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (игла медицинская)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Needle_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+    *);;
+acupoint 
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+    [акупунктурная точка]
+    (*<-lang_ru;;*);
+    [acupoint]
+    (* <- lang_en;;*);
+<- rrel_key_sc_element: ... 
+(*
+    <- sc_definition;;
+    => nrel_main_idtf:
+        [Опр. (акупунктурная точка)] (* <- lang_ru;; *);;
+    
+        <= nrel_sc_text_translation: ... 
+        (*
+            -> rrel_example: "file://HTMl/Acupoint_idtf.html" (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+        *);;
+    *);;
