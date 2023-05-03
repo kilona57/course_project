@@ -7,5 +7,7 @@ subject_domain_of_homeopathy
 		section_of_homotoxicology_of_hans_heinrich_reckeweg;//гомотоксикология Ганс-Генриха Рекевега//гомеопатия Эпштейна («релиз-активные препараты»)
 		section_of_epsteins_homeopathy
 
-		section_subject_domain_of_homeopathy
+		
 };;
+subject_domain_of_homeopathy->rrel_key_sc_element:
+		section_of_homeopathy;;
