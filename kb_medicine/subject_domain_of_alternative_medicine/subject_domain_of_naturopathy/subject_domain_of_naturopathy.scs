@@ -1,0 +1,24 @@
+subject_domain_of_naturopathy
+=>nrel_main_idtf: [Предметная область натуропатии] (* <- lang_ru;; *);
+	<- not_enough_formed_structure;
+	<= nrel_section_decomposition:
+	{
+		section_of_aromatherapy;//аромотерапия
+		section_of_aerophytotherapy;//аэрофитотерапия
+		section_of_apitherapy;//апитерапия
+		section_of_aeroionotherapy;//аэроинотерапия
+		section_of_halotherapy;//галотерапия
+		section_of_heliotherapy;//гелиотерапия
+		section_of_hydrotherapy;//гидротерапия
+		section_of_hirudotherapy;//гирудотерапия
+		section_of_dendrotherapy;//дендротерапия
+		section_of_lithotherapy;//литотерапия
+		section_of_music_therapy;//музыкотерапия
+		section_of_thalassotherapy;//талассотерапия
+		section_of_therapeutic_fasting;//лечебное голодание 
+		section_of_phytotherapy;//фитотерапия
+		section_of_florotherapy;//флоротерапия
+		section_of_fungotherapy;//фунготерапия //энотерапия 
+		section_of_enotherapy
+		section_subject_domain_of_naturopathy
+};;
