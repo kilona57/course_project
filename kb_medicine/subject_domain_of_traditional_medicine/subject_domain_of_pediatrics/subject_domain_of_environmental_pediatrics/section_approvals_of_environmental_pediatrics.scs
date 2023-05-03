@@ -1,1 +1,48 @@
+environmental_pediatrics 
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв.(экологичекая педиатрия)] (* <- lang_ru;;*);;
+            <= nrel_sc_text_translation:...
+            (*
+                -> rrel_example: "file://approvals/environmental_pediatrics.html"
+                (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+            *);;
+     *);;
+
+ecology
+    <- rrel_key_sc_element: ... 
+            (*
+                <- sc_definition;;
+                => nrel_main_idtf:
+                    [Утв.(экология)] (* <- lang_ru;;*);;
+                <= nrel_sc_text_translation:...
+                (*
+                    -> rrel_example: "file://approvals/ecology.html"
+                    (*
+                                <- lang_ru;;
+                                => nrel_format: format_html;;
+                            *);;
+                *);;
+        *);;
+
+climate
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(климат)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/climate.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
 
