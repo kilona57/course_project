@@ -193,7 +193,7 @@ patient
         *);;
 
 
-nrel_disability;
+nrel_disability
 <-sc_node_norole_relation;
 => nrel_main_idtf:
 	[инвалидность*]
@@ -219,7 +219,7 @@ nrel_disability;
     //     ???;
     => nrel_inclusion: 
         oriented_relation;;
-diagnosis;
+diagnosis
 <-sc_node_not_relation;
     => nrel_main_idtf:
           [диагноз]
@@ -242,7 +242,7 @@ diagnosis;
         *);;
 
 
-nrel_rehabilitation;
+nrel_rehabilitation
  <-sc_node_norole_relation;
 => nrel_main_idtf:
 	[реабилитация*]
@@ -270,7 +270,7 @@ nrel_rehabilitation;
         oriented_relation;;
 
 
-nrel_diagnostics;
+nrel_diagnostics
  <-sc_node_norole_relation;
 => nrel_main_idtf:
 	[диагностика*]
@@ -298,7 +298,7 @@ nrel_diagnostics;
         oriented_relation;;
 
 
-nrel_prevention;
+nrel_prevention
  <-sc_node_norole_relation;
 => nrel_main_idtf:
 	[профилактика*]
@@ -325,7 +325,7 @@ nrel_prevention;
     => nrel_inclusion: 
         oriented_relation;;
 
-nrel_examination;
+nrel_examination
 <-sc_node_norole_relation;
 => nrel_main_idtf:
 	[обследование*]
