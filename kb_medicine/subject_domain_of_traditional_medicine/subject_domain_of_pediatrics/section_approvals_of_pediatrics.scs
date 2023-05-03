@@ -29,21 +29,6 @@ pediatrician
                             *);;
                 *);;
         *);;
-periods_of_development
-    <- rrel_key_sc_element: ... 
-                (*
-                    <- sc_definition;;
-                    => nrel_main_idtf:
-                        [Утв.(периды развития)] (* <- lang_ru;;*);;
-                    <= nrel_sc_text_translation:...
-                    (*
-                        -> rrel_example: "file://approvals/periods_of_development.html"
-                        (*
-                                    <- lang_ru;;
-                                    => nrel_format: format_html;;
-                                *);;
-                    *);;
-            *);;        
 
 kid
     <- rrel_key_sc_element: ... 
@@ -61,35 +46,4 @@ kid
                     *);;
             *);;
 
-newborn
-<- rrel_key_sc_element: ... 
-                (*
-                    <- sc_definition;;
-                    => nrel_main_idtf:
-                        [Утв.(новорожденный)] (* <- lang_ru;;*);;
-                    <= nrel_sc_text_translation:...
-                    (*
-                        -> rrel_example: "file://approvals/newborn.html"
-                        (*
-                                    <- lang_ru;;
-                                    => nrel_format: format_html;;
-                                *);;
-                    *);;
-            *);;
-
-teenager
-<- rrel_key_sc_element: ... 
-                (*
-                    <- sc_definition;;
-                    => nrel_main_idtf:
-                        [Утв.(подросток)] (* <- lang_ru;;*);;
-                    <= nrel_sc_text_translation:...
-                    (*
-                        -> rrel_example: "file://approvals/teenager.html"
-                        (*
-                                    <- lang_ru;;
-                                    => nrel_format: format_html;;
-                                *);;
-                    *);;
-            *);;
 
