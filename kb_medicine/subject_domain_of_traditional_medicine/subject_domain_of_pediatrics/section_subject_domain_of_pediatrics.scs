@@ -1,0 +1,14 @@
+section_of_pediatrics
+	=> nrel_main_idtf:
+		[Раздел. Педиатрии]
+			(* <- lang_ru;; *);;
+
+section_of_pediatrics->rrel_key_sc_element:
+        pediatrics;//педиатрия
+        pediatrician;//педиатр
+		periods_of_development;//периоды развития
+		kid;//ребенок
+		newborn;//новорожденный //подросток
+		teenager;;
+        
+        
