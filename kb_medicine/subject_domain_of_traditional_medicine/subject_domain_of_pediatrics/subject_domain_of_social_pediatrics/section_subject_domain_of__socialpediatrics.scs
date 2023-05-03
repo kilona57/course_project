@@ -1,0 +1,13 @@
+section_of_social_pediatrics
+	=> nrel_main_idtf:
+		[Раздел. Социальной педиатрии]
+			(* <- lang_ru;; *);;
+
+section_of_social_pediatrics->rrel_key_sc_element:
+        pediatrics;//педиатрия
+        pediatrician;//педиатр
+		kid;//ребенок
+		newborn;//новорожденный //подросток
+		teenager;;
+        
+        
