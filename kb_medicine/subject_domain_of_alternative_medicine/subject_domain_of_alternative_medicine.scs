@@ -4,8 +4,10 @@ subject_domain_of_alternative_medicine
 	<= nrel_section_decomposition:
 	{
 		section_of_homeopathy;//гомеопатия
-		section_of_naturopathy;//натурапатия
-		section_of_acupuncture;//акупунктура(иглоукалывание)
+		section_of_naturopathy;//натурапатия//акупунктура(иглоукалывание)
+		section_of_acupuncture
 
-		section_subject_domain_of_alternative_medicine
+		
 };;
+subject_domain_of_alternative_medicine->rrel_key_sc_element:
+		section_of_alternative_medicine;;
