@@ -20,5 +20,9 @@ subject_domain_of_naturopathy
 		section_of_florotherapy;//флоротерапия
 		section_of_fungotherapy;//фунготерапия //энотерапия 
 		section_of_enotherapy
-		section_subject_domain_of_naturopathy
+
+		
+		
 };;
+subject_domain_of_naturopathy->rrel_key_sc_element:
+		section_of_naturopathy;;
