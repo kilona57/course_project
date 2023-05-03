@@ -2,6 +2,7 @@ subject_domain_of_acupuncture
 	=> nrel_main_idtf:
 		[Раздел. Акупунктуры]
 			(* <- lang_ru;; *);;
+			section_subject_domain_of_acupuncture->rrel_key_sc_element:
 			acupuncture;//акупунктура
 			needle;//игла//акупунктурная точка 
 			acupoint;;
