@@ -1,0 +1,11 @@
+section_of_environmental_pediatrics
+	=> nrel_main_idtf:
+		[Раздел. Экологической педиатрии]
+			(* <- lang_ru;; *);;
+
+section_of_environmental_pediatrics->rrel_key_sc_element:
+        environmental_pediatrics;//экологичекая педиатрия
+        ecology;//экология//климат
+		climate;;
+        
+        
