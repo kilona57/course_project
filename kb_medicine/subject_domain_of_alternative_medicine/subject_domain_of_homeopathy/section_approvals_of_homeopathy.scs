@@ -1,1 +1,48 @@
+homeopathy 
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв.(гомеопатия)] (* <- lang_ru;;*);;
+            <= nrel_sc_text_translation:...
+            (*
+                -> rrel_example: "file://approvals/homeopathy.html"
+                (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+            *);;
+     *);;
+
+homeopath
+    <- rrel_key_sc_element: ... 
+            (*
+                <- sc_definition;;
+                => nrel_main_idtf:
+                    [Утв.(гомеопат)] (* <- lang_ru;;*);;
+                <= nrel_sc_text_translation:...
+                (*
+                    -> rrel_example: "file://approvals/homeopath.html"
+                    (*
+                                <- lang_ru;;
+                                => nrel_format: format_html;;
+                            *);;
+                *);;
+        *);;
+
+nrel_homeopathic_drug
+<- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(гомеопатический препарат)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/nrel_homeopathic_drug.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
 

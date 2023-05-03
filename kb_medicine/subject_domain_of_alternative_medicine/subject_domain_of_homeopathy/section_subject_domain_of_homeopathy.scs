@@ -1,0 +1,7 @@
+section_subject_domain_of_homeopathy
+	=> nrel_main_idtf:
+		[Раздел. Гомеопатии]
+			(* <- lang_ru;; *);;
+			homeopathy;//гомеопатия
+			homeopath;//гомеопат //гомеопатический препарат
+			nrel_homeopathic_drug;;

@@ -1,0 +1,66 @@
+homeopathy 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [гомеопатия]
+            (*<-lang_ru;;*);
+            [homeopathy]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (гомеопатия)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Homeopathy_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+homeopath 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [гомеопат]
+            (*<-lang_ru;;*);
+            [homeopath]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (гомеопат)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Homeopath_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+nrel_homeopathic_drug
+<-sc_node_norole_relation;
+    => nrel_main_idtf:
+          [гомеопатический препарат*]
+            (*<-lang_ru;;*);
+          [homeopathic_drug*]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- definition;;
+            => nrel_main_idtf:
+                [Опр. (гомеопатический препарат)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Nrel_homeopathic_drug_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);
+    =>nrel_inclusion: 
+        oriented_relation;;      
+
