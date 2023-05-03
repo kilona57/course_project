@@ -82,16 +82,16 @@ organ
 						*);;
                 *);;
         *);; 
-disease
-    <-sc_node_not_relation;
+nrel_disease
+<-sc_node_norole_relation;
     => nrel_main_idtf:
-          [болезнь]
+          [болезнь*]
             (*<-lang_ru;;*);
-          [disease]
+          [disease*]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
-            <- sc_definition;;
+            <- definition;;
             => nrel_main_idtf:
                 [Опр. (болезнь)] (* <- lang_ru;; *);;
             
@@ -102,7 +102,11 @@ disease
 							=> nrel_format: format_html;;
 						*);;
                 *);;
-        *);;             
+        *);
+    =>nrel_inclusion: 
+        oriented_relation;;    
+
+
 drug
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -186,13 +190,174 @@ patient
 							=> nrel_format: format_html;;
 						*);;
                 *);;
-        *);;             
+        *);;
+
+
+nrel_disability;
+<-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[инвалидность*]
+	(* <- lang_ru;;	*);
+        [disability*]
+        (* <- lang_en;;*);
+  <- rrel_key_sc_element: ... 
+        (*
+	        <- definition;;
+            => nrel_main_idtf:
+                [Опр. (инвалидность)] (* <- lang_ru;; *);; 
+            <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Nrel_Disability_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);
+    // <= nrel_first_domain:
+    //     ???;
+    // <= nrel_second_domain:
+    //     ???;
+    => nrel_inclusion: 
+        oriented_relation;;
+diagnosis;
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+          [диагноз]
+            (*<-lang_ru;;*);
+          [diagnosis]
+            (*<-lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (диагноз)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Diagnosis_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+
+nrel_rehabilitation;
+ <-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[реабилитация*]
+	(* <- lang_ru;;	*);
+        [rehabilitation*]
+        (* <- lang_en;;*);
+  <- rrel_key_sc_element: ... 
+        (*
+	        <- definition;;
+            => nrel_main_idtf:
+                [Опр. (реабилитация)] (* <- lang_ru;; *);; 
+            <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Nrel_Rehabilitation_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);
+    // <= nrel_first_domain:
+    //     ???;
+    // <= nrel_second_domain:
+    //     ???;
+    => nrel_inclusion: 
+        oriented_relation;;
+
+
+nrel_diagnostics;
+ <-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[диагностика*]
+	(* <- lang_ru;;	*);
+        [diagnostics*]
+        (* <- lang_en;;*);
+  <- rrel_key_sc_element: ... 
+        (*
+	        <- definition;;
+            => nrel_main_idtf:
+                [Опр. (диагностика)] (* <- lang_ru;; *);; 
+            <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Nrel_Diagnostics_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);
+    // <= nrel_first_domain:
+    //     ???;
+    // <= nrel_second_domain:
+    //     ???;
+    => nrel_inclusion: 
+        oriented_relation;;
+
+
+nrel_prevention;
+ <-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[профилактика*]
+	(* <- lang_ru;;	*);
+        [prevention*]
+        (* <- lang_en;;*);
+  <- rrel_key_sc_element: ... 
+        (*
+	        <- definition;;
+            => nrel_main_idtf:
+                [Опр. (профилактика)] (* <- lang_ru;; *);; 
+            <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Nrel_Prevention_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);
+    // <= nrel_first_domain:
+    //     ???;
+    // <= nrel_second_domain:
+    //     ???;
+    => nrel_inclusion: 
+        oriented_relation;;
+
+nrel_examination;
+<-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[обследование*]
+	(* <- lang_ru;;	*);
+        [examination*]
+        (* <- lang_en;;*);
+  <- rrel_key_sc_element: ... 
+        (*
+	        <- definition;;
+            => nrel_main_idtf:
+                [Опр. (обследование)] (* <- lang_ru;; *);; 
+            <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Nrel_Examination_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);
+    // <= nrel_first_domain:
+    //     ???;
+    // <= nrel_second_domain:
+    //     ???;
+    => nrel_inclusion: 
+        oriented_relation;;
+
 nrel_symptom
  <-sc_node_norole_relation;
 => nrel_main_idtf:
-	[симптом]
+	[симптом*]
 	(* <- lang_ru;;	*);
-        [symptom]
+        [symptom*]
         (* <- lang_en;;*);
   <- rrel_key_sc_element: ... 
         (*
@@ -217,9 +382,9 @@ nrel_symptom
 nrel_syndrome
  <-sc_node_norole_relation;
 => nrel_main_idtf:
-	[синдром]
+	[синдром*]
 	(* <- lang_ru;;	*);
-        [syndrome]
+        [syndrome*]
         (* <- lang_en;;*);
   <- rrel_key_sc_element: ... 
         (*
@@ -242,10 +407,11 @@ nrel_syndrome
         oriented_relation;;    
 
 nrel_cure
+ <-sc_node_norole_relation;
 => nrel_main_idtf:
-	[лечение]
+	[лечение*]
 	(* <- lang_ru;;	*);
-        [cure]
+        [cure*]
         (* <- lang_en;;*);
   <- rrel_key_sc_element: ... 
         (*
@@ -268,11 +434,11 @@ nrel_cure
         oriented_relation;;
 
 nrel_active_substance
- <-sc_node_norole_relation;
+<-sc_node_norole_relation;
 => nrel_main_idtf:
-	[действующее вещество]
-	(* <- lang_ru;;	*);
-        [active_substance]
+	[действующее вещество*]
+    (* <- lang_ru;;	*);
+        [active_substance*]
         (* <- lang_en;;*);
   <- rrel_key_sc_element: ... 
         (*
@@ -294,4 +460,56 @@ nrel_active_substance
     => nrel_inclusion: 
         oriented_relation;;      
 
+nrel_structure
+<-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[строение*]
+    (* <- lang_ru;;	*);
+        [nrel_structure*]
+        (* <- lang_en;;*);
+  <- rrel_key_sc_element: ... 
+        (*
+	        <- definition;;
+            => nrel_main_idtf:
+                [Опр. (строение)] (* <- lang_ru;; *);;
+            <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Structure.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);
+    // <= nrel_first_domain:
+    //     ???;
+    // <= nrel_second_domain:
+    //     ??;
+    => nrel_inclusion: 
+        oriented_relation;;  
 
+nrel_location
+<-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[месторасположение*]
+    (* <- lang_ru;;	*);
+        [nrel_location*]
+        (* <- lang_en;;*);
+  <- rrel_key_sc_element: ... 
+        (*
+	        <- definition;;
+            => nrel_main_idtf:
+                [Опр. (месторасположение)] (* <- lang_ru;; *);;
+            <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Location.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);
+    // <= nrel_first_domain:
+    //     ???;
+    // <= nrel_second_domain:
+    //     ??;
+    => nrel_inclusion: 
+        oriented_relation;;  
