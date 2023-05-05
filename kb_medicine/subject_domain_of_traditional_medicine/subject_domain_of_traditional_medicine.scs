@@ -6,8 +6,8 @@ subject_domain_of_traditional_medicine
 		section_of_psychiatry;
 		section_of_ophthalmology;
 		section_of_dermatology;
-		section_of_cardiology;
-		section_of_pediatrics
+		section_of_pediatrics;
+		section_of_cardiology
 };;
 subject_domain_of_traditional_medicine->rrel_key_sc_element:
 		section_of_traditional_medicine;;
