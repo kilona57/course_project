@@ -1,0 +1,8 @@
+section_of_pediatrics
+=>nrel_main_idff:
+[Раздел. Педиатрии]
+			(* <- lang_ru;; *);;
+            section_of_pediatrics->rrel_key_sc_element:
+            pediatrics;//педиатрия
+            pediatrican;//педиатр//ребенок
+            ked;;
