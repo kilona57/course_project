@@ -4,7 +4,19 @@ section_of_periods_of_development
 			(* <- lang_ru;; *);;
 
 section_of_periods_of_development->rrel_key_sc_element:
-        preventive_pediatrics;;
+        period_of_development;//период развития
+		nrel_age;//возраст
+		infancy;//младенчество
+		early_childhood;//раннего детства
+		preschool;//дошкольный
+		primary_school;//младший школьный
+		junior;//младший
+		senior;//старший
+		development;//развитие
+		height;//рост//воспитание
+		education;; 
+
+
         
         
         

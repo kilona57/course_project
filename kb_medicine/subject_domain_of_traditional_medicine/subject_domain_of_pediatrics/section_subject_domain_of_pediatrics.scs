@@ -4,5 +4,5 @@ section_of_pediatrics
 			(* <- lang_ru;; *);;
             section_of_pediatrics->rrel_key_sc_element:
             pediatrics;//педиатрия
-            pediatrician;//педиатр//ребенок
-            kid;;
+            pediatrican;//педиатр//ребенок
+            ked;;

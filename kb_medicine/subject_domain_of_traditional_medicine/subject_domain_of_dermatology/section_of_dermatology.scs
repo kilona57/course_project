@@ -176,27 +176,6 @@ skin_covers
                 *);;
                 *);;
         *);;
-// structure 
-//     <-sc_node_not_relation;
-//     => nrel_main_idtf:
-//             [строение]
-//             (*<-lang_ru;;*);
-//             [structure]
-//             (* <- lang_en;;*);
-//     <- rrel_key_sc_element: ... 
-//         (*
-//             <- sc_definition;;
-//             => nrel_main_idtf:
-//                 [Опр. (строение)] (* <- lang_ru;; *);;
-            
-//                 <= nrel_sc_text_translation: ... 
-//                 (*
-//                     -> rrel_example: "file://HTMl/Structure_idtf.html" (*
-//                             <- lang_ru;;
-//                             => nrel_format: format_html;;
-//                         *);;
-//                 *);;
-//         *);;
 epidermis 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -305,9 +284,9 @@ hair
                 *);;
                 <- illustration;;
                 <= nrel_sc_text_translation: ... (*
-                    -> rrel_example: "file://images//hair.jpeg"
+                    -> rrel_example: "file://images//hair.png"
                     (*
-                        => nrel_format: format_jpeg;;
+                        => nrel_format: format_png;;
                     *);;
                     *);;
         *);;

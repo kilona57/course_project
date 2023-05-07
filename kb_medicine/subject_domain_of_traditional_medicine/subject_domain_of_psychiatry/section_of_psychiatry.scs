@@ -85,7 +85,7 @@ personality
 psychiatric_disorder
     <-sc_node_not_relation;
     => nrel_main_idtf:
-          [пстхическое расстройство]
+          [психическое расстройство]
             (*<-lang_ru;;*);
           [psychiatric_disorder]
             (* <- lang_en;;*);
