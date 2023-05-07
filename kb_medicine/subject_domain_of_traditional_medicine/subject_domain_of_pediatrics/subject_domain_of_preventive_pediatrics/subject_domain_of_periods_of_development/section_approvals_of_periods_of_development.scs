@@ -1,4 +1,4 @@
-periods_of_development
+period_of_development
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
@@ -6,7 +6,7 @@ periods_of_development
                 [Утв.(диагностика развития)] (* <- lang_ru;;*);;
             <= nrel_sc_text_translation:...
             (*
-                -> rrel_example: "file://approvals/periods_of_development.html"
+                -> rrel_example: "file://approvals/period_of_development.html"
                 (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
