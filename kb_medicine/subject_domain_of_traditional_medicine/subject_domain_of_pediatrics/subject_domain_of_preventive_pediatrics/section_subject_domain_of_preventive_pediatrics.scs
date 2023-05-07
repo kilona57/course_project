@@ -1,5 +1,5 @@
 section_of_preventive_pediatrics
-=>nrel_main_idff:
+=>nrel_main_idtf:
 [Раздел. Профилактической педиатрии]
 			(* <- lang_ru;; *);;
             section_of_pediatrics->rrel_key_sc_element:

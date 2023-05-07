@@ -41,8 +41,6 @@ nrel_age
                         *);;
                 *);;
      *);
- => nrel_inclusion: 
-        oriented_relation;;     
 
 infancy
 <-sc_node_not_relation;
