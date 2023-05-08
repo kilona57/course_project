@@ -1,0 +1,16 @@
+alternative_medicine 
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв.(нетрадиционная медицина)] (* <- lang_ru;;*);;
+            <= nrel_sc_text_translation:...
+            (*
+                -> rrel_example: "file://approvals/alternative_medicine.html"
+                (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+            *);;
+     *);;
+
