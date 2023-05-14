@@ -1,4 +1,9 @@
 section_of_hydrotherapy
 	=> nrel_main_idtf:
-		[Раздел. Гидротерапии]
-			(* <- lang_ru;; *);;
+		[Раздел. Предметная область гидротерапии]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of hydrotherapy] (* <- lang_en;; *);;
+section_of_hydrotherapy->rrel_key_sc_element:
+		subject_domain_of_hydrotherapy;;
+
+section_of_hydrotherapy<-non_atomic_section;;
