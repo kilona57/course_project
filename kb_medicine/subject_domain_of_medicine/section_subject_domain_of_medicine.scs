@@ -1,6 +1,6 @@
 section_of_medicine
 	=> nrel_main_idtf:
-		[Раздел. Предметная област медицины]
+		[Раздел. Предметная область медицины]
 			(* <- lang_ru;; *);
 		[Section. Subject domain of medicine] (* <- lang_en;; *);;
 section_of_medicine<=nrel_section_decomposition:{
@@ -8,7 +8,7 @@ section_of_medicine<=nrel_section_decomposition:{
         section_of_alternative_medicine
 };;
 section_of_medicine->rrel_key_sc_element:
-subject_domain_of_medicine;
+        subject_domain_of_medicine;
         medicine;//медицина
         health;//здоровье
         organism;//организм
@@ -31,7 +31,7 @@ subject_domain_of_medicine;
         nrel_structure;//строение 
         nrel_location;//месторасположение //профилактика
         prevention;;
-        section_of_alternative_medicine<-non_atomic_section;;
+section_of_alternative_medicine<-non_atomic_section;;
 	
 	
 	
