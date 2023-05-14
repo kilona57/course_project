@@ -1,4 +1,9 @@
 section_of_dendrotherapy
 	=> nrel_main_idtf:
 		[Раздел. Дендротерапии]
-			(* <- lang_ru;; *);;
+			(* <- lang_ru;; *);
+		[Section. Subject domain of dendrotherapy] (* <- lang_en;; *);;
+section_of_dendrotherapy->rrel_key_sc_element:
+		subject_domain_of_dendrotherapy;;
+
+section_of_dendrotherapy<-non_atomic_section;;
