@@ -1,6 +1,8 @@
 subject_domain_of_therapeutic_fasting
 =>nrel_main_idtf: [Предметная область лечебного голодания] (* <- lang_ru;; *);
+
+[Subject domain of therapeutic fasting] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
 
-subject_domain_of_therapeutic_fasting->rrel_key_sc_element:
-		section_of_therapeutic_fasting;;
+subject_domain_of_therapeutic_fasting->rrel_maximum_studied_object_class:therapeutic_fasting;;
+subject_domain_of_therapeutic_fasting<-subject_domain;;
