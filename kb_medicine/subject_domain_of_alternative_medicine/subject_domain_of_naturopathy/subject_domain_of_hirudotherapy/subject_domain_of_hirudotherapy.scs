@@ -7,4 +7,4 @@ subject_domain_of_hirudotherapy
 
 subject_domain_of_hirudotherapy<=nrel_private_subject_domain:subject_domian_of_naturopathy(*<-sc_node_struct;;*);;
 subject_domain_of_hirudotherapy->rrel_maximum_studied_object_class:hirudotherapy;;
-subject_domain_of_hirudotherapy<-subject_domain;;;
+subject_domain_of_hirudotherapy<-subject_domain;;
