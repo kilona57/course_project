@@ -6,6 +6,5 @@ subject_domain_of_alternative_medicine=>nrel_private_subject_domain:
         subject_domian_of_homeopathy(*<-sc_node_struct;;*);
 		subject_domian_of_naturopathy(*<-sc_node_struct;;*);
 		subject_domian_of_acupuncture(*<-sc_node_struct;;*);;
-subject_domain_of_alternative_medicine<=nrel_private_subject_domain:subject_domain_of_medicine(*<-sc_node_struct;;*);;
 subject_domain_of_alternative_medicine->rrel_maximum_studied_object_class:alternative_medicine;;
 subject_domain_of_alternative_medicine<-subject_domain;;
