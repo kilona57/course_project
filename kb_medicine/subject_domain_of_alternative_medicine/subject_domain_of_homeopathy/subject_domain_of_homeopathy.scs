@@ -1,13 +1,14 @@
 subject_domain_of_homeopathy
 =>nrel_main_idtf: [Предметная область гомеопатии] (* <- lang_ru;; *);
-	<- not_enough_formed_structure;
-	<= nrel_section_decomposition:
+[Subject domain of homeopathy] (* <- lang_en;; *);
+	<- not_enough_formed_structure;;
+	subject_domain_of_homeopathy=>nrel_private_subject_domain:
 	{
-		section_of_hahnemanns_homeopathy;//гомеопатия Ганемана (классическая гомеопатия)
-		section_of_homotoxicology_of_hans_heinrich_reckeweg;//гомотоксикология Ганс-Генриха Рекевега//гомеопатия Эпштейна («релиз-активные препараты»)
-		section_of_epsteins_homeopathy
+		subject_domian_of_hahnemanns_homeopathy;//гомеопатия Ганемана (классическая гомеопатия)
+		subject_domian_of_homotoxicology_of_hans_heinrich_reckeweg;//гомотоксикология Ганс-Генриха Рекевега//гомеопатия Эпштейна («релиз-активные препараты»)
+		subject_domian_of_epsteins_homeopathy	
+    };;
 
-		
-};;
-subject_domain_of_homeopathy->rrel_key_sc_element:
-		section_of_homeopathy;;
+subject_domain_of_homeopathy<=nrel_private_subject_domain:subject_domain_of_alternative_medicine(*<-sc_node_struct;;*);;
+subject_domain_of_homeopathy->rrel_maximum_studied_object_class:homeopathy;;
+subject_domain_of_homeopathy<-subject_domain;;
