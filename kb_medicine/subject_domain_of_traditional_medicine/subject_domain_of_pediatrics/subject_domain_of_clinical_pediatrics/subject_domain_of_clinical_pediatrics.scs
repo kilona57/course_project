@@ -3,8 +3,8 @@ subject_domain_of_clinical_pediatrics
 [Subject domain of clinical pediatrics] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
 subject_domain_of_clinical_pediatrics=>nrel_private_subject_domain:	
-        section_of_diagnosis_diseases(*<-sc_node_struct;;*);
-		section_of_treatment_diseases(*<-sc_node_struct;;*);
-		section_of_rehabilitation(*<-sc_node_struct;;*);;
+        subject_domain_of_diagnosis_diseases(*<-sc_node_struct;;*);
+		subject_domain_of_treatment_diseases(*<-sc_node_struct;;*);
+		subject_domain_of_rehabilitation(*<-sc_node_struct;;*);;
 subject_domain_of_clinical_pediatrics->rrel_maximum_studied_object_class:clinical_pediatrics;;
 subject_domain_of_clinical_pediatrics<-subject_domain;;
