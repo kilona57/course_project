@@ -4,10 +4,10 @@ subject_domain_of_psychiatry
 	<- not_enough_formed_structure;;
 subject_domain_of_psychiatry=>nrel_private_subject_domain:
 	
-		subject_domian_of_child_psychiatry(*<-sc_node_struct;;*);
-		subject_domian_of_geriatric_psychiatry(*<-sc_node_struct;;*);
-		subject_domian_of_military_psychiatry(*<-sc_node_struct;;*);
-		subject_domian_of_forensic_psychiatry(*<-sc_node_struct;;*);;
+		subject_domain_of_child_psychiatry(*<-sc_node_struct;;*);
+		subject_domain_of_geriatric_psychiatry(*<-sc_node_struct;;*);
+		subject_domain_of_military_psychiatry(*<-sc_node_struct;;*);
+		subject_domain_of_forensic_psychiatry(*<-sc_node_struct;;*);;
 	
 subject_domain_of_psychiatry->rrel_maximum_studied_object_class:psychiatry;;
 subject_domain_of_psychiatry<-subject_domain;;  
