@@ -1,6 +1,16 @@
 section_of_traditional_medicine
 	=> nrel_main_idtf:
-		[Раздел. Традиционной медицины]
-			(* <- lang_ru;; *);;
-			section_of_traditional_medicine->rrel_key_sc_element:
-			traditional_medicine;;
+		[Раздел. Предметная область традиционной медицины]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of traditional medicine] (* <- lang_en;; *);;
+section_of_traditional_medicine	<=nrel_section_decomposition:{
+	    section_of_psychiatry;
+		section_of_ophthalmology;
+		section_of_dermatology;
+		section_of_cardiology;
+		section_of_pediatrics
+};;		
+		section_of_traditional_medicine->rrel_key_sc_element:
+		subject_domain_of_traditional_medicine;;
+
+section_of_traditional_medicine<-non_atomic_section;;
