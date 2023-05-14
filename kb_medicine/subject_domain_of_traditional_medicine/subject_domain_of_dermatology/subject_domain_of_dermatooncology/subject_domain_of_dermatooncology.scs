@@ -2,6 +2,5 @@ subject_domain_of_dermatooncology
 =>nrel_main_idtf: [Предметная область дерматоонкологии] (* <- lang_ru;; *);
 [Subject domain of dermatooncology] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
-subject_domain_of_dermatooncology<=nrel_private_subject_domain:subject_domain_of_dermatology(*<-sc_node_struct;;*);;
 subject_domain_of_dermatooncology->rrel_maximum_studied_object_class:dermatooncology;;
 subject_domain_of_dermatooncology<-subject_domain;;
