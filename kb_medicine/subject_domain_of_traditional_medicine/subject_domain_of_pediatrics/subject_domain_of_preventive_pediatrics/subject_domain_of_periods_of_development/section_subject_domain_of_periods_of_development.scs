@@ -1,9 +1,13 @@
 section_of_periods_of_development
 	=> nrel_main_idtf:
-		[Раздел. Диагностики развития]
-			(* <- lang_ru;; *);;
+		[Раздел. Предметноая область диагностики развития]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of periods of development] (* <- lang_en;; *);;
+	
+		
 
 section_of_periods_of_development->rrel_key_sc_element:
+		subject_domain_of_periods_of_development;
         period_of_development;//период развития
 		nrel_age;//возраст
 		infancy;//младенчество
@@ -15,7 +19,7 @@ section_of_periods_of_development->rrel_key_sc_element:
 		development;//развитие
 		height;//рост//воспитание
 		education;; 
-
+section_of_alternative_medicine<-non_atomic_section;;
 
         
         
