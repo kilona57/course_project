@@ -1,4 +1,9 @@
 section_of_music_therapy
 	=> nrel_main_idtf:
-		[Раздел. Музыкотерапии]
-			(* <- lang_ru;; *);;
+		[Раздел. Предметная область музыкотерапии]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of music therapy] (* <- lang_en;; *);;
+section_of_music_therapy->rrel_key_sc_element:
+		subject_domain_of_music_therapy;;
+
+section_of_music_therapy<-non_atomic_section;;
