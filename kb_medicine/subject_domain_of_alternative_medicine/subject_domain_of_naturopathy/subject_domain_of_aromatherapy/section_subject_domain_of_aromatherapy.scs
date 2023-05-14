@@ -1,4 +1,9 @@
 section_of_aromatherapy
 	=> nrel_main_idtf:
-		[Раздел. Ароматерапии]
-			(* <- lang_ru;; *);;
+		[Раздел. Предметная область ароматерапии]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of aromatherapy] (* <- lang_en;; *);;
+section_of_aromatherapy->rrel_key_sc_element:
+		subject_domain_of_aromatherapy;;
+
+section_of_aromatherapy<-non_atomic_section;;
