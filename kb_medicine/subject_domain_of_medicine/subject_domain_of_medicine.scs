@@ -5,10 +5,10 @@ subject_domain_of_medicine
 	
 subject_domain_of_medicine=>nrel_private_subject_domain:	
 	
-		section_of_traditional_medicine(*<-sc_node_struct;;*);
-		section_of_alternative_medicine(*<-sc_node_struct;;*);;
+		subject_domian_of_traditional_medicine(*<-sc_node_struct;;*);
+		subject_domian_of_alternative_medicine(*<-sc_node_struct;;*);;
 		
-
+subject_domain_of_medicine<=nrel_private_subject_domain:medicine_knowledge_base(*<-sc_node_struct;;*);;
 subject_domain_of_medicine->rrel_maximum_studied_object_class:medicine;;
 subject_domain_of_medicine<-subject_domain;;	
   
