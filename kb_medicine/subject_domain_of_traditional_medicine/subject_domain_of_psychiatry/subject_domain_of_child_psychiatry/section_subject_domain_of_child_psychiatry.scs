@@ -1,4 +1,10 @@
 section_of_child_psychiatry
 	=> nrel_main_idtf:
-		[Раздел. Детской психиатрии]
-			(* <- lang_ru;; *);;
+		[Раздел. Предметная область детской психиатрии]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of child psychiatry] (* <- lang_en;; *);;
+	
+		section_of_child_psychiatry->rrel_key_sc_element:
+		subject_domain_of_child_psychiatry;;
+
+section_of_child_psychiatry<-non_atomic_section;;
