@@ -5,6 +5,5 @@ subject_domain_of_music_therapy
 	<- not_enough_formed_structure;;
 
 
-subject_domain_of_music_therapy<=nrel_private_subject_domain:subject_domian_of_naturopathy(*<-sc_node_struct;;*);;
 subject_domain_of_music_therapy->rrel_maximum_studied_object_class:music_therapy;;
 subject_domain_of_music_therapy<-subject_domain;;
