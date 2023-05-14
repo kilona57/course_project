@@ -1,4 +1,9 @@
 section_of_therapeutic_fasting
 	=> nrel_main_idtf:
-		[Раздел. Лечебного голодания]
-			(* <- lang_ru;; *);;
+		[Раздел. Предметная область лечебного голодания]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of therapeutic fasting] (* <- lang_en;; *);;
+section_of_therapeutic_fasting->rrel_key_sc_element:
+		subject_domain_of_therapeutic_fasting;;
+
+section_of_therapeutic_fasting<-non_atomic_section;;
