@@ -1,9 +1,16 @@
 section_of_dermatology
 	=> nrel_main_idtf:
-		[Раздел. Дерматологии]
-			(* <- lang_ru;; *);;
-
-section_of_dermatology->rrel_key_sc_element:
+		[Раздел. Предмтная область дерматологии]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of dermatology] (* <- lang_en;; *);;
+section_of_dermatology<=nrel_section_decomposition:{
+	    section_of_dermatovenerology; //дерматовенирология
+		section_of_dermatooncology; //дерматоонкология
+		section_of_trichology; //трихология дерматокосметология
+		section_of_dermatocosmetology
+};;		
+		section_of_dermatology->rrel_key_sc_element:
+		subject_domain_of_dermatology;
         dermatology;//дерматология
         dermatologist;//дерматолог
         dermatologist_venereologist;//дерматолог-венеролог
@@ -42,3 +49,4 @@ section_of_dermatology->rrel_key_sc_element:
         itching;//зуд
         peeling;//шелушение //перхоть
         dandruff;;
+        section_of_dermatology<-non_atomic_section;;
