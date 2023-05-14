@@ -4,6 +4,5 @@ subject_domain_of_aerophytotherapy
 	<- not_enough_formed_structure;;
 
 
-subject_domain_of_aerophytotherapy<=nrel_private_subject_domain:subject_domian_of_naturopathy(*<-sc_node_struct;;*);;
 subject_domain_of_aerophytotherapy->rrel_maximum_studied_object_class:aerophytotherapy;;
 subject_domain_of_aerophytotherapy<-subject_domain;;
