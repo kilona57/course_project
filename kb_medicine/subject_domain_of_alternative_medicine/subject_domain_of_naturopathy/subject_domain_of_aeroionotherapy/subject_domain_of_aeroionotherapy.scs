@@ -3,7 +3,5 @@ subject_domain_of_aeroionotherapy
 [Subject domain of aeroionotherapy] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
 
-
-subject_domain_of_aeroionotherapy<=nrel_private_subject_domain:subject_domian_of_naturopathy(*<-sc_node_struct;;*);;
 subject_domain_of_aeroionotherapy->rrel_maximum_studied_object_class:aeroionotherapy;;
 subject_domain_of_aeroionotherapy<-subject_domain;;
