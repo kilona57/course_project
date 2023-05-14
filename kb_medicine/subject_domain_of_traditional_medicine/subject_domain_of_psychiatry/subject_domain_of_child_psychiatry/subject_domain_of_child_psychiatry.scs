@@ -2,6 +2,5 @@ subject_domain_of_child_psychiatry
 =>nrel_main_idtf: [Предметная область детской психиатрии] (* <- lang_ru;; *);
 [Subject domain of child psychiatry] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
-subject_domain_of_child_psychiatry<=nrel_private_subject_domain:subject_domain_of_psychiatry(*<-sc_node_struct;;*);;
 subject_domain_of_child_psychiatry->rrel_maximum_studied_object_class:child_psychiatry;;
 subject_domain_of_child_psychiatry<-subject_domain;;
