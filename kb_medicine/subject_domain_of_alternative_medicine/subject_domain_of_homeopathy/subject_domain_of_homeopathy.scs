@@ -4,9 +4,9 @@ subject_domain_of_homeopathy
 	<- not_enough_formed_structure;;
 	subject_domain_of_homeopathy=>nrel_private_subject_domain:
 	{
-		subject_domian_of_hahnemanns_homeopathy;//гомеопатия Ганемана (классическая гомеопатия)
-		subject_domian_of_homotoxicology_of_hans_heinrich_reckeweg;//гомотоксикология Ганс-Генриха Рекевега//гомеопатия Эпштейна («релиз-активные препараты»)
-		subject_domian_of_epsteins_homeopathy	
+		subject_domain_of_hahnemanns_homeopathy;//гомеопатия Ганемана (классическая гомеопатия)
+		subject_domain_of_homotoxicology_of_hans_heinrich_reckeweg;//гомотоксикология Ганс-Генриха Рекевега//гомеопатия Эпштейна («релиз-активные препараты»)
+		subject_domain_of_epsteins_homeopathy	
     };;
 
 
