@@ -1,6 +1,6 @@
 section_of_alternative_medicine
 	=> nrel_main_idtf:
-		[Раздел. Предметная область нетрадиционной медицины] (* <- lang_en;; *);
+		[Раздел. Предметная область нетрадиционной медицины] (* <- lang_ru;; *);
 		[Section. Subject domain of alternative medicine] (* <- lang_en;; *);;
 section_of_alternative_medicine	<=nrel_section_decomposition:{
 	    section_of_homeopathy;//гомеопатия
