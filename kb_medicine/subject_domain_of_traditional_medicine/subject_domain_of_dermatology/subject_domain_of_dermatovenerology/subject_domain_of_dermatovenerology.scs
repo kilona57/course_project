@@ -2,6 +2,5 @@ subject_domain_of_dermatovenerology
 =>nrel_main_idtf: [Предметная область дерматовенирологии] (* <- lang_ru;; *);
 [Subject domain of dermatovenerology] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
-subject_domain_of_dermatovenerology<=nrel_private_subject_domain:subject_domain_of_dermatology(*<-sc_node_struct;;*);;
 subject_domain_of_dermatovenerology->rrel_maximum_studied_object_class:dermatovenerology;;
 subject_domain_of_dermatovenerology<-subject_domain;;
