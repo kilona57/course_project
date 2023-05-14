@@ -7,6 +7,5 @@ subject_domain_of_dermatology=>nrel_private_subject_domain:
 		subject_domian_of_dermatooncology(*<-sc_node_struct;;*);
 		subject_domian_of_trichology(*<-sc_node_struct;;*);
 		subject_domian_of_dermatocosmetology(*<-sc_node_struct;;*);;
-subject_domain_of_dermatology<=nrel_private_subject_domain:subject_domain_of_traditional_medicine(*<-sc_node_struct;;*);;
 subject_domain_of_dermatology->rrel_maximum_studied_object_class:dermatology;;
 subject_domain_of_dermatology<-subject_domain;;
