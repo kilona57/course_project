@@ -1,6 +1,14 @@
 section_of_clinical_pediatrics
 =>nrel_main_idtf:
-[Раздел. Клинической педиатрии]
-			(* <- lang_ru;; *);;
-            section_of_clinical_pediatrics->rrel_key_sc_element:
-            clinical_pediatrics;;
+[Раздел. Предметная область клинической педиатрии]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of clinical pediatrics] (* <- lang_en;; *);;
+section_of_clinical_pediatrics	<=nrel_section_decomposition:{
+	    section_of_diagnosis_diseases; //диагностика заболевания
+		section_of_treatment_diseases; //лечения заболеваний //реабилитации
+		section_of_rehabilitation
+};;		
+		section_of_clinical_pediatrics->rrel_key_sc_element:
+		subject_domain_of_clinical_pediatrics;;
+
+section_of_clinical_pediatrics<-non_atomic_section;;
