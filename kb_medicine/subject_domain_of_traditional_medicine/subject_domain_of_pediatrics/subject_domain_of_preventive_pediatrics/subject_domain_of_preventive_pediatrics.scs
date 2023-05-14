@@ -1,11 +1,10 @@
 subject_domain_of_preventive_pediatrics
 =>nrel_main_idtf: [Предметная область профилактической педиатрии] (* <- lang_ru;; *);
+[Subject domain of preventive pediatrics] (* <- lang_en;; *);
+	<- not_enough_formed_structure;;
+subject_domain_of_preventive_pediatrics=>nrel_private_subject_domain:	
+		subject_domian_of_periods_of_development(*<-sc_node_struct;;*);;
+subject_domain_of_preventive_pediatrics<=nrel_private_subject_domain:subject_domain_of_pediatrics(*<-sc_node_struct;;*);;
+subject_domain_of_preventive_pediatrics->rrel_maximum_studied_object_class:preventive_pediatrics;;
+subject_domain_of_preventive_pediatrics<-subject_domain;;
 
-<- not_enough_formed_structure;
-	
-<= nrel_section_decomposition:
-	{
-		section_of_periods_of_development
-	};;
-    subject_domain_of_preventive_pediatrics->rrel_kye_sc_element:
-    section_of_preventive_pediatrics;;
