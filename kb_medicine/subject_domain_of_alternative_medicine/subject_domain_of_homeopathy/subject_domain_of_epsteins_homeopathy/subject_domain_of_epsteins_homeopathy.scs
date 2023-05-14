@@ -3,6 +3,5 @@ subject_domain_of_epsteins_homeopathy
 [Subject domain of epsteins homeopathy] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
 
-subject_domain_of_epsteins_homeopathy<=nrel_private_subject_domain:subject_domian_of_homeopathy(*<-sc_node_struct;;*);;
 subject_domain_of_epsteins_homeopathy->rrel_maximum_studied_object_class:epsteins_homeopathy;;
 subject_domain_of_epsteins_homeopathy<-subject_domain;;
