@@ -1,6 +1,9 @@
 subject_domain_of_acupuncture
 =>nrel_main_idtf: [Предметная область акупунктуры] (* <- lang_ru;; *);
+[Subject domain of acupuncture] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
-	
-subject_domain_of_acupuncture->rrel_key_sc_element:
-		section_of_acupuncture;;
+
+subject_domain_of_acupuncture<=nrel_private_subject_domain:subject_domain_of_alternative_medicine(*<-sc_node_struct;;*);;
+subject_domain_of_acupuncture->rrel_maximum_studied_object_class:acupuncture;;
+needle<-rrel_not_maximum_studied_object_class:subject_domain_of_acupuncture;;
+subject_domain_of_acupuncture<-subject_domain;;

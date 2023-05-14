@@ -1,9 +1,10 @@
 section_of_acupuncture
 	=> nrel_main_idtf:
-		[Раздел. Акупунктуры]
-			(* <- lang_ru;; *);;
+		[Раздел. Предтная область акупунктуры] (* <- lang_ru;; *);
+		[Section. Subject domain of acupuncture] (* <- lang_en;; *);;
 			section_of_acupuncture->rrel_key_sc_element:
+			subject_domain_of_acupuncture;
 			acupuncture;//акупунктура
 			needle;//игла//акупунктурная точка 
 			acupoint;;
-			
+section_of_acupuncture<-non_atomic_section;;			
