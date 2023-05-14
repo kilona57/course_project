@@ -1,12 +1,10 @@
 subject_domain_of_pediatrics
 =>nrel_main_idtf: [Предметная область педиатрии] (* <- lang_ru;; *);
-
-<- not_enough_formed_structure;
-	
-<= nrel_section_decomposition:
-	{
-		section_of_preventive_pediatrics; //профелактическая педиатрия //клиническая педиатрия
-		section_of_clinical_pediatrics
-	};;
-    subject_domain_of_pediatrics->rrel_kye_sc_element:
-    section_of_pediatrics;;
+[Subject domain of pediatrics] (* <- lang_en;; *);
+	<- not_enough_formed_structure;;
+subject_domain_of_pediatrics=>nrel_private_subject_domain:	
+        subject_domian_of_preventive_pediatrics(*<-sc_node_struct;;*);
+		subject_domian_of_clinical_pediatrics(*<-sc_node_struct;;*);;
+subject_domain_of_pediatrics<=nrel_private_subject_domain:subject_domain_of_traditional_medicine(*<-sc_node_struct;;*);;
+subject_domain_of_pediatrics->rrel_maximum_studied_object_class:pediatrics;;
+subject_domain_of_pediatrics<-subject_domain;;
