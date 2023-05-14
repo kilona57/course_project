@@ -9,4 +9,4 @@ section_of_preventive_pediatrics<=nrel_section_decomposition:{
 		section_of_preventive_pediatrics->rrel_key_sc_element:
 		subject_domain_of_preventive_pediatrics;;
 
-section_of_preventive_pediatrics<-non_atomic_section;;;
+section_of_preventive_pediatrics<-non_atomic_section;;
