@@ -1,4 +1,10 @@
 section_of_dermatovenerology
 	=> nrel_main_idtf:
-		[Раздел. Дерматовенирологии]
-			(* <- lang_ru;; *);;
+		[Раздел. Предметная область дерматовенирологии]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of dermatovenerology] (* <- lang_en;; *);;
+	
+		section_of_dermatovenerology->rrel_key_sc_element:
+		subject_domain_of_dermatovenerology;;
+
+section_of_dermatovenerology<-non_atomic_section;;
