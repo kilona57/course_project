@@ -15,20 +15,8 @@ medicine_knowledge_base
 				(* <- lang_ru;; *);
 			[sc-model of knowledge base]
 				(* <- lang_en;; *);;
-	*);
+	*);;
 
-<= nrel_section_decomposition:
-	{
-		subject_domain_of_medicine
+medicine_knowledge_base=>nrel_private_subject_domain:	
+        subject_domain_of_medicine(*<-sc_node_struct;;*);;
 		
-    //     subject_domain_of_traditional_medicine;
-    //     subject_domain_of_alternative_medicine;
-    //     subject_domain_of_psychiatry;
-	// subject_domain_of_ophthalmology;
-	// subgect_domain_of_dermatology;
-	// subject_domain_of_cardiology;
-	// subject_domain_of_pediatrics;
-    //     subject_domain_of_homeopathy;
-	// subject_domain_of_naturopathy;
-	// subject_domain_of_acupuncture
-	};;
