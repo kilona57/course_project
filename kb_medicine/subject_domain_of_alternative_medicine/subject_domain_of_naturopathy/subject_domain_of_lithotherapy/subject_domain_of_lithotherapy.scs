@@ -1,6 +1,10 @@
 subject_domain_of_lithotherapy
 =>nrel_main_idtf: [Предметная область литотерапии] (* <- lang_ru;; *);
+
+[Subject domain of lithotherapy] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
 
-subject_domain_of_lithotherapy->rrel_key_sc_element:
-		section_of_lithotherapy;;
+
+subject_domain_of_lithotherapy<=nrel_private_subject_domain:subject_domian_of_naturopathy(*<-sc_node_struct;;*);;
+subject_domain_of_lithotherapy->rrel_maximum_studied_object_class:lithotherapy;;
+subject_domain_of_lithotherapy<-subject_domain;;
