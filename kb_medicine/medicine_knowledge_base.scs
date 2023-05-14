@@ -20,3 +20,4 @@ medicine_knowledge_base
 medicine_knowledge_base=>nrel_private_subject_domain:	
         subject_domain_of_medicine(*<-sc_node_struct;;*);;
 		
+		
