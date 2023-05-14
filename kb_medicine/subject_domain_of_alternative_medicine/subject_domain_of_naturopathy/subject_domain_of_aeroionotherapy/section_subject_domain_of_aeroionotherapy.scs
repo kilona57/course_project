@@ -1,4 +1,9 @@
 section_of_aeroionotherapy
 	=> nrel_main_idtf:
-		[Раздел. Аэроинотерапии]
-			(* <- lang_ru;; *);;
+		[Раздел. Предметная область аэроинотерапии]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of aeroionotherapy] (* <- lang_en;; *);;
+section_of_aeroionotherapy->rrel_key_sc_element:
+		subject_domain_of_aeroionotherapy;;
+
+section_of_aeroionotherapy<-non_atomic_section;;
