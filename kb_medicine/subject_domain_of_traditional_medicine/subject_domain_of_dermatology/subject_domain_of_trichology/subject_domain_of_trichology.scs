@@ -2,6 +2,5 @@ subject_domain_of_trichology
 =>nrel_main_idtf: [Предметная область трихологии] (* <- lang_ru;; *);
 [Subject domain of trichology] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
-subject_domain_of_trichology<=nrel_private_subject_domain:subject_domain_of_dermatology(*<-sc_node_struct;;*);;
 subject_domain_of_trichology->rrel_maximum_studied_object_class:trichology;;
 subject_domain_of_trichology<-subject_domain;;
