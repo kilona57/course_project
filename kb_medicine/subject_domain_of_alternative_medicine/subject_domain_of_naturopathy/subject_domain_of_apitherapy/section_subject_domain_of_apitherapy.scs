@@ -1,4 +1,9 @@
 section_of_apitherapy
 	=> nrel_main_idtf:
-		[Раздел. Апитерапии]
-			(* <- lang_ru;; *);;
+		[Раздел. Предметная область апитерапии]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of apitherapy] (* <- lang_en;; *);;
+section_of_apitherapy->rrel_key_sc_element:
+		subject_domain_of_apitherapy;;
+
+section_of_apitherapy<-non_atomic_section;;
