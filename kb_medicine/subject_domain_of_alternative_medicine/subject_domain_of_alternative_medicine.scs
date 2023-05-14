@@ -1,13 +1,11 @@
 subject_domain_of_alternative_medicine
 =>nrel_main_idtf: [Предметная область нетрадицинонной медицины] (* <- lang_ru;; *);
-	<- not_enough_formed_structure;
-	<= nrel_section_decomposition:
-	{
-		section_of_homeopathy;//гомеопатия
-		section_of_naturopathy;//натурапатия//акупунктура(иглоукалывание)
-		section_of_acupuncture
-
-		
-};;
-subject_domain_of_alternative_medicine->rrel_key_sc_element:
-		section_of_alternative_medicine;;
+[Subject domain of alternative medicine] (* <- lang_en;; *);
+	<- not_enough_formed_structure;;
+subject_domain_of_alternative_medicine=>nrel_private_subject_domain:	
+        subject_domian_of_homeopathy(*<-sc_node_struct;;*);
+		subject_domian_of_naturopathy(*<-sc_node_struct;;*);
+		subject_domian_of_acupuncture(*<-sc_node_struct;;*);;
+subject_domain_of_alternative_medicine<=nrel_private_subject_domain:subject_domain_of_medicine(*<-sc_node_struct;;*);;
+subject_domain_of_alternative_medicine->rrel_maximum_studied_object_class:alternative_medicine;;
+subject_domain_of_alternative_medicine<-subject_domain;;

@@ -1,6 +1,12 @@
 section_of_alternative_medicine
 	=> nrel_main_idtf:
-		[Раздел. Нетрадиционной медицины]
-			(* <- lang_ru;; *);;
+		[Раздел. Предметной области нетрадиционной медицины];
+		[Section. Subject domain of alternative medicine]
+			(* <- lang_en;; *);;
+section_of_alternative_medicine	<=nrel_section_decomposition:{
+	    section_of_homeopathy;//гомеопатия
+		section_of_naturopathy;//натурапатия//акупунктура(иглоукалывание)
+		section_of_acupuncture
+};;		
 		section_of_alternative_medicine->rrel_key_sc_element:
 			alternative_medicine;;
