@@ -1,6 +1,10 @@
 subject_domain_of_enotherapy
 =>nrel_main_idtf: [Предметная область энотерапии] (* <- lang_ru;; *);
+	
+[Subject domain of enotherapy] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
 
-subject_domain_of_enotherapy->rrel_key_sc_element:
-		section_of_enotherapy;;
+
+subject_domain_of_enotherapy<=nrel_private_subject_domain:subject_domian_of_naturopathy(*<-sc_node_struct;;*);;
+subject_domain_of_enotherapy->rrel_maximum_studied_object_class:enotherapy;;
+subject_domain_of_enotherapy<-subject_domain;;

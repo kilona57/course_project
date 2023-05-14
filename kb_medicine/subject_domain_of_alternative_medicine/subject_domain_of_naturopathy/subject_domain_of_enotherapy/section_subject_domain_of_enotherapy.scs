@@ -1,4 +1,9 @@
 section_of_enotherapy
 	=> nrel_main_idtf:
-		[Раздел. Энотерапии]
-			(* <- lang_ru;; *);;
+		[Раздел. Предметная область энотерапии]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of enotherapy] (* <- lang_en;; *);;
+section_of_enotherapy->rrel_key_sc_element:
+		subject_domain_of_enotherapy;;
+
+section_of_enotherapy<-non_atomic_section;;
