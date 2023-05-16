@@ -313,3 +313,25 @@ anxiety
 						*);;
                 *);;
         *);; 
+
+schizophrenia
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [шизофрения]
+            (*<-lang_ru;;*);
+          [schizophrenia]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (шизофрения)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Schizophrenia_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);; 

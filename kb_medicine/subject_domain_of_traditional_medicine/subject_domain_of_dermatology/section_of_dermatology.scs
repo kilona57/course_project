@@ -864,3 +864,25 @@ dandruff
                         *);;
                 *);;
         *);;    
+
+psoriasis
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [псориаз]
+            (*<-lang_ru;;*);
+            [psoriasis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (псориаз)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Psoriasis_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+        *);; 

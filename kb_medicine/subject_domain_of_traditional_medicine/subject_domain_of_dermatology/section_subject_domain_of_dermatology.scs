@@ -48,5 +48,6 @@ section_of_dermatology<=nrel_section_decomposition:{
         hyponychius;//гипонихий
         itching;//зуд
         peeling;//шелушение //перхоть
-        dandruff;;
+        dandruff;
+        psoriasis;;
         section_of_dermatology<-non_atomic_section;;

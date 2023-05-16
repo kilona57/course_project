@@ -1,0 +1,15 @@
+schizophrenia
+<- rrel_key_sc_element: ... 
+        (*
+          <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (шизофрения)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://symptom/schizophrenia_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

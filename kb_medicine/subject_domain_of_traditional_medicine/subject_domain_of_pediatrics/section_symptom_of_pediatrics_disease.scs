@@ -1,0 +1,15 @@
+chickenpox
+<- rrel_key_sc_element: ... 
+        (*
+          <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (ветряная оспа)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://symptom/chickenpox_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
