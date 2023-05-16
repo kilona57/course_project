@@ -42,7 +42,7 @@ needle
 
                 <- illustration;;
                 <= nrel_sc_text_translation: ... (*
-                    -> rrel_example: "file://images//Needle.png"
+                    -> rrel_example: "file://images//Needle.PNG"
                     (*
                         => nrel_format: format_png;;
                     *);;
@@ -70,7 +70,7 @@ acupoint
         *);;
         <- illustration;;
                 <= nrel_sc_text_translation: ... (*
-                    -> rrel_example: "file://images//Acupoint.png"
+                    -> rrel_example: "file://images//Acupoint.PNG"
                     (*
                         => nrel_format: format_png;;
                     *);;
