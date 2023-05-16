@@ -7,7 +7,11 @@ subject_domain_of_medicine=>nrel_private_subject_domain:
 	
 		subject_domain_of_traditional_medicine(*<-sc_node_struct;;*);
 		subject_domain_of_alternative_medicine(*<-sc_node_struct;;*);;
-		
+
+subject_domain_of_medicine->rrel_not_maximum_studied_object_class:
+		traditional_medicine;
+		alternative_medicine;;
+
 subject_domain_of_medicine->rrel_maximum_studied_object_class:medicine;;
 subject_domain_of_medicine<-subject_domain;;	
   

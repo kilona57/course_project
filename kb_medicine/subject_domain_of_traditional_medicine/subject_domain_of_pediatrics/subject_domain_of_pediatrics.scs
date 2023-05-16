@@ -5,5 +5,10 @@ subject_domain_of_pediatrics
 subject_domain_of_pediatrics=>nrel_private_subject_domain:	
         subject_domain_of_preventive_pediatrics(*<-sc_node_struct;;*);
 		subject_domain_of_clinical_pediatrics(*<-sc_node_struct;;*);;
+
+subject_domain_of_pediatrics->rrel_not_maximum_studied_object_class:
+		preventive_pediatrics;
+		clinical_pediatrics;;
+
 subject_domain_of_pediatrics->rrel_maximum_studied_object_class:pediatrics;;
 subject_domain_of_pediatrics<-subject_domain;;

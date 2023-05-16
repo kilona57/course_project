@@ -4,6 +4,9 @@ subject_domain_of_preventive_pediatrics
 	<- not_enough_formed_structure;;
 subject_domain_of_preventive_pediatrics=>nrel_private_subject_domain:	
 		subject_domain_of_periods_of_development(*<-sc_node_struct;;*);;
+
+subject_domain_of_preventive_pediatrics->rrel_not_maximum_studied_object_class:
+		period_of_development;;
 subject_domain_of_preventive_pediatrics->rrel_maximum_studied_object_class:preventive_pediatrics;;
 subject_domain_of_preventive_pediatrics<-subject_domain;;
 

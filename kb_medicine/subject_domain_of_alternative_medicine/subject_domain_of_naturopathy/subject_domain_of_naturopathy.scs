@@ -23,7 +23,24 @@ subject_domain_of_naturopathy=>nrel_private_subject_domain:
 		subject_domain_of_enotherapy(*<-sc_node_struct;;*);;
 
 		
-		
+subject_domain_of_naturopathy->rrel_not_maximum_studied_object_class:
+		aromatherapy;
+		aerophytotherapy;	
+		apitherapy;
+		aeroionotherapy;
+		halotherapy;
+		heliotherapy;
+		hydrotherapy;
+		hirudotherapy;
+		dendrotherapy;
+		lithotherapy;
+		music_therapy;			
+		thalassotherapy;
+		therapeutic_fasting;
+		phytotherapy;
+		florotherapy;
+		fungotherapy;
+		enotherapy;;
 
 subject_domain_of_naturopathy->rrel_maximum_studied_object_class:naturopathy;;
 subject_domain_of_naturopathy<-subject_domain;;

@@ -1,6 +1,6 @@
 section_of_hahnemanns_homeopathy
 	=> nrel_main_idtf:
-		[Раздел. Предметная область гомеопатии Эпштейна]
+		[Раздел. Предметная область гомеопатии Ганемана]
 			(* <- lang_ru;; *);
 			[Section. Subject domain of hahnemanns homeopathy] (* <- lang_en;; *);;
 section_of_hahnemanns_homeopathy->rrel_key_sc_element:
