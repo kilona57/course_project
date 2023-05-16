@@ -16,5 +16,5 @@ subject_domain_of_traditional_medicine->rrel_not_maximum_studied_object_class:
 		cardiology;
 		pediatrics;;
 
-subject_domain_of_traditional_medicine->rrel_maximum_studied_object_class:traditional_medicine;;
+subject_domain_of_traditional_medicine->rrel_maximum_studied_object_class:tradicional_medicine;;
 subject_domain_of_traditional_medicine<-subject_domain;;
