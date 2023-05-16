@@ -1,6 +1,6 @@
 section_of_dermatology
 	=> nrel_main_idtf:
-		[Раздел. Предмтная область дерматологии]
+		[Раздел. Предметная область дерматологии]
 			(* <- lang_ru;; *);
 		[Section. Subject domain of dermatology] (* <- lang_en;; *);;
 section_of_dermatology<=nrel_section_decomposition:{

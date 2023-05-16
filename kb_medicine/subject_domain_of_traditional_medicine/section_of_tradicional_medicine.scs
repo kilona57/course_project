@@ -3,7 +3,7 @@ tradicional_medicine
     => nrel_main_idtf:
             [традиционная медицина]
             (*<-lang_ru;;*);
-            [tradicional_medicine]
+            [traditional_medicine]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
