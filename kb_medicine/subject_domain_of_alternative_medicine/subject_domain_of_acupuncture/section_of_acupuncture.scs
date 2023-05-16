@@ -39,6 +39,14 @@ needle
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Needle.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
     *);;
 acupoint 
 <-sc_node_not_relation;
@@ -60,4 +68,11 @@ acupoint
                     => nrel_format: format_html;;
                 *);;
         *);;
+        <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Acupoint.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
     *);;
