@@ -4,5 +4,6 @@ subject_domain_of_fungotherapy
 [Subject domain of fungotherapy] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
 
+
 subject_domain_of_fungotherapy->rrel_maximum_studied_object_class:fungotherapy;;
 subject_domain_of_aeroionotsubject_domain_of_fungotherapyerapy<-subject_domain;;

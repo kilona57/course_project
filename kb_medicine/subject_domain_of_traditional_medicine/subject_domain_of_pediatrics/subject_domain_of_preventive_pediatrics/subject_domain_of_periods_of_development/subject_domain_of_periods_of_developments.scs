@@ -3,5 +3,5 @@ subject_domain_of_periods_of_development
 
 [Subject domain of periods of development] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
-subject_domain_of_periods_of_development->rrel_maximum_studied_object_class:periods_of_development;;
+subject_domain_of_periods_of_development->rrel_maximum_studied_object_class:period_of_development;;
 subject_domain_of_periods_of_development<-subject_domain;;

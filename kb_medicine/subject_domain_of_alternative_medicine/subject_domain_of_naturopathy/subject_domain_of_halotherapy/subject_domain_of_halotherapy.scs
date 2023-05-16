@@ -4,5 +4,6 @@ subject_domain_of_halotherapy
 [Subject domain of halotherapy] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
 
+
 subject_domain_of_halotherapy->rrel_maximum_studied_object_class:halotherapy;;
 subject_domain_of_halotherapy<-subject_domain;;
