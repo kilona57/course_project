@@ -72,10 +72,10 @@ dystrophy
             (* <- lang_en;;*);;
 
     dystrophy=>nrel_subdividing: 
-        {
+        
             hypotrophy;
-            paratrophy
-        };;
+            paratrophy;;
+        
     dystrophy <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
