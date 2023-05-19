@@ -71,11 +71,11 @@ dystrophy
             [dystrophy]
             (* <- lang_en;;*);;
 
-    =>nrel_subdividing:...
+    =>nrel_subdividing: 
     (*       
-            hypotrophy
-            paratrophy
-    *);   
+            hypotrophy;
+            paratrophy;;
+    *);;  
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
