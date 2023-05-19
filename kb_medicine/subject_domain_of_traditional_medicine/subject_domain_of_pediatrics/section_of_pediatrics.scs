@@ -63,31 +63,30 @@ kid
                 *);;
         *);;
 
-chickenpox
-<-sc_node_not_relation;
+dystrophy 
+    <-sc_node_not_relation;
     => nrel_main_idtf:
-            [ветряная оспа]
+            [дистрофия]
             (*<-lang_ru;;*);
-            [chickenpox]
+            [dystrophy]
             (* <- lang_en;;*);
+
+    ->nrel_subdividing:    
+            hypotrophy;//гипотрофия//паратрофия
+            paratrophy;;
+        
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (ветряная оспа)] (* <- lang_ru;; *);;
+                [Опр. (дистрофия)] (* <- lang_ru;; *);;
             
                 <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://HTMl/Chickenpox_idtf.html" (*
+                    -> rrel_example: "file://HTMl/Dystrophy_idtf.html" (*
                             <- lang_ru;;
                             => nrel_format: format_html;;
                         *);;
                 *);;
-                 <- illustration;;
-            <= nrel_sc_text_translation: ... (*
-                -> rrel_example: "file://images//Chickenpox.PNG"
-                (*
-                    => nrel_format: format_png;;
-                *);;
-                *);;
-        *);;
+     *);;
+

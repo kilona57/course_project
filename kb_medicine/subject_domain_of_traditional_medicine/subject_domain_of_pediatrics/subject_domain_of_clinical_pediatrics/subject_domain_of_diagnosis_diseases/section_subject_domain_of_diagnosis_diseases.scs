@@ -1,0 +1,19 @@
+section_of_diagnosis_diseases
+=>nrel_main_idtf:
+[Раздел. Предметная область диагностики заболеваний]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of diagnosis diseases] (* <- lang_en;; *);;
+	
+		section_of_diagnosis_diseases->rrel_key_sc_element:
+		subject_domain_of_diagnosis_diseases;
+		diagnosis_diseases;
+		blood_test;
+		urine_analysis;
+		biochemical_blood_analysis;
+		immunological_studies;
+		chromosomal_analyses;
+		analysis_of_feces_for_helminth_eggs;
+		coprology;
+		ECG;;
+
+section_of_diagnosis_diseases<-non_atomic_section;;

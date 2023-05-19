@@ -1,0 +1,199 @@
+diagnosis_diseases
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+            [диагностика заболеваний]
+            (*<-lang_ru;;*);
+            [diagnosis_diseases]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (диагностика заболеваний)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Diagnosis_diseases_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+
+blood_test
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+            [клинический анализ крови]
+            (*<-lang_ru;;*);
+            [blood_test]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (клинический анализ крови)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Blood_test_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+
+urine_analysis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+            [клинический анализ мочи]
+            (*<-lang_ru;;*);
+            [urine_analysis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (клинический анализ мочи)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Urine_analysis_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+
+biochemical_blood_analysis
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+            [биохимический анализ крови]
+            (*<-lang_ru;;*);
+            [biochemical_blood_analysis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (биохимический анализ крови)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Biochemical_blood_analysis_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+
+immunological_studies
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+            [иммунологические исследования]
+            (*<-lang_ru;;*);
+            [immunological_studies]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (иммунологические исследования)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Immunological_studies_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+
+chromosomal_analyses
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+            [хромосомные анализы]
+            (*<-lang_ru;;*);
+            [chromosomal_analyses]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (хромосомные анализы)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Chromosomal_analyses_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+
+analysis_of_feces_for_helminth_eggs
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+            [анализ кала на яйца гельминтов]
+            (*<-lang_ru;;*);
+            [analysis_of_feces_for_helminth_eggs]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (анализ кала на яйца гельминтов)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Analysis_of_feces_for_helminth_eggs_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+
+coprology
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+            [копрология]
+            (*<-lang_ru;;*);
+            [coprology]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (копрология)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/Coprology_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+
+ECG
+<-sc_node_not_relation;
+    => nrel_main_idtf:
+            [электрокардиография]
+            (*<-lang_ru;;*);
+            [ECG]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (электрокардиография)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTMl/ECG_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+
+

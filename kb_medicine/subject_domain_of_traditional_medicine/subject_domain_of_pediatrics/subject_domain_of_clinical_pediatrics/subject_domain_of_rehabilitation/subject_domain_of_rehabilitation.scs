@@ -1,0 +1,15 @@
+subject_domain_of_rehabilitation
+=>nrel_main_idtf: [Предметная область реабилитации] (* <- lang_ru;; *);
+[Subject domain of rehabilitation] (* <- lang_en;; *);
+	<- not_enough_formed_structure;;
+subject_domain_of_rehabilitation=>nrel_private_subject_domain:	
+        subject_domain_of_diagnosis_diseases(*<-sc_node_struct;;*);
+		subject_domain_of_treatment_diseases(*<-sc_node_struct;;*);
+		subject_domain_of_rehabilitation(*<-sc_node_struct;;*);;
+
+subject_domain_of_rehabilitation->rrel_not_maximum_studied_object_class:
+		medical_rehabilitation;
+		physical_rehabilitation;
+		psychological_rehabilitation;;	
+subject_domain_of_rehabilitation->rrel_maximum_studied_object_class:nrel_rehabilitation;;
+subject_domain_of_rehabilitation<-subject_domain;;

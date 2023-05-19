@@ -1,0 +1,10 @@
+section_of_treatment_diseases
+=>nrel_main_idtf:
+[Раздел. Предметная область лечения заболеваний]
+			(* <- lang_ru;; *);
+		[Section. Subject domain of treatment diseases] (* <- lang_en;; *);;
+
+section_of_treatment_diseases->rrel_key_sc_element:
+		subject_domain_of_treatment_diseases;;
+
+section_of_treatment_diseases<-non_atomic_section;;
