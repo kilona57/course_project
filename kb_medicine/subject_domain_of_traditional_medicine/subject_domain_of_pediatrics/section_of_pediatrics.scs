@@ -76,7 +76,7 @@ dystrophy
             hypotrophy;
             paratrophy;;
        
-    <- rrel_key_sc_element: ... 
+   dystrophy <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
             => nrel_main_idtf:
