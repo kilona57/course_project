@@ -116,7 +116,7 @@ stomatitis
 
                 <- illustration;;
                 <= nrel_sc_text_translation: ... (*
-                    -> rrel_example: "file://images//stomatitis.jpg"
+                    -> rrel_example: "file://images//Stomatitis.jpg"
                     (*
                         => nrel_format: format_jpg;;
                     *);;
