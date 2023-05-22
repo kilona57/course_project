@@ -249,10 +249,10 @@ ari
         
             acute_rhinitis;//острый ринит
             acute_pharyngitis;//острый фарингит
-            acute_tracheotracheitis;//острый трахеотрахеит
+            acute_tracheotracheitisa;//острый трахеотрахеит
             bronchitis;//бронхит 
             pneumonia;//пневмония //бронхиальная астма
-            bronchial_asthma;;
+            bronchial_asthm;;
         
     ari <- rrel_key_sc_element: ... 
         (*
@@ -410,9 +410,9 @@ hemorrhages_under_aponeurosis
 
                 <- illustration;;
                 <= nrel_sc_text_translation: ... (*
-                    -> rrel_example: "file://images//Hemorrhages_under_aponeurosis.jpeg"
+                    -> rrel_example: "file://images//Hemorrhages_under_aponeurosis.png"
                     (*
-                        => nrel_format: format_jpeg;;
+                        => nrel_format: format_png;;
                     *);;
                     *);;
 
