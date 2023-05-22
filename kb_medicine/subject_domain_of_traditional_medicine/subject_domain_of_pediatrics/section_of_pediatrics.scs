@@ -583,7 +583,7 @@ acute_rhinitis
                 <= nrel_sc_text_translation: ... (*
                     -> rrel_example: "file://images//Acute_rhinitis.PNG"
                     (*
-                        => nrel_format: format_PNG;;
+                        => nrel_format: format_png;;
                     *);;
                     *);;
      *);; 
