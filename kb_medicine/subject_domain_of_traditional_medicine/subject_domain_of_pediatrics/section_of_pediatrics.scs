@@ -897,7 +897,7 @@ chickenpox
 
                 <- illustration;;
                 <= nrel_sc_text_translation: ... (*
-                    -> rrel_example: "file://images//Chickenpox.png"
+                    -> rrel_example: "file://images//Chickenpox.PNG"
                     (*
                         => nrel_format: format_png;;
                     *);;
