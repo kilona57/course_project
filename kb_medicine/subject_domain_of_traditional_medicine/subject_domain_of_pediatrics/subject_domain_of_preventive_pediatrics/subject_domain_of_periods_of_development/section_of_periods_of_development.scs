@@ -48,12 +48,7 @@ nrel_age
         *);
 
 => nrel_first_domain: development;
-=> nrel_second_domain: periods_of_development;
-=> nrel_definitional_domain:...(*
-    <= nrel_combination: ...(* 
-        ->development;;
-    *);;
-     *);;
+=> nrel_second_domain: period_of_development;;
 
 infancy
 <-sc_node_not_relation;

@@ -113,6 +113,14 @@ stomatitis
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//stomatitis.jpg"
+                    (*
+                        => nrel_format: format_jpg;;
+                    *);;
+                    *);;
      *);; 
 
 asphyxia_of_newborns 
@@ -219,6 +227,14 @@ rickets
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Rickets.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);; 
 
 ari
@@ -358,6 +374,14 @@ generic_tumor
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Generic_tumor.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);; 
 
 
@@ -383,6 +407,22 @@ hemorrhages_under_aponeurosis
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Hemorrhages_under_aponeurosis.jpeg"
+                    (*
+                        => nrel_format: format_jpeg;;
+                    *);;
+                    *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Hemorrhages_under_aponeurosis_2.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);; 
 
 
@@ -408,6 +448,14 @@ kefalogematoma
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Kefalogematoma.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);; 
 
 
@@ -530,6 +578,14 @@ acute_rhinitis
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Acute_rhinitis.PNG"
+                    (*
+                        => nrel_format: format_PNG;;
+                    *);;
+                    *);;
      *);; 
 
 acute_pharyngitis
@@ -554,6 +610,14 @@ acute_pharyngitis
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Acute_pharyngitis.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);; 
 
 acute_tracheotracheitisa
@@ -602,6 +666,14 @@ bronchitis
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Bronchitis.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);; 
 
 pneumonia
@@ -626,6 +698,14 @@ pneumonia
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Pneumonia.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);; 
 
 bronchial_asthm
@@ -650,6 +730,14 @@ bronchial_asthm
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Bronchial_asthm.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);; 
 
 tuberculosis
@@ -674,6 +762,14 @@ tuberculosis
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Tuberculosis.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);; 
 
 diphtheria
@@ -703,6 +799,14 @@ diphtheria
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Diphtheria.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);;
 
 scarlet
@@ -727,6 +831,13 @@ scarlet
                             => nrel_format: format_html;;
                         *);;
                 *);;
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Scarlet.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);; 
 
 fever_mumps
@@ -751,6 +862,14 @@ fever_mumps
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Fever_mumps.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);; 
 
 chickenpox
@@ -775,6 +894,14 @@ chickenpox
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Chickenpox.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);; 
 
 whooping
@@ -823,6 +950,14 @@ cough_measles
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Cough_measles.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);; 
 
 rubella
@@ -847,6 +982,14 @@ rubella
                             => nrel_format: format_html;;
                         *);;
                 *);;
+
+                <- illustration;;
+                <= nrel_sc_text_translation: ... (*
+                    -> rrel_example: "file://images//Rubella.png"
+                    (*
+                        => nrel_format: format_png;;
+                    *);;
+                    *);;
      *);;
 
 oropharyngeal
