@@ -46,6 +46,438 @@ kid
                     *);;
             *);;
 
+dystrophy
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(дистрофия)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/dystrophy.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+stomatitis
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(стоматит)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/stomatitis.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+asphyxia_of_newborns
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(асфиксия новорожденных)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/asphyxia_of_newborns.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+birth_trauma
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(родовая травма)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/birth_trauma.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+hemolytic_disease_of_newborns
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(гемолитическая болезнь новорожденных)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/hemolytic_disease_of_newborns.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+rickets
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(рахит)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/rickets.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+ari
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(острое респираторное заболевание)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/ari.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+infectious_disease
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(инфекционное заболевание)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/infectious_disease.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+hypotrophy
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(гипотрофия)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/hypotrophy.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+paratrophy
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(паротрофия)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/paratrophy.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+generic_tumor
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(родовая опухоль)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/generic_tumor.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+hemorrhages_under_aponeurosis
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(кровоизлияние под апоневроз)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/hemorrhages_under_aponeurosis.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+kefalogematoma
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(кефалогематома)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/kefalogematoma.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+facial_nerve_paralysis
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(паралич лицевого нерва)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/facial_nerve_paralysis.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+spinal_cord_rupture
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(разрыв спинного мозга)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/spinal_cord_rupture.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+jaundice_form_of_HDN
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(желтушная форма ГБН)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/jaundice_form_of_HDN.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+anemic_form_of_HDN
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(анемическая форма ГБН)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/anemic_form_of_HDN.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+acute_rhinitis
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(острый ринит)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/acute_rhinitis.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+acute_pharyngitis
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(острый фарингит)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/acute_pharyngitis.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+acute_tracheotracheitisa
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(острый трахеотрахеит)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/acute_tracheotracheitisa.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+bronchitis
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(бронхит)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/bronchitis.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+pneumonia
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(пневмония)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/pneumonia.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+bronchial_asthm
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(бронхиальная астма)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/bronchial_asthm.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+tuberculosis
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(туберкулез)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/tuberculosis.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+diphtheria
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(дифтерия)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/diphtheria.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+scarlet
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(скарлатина)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/scarlet.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+fever_mumps
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(эпидемический паротит)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/fever_mumps.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
 chickenpox
     <- rrel_key_sc_element: ... 
                 (*
@@ -55,6 +487,102 @@ chickenpox
                     <= nrel_sc_text_translation:...
                     (*
                         -> rrel_example: "file://approvals/chickenpox.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+whooping
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(коклюш)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/whooping.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+cough_measles
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(корь)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/cough_measles.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+rubella
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(краснуха)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/rubella.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+oropharyngeal
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(дифтерия глотки)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/oropharyngeal.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+diphtheria_respiratory_tract
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(дифтерия дыхательных путей)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/diphtheria_respiratory_tract.html"
+                        (*
+                                    <- lang_ru;;
+                                    => nrel_format: format_html;;
+                                *);;
+                    *);;
+            *);;
+
+diphtheria_nasal_diphtheria
+    <- rrel_key_sc_element: ... 
+                (*
+                    <- sc_definition;;
+                    => nrel_main_idtf:
+                        [Утв.(дифтерия носа)] (* <- lang_ru;;*);;
+                    <= nrel_sc_text_translation:...
+                    (*
+                        -> rrel_example: "file://approvals/diphtheria_nasal_diphtheria.html"
                         (*
                                     <- lang_ru;;
                                     => nrel_format: format_html;;

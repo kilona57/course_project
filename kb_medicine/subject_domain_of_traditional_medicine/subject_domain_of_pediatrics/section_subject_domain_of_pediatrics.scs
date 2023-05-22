@@ -19,7 +19,7 @@ section_of_pediatrics<=nrel_section_decomposition:{
             birth_trauma;//родовая травма
             hemolytic_disease_of_newborns;//гемолитическая болезнь новорожденных
             rickets;//рахит
-            ari;//острое респираторное заболевание//инфекционное заболеванеи
+            ari;//острое респираторное заболевание//инфекционное заболевание
             infectious_disease;;
 
 section_of_pediatrics<-non_atomic_section;;
