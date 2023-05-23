@@ -1,0 +1,21 @@
+apitherapy
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [апитерапия]
+            (*<-lang_ru;;*);
+          [apitherapy]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (апитерапия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Apitherapy_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

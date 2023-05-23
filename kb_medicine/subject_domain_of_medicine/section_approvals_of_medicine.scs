@@ -341,3 +341,162 @@ prevention
                     *);;
             *);;    
 
+blood
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (кровь)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://approvals/blood.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+red_blood_cells
+<- rrel_key_sc_element: ... 
+    (*
+        <- sc_definition;;
+        => nrel_main_idtf:
+            [Утв. (эритроциты)] (* <- lang_ru;; *);;
+        
+            <= nrel_sc_text_translation: ... 
+            (*
+                -> rrel_example: "file://approvals/red_blood_cells.html" (*
+                        <- lang_ru;;
+                        => nrel_format: format_html;;
+                    *);;
+            *);;
+    *);;
+
+white_blood_cells
+<- rrel_key_sc_element: ... 
+    (*
+        <- sc_definition;;
+        => nrel_main_idtf:
+            [Утв. (лейкоциты)] (* <- lang_ru;; *);;
+        
+            <= nrel_sc_text_translation: ... 
+            (*
+                -> rrel_example: "file://approvals/white_blood_cells.html" (*
+                        <- lang_ru;;
+                        => nrel_format: format_html;;
+                    *);;
+            *);;
+    *);;
+
+platelet
+<- rrel_key_sc_element: ... 
+    (*
+        <- sc_definition;;
+        => nrel_main_idtf:
+            [Утв. (тромбоциты)] (* <- lang_ru;; *);;
+        
+            <= nrel_sc_text_translation: ... 
+            (*
+                -> rrel_example: "file://approvals/platelet.html" (*
+                        <- lang_ru;;
+                        => nrel_format: format_html;;
+                    *);;
+            *);;
+    *);;
+
+urine
+ <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (моча)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://approvals/urine.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+analysis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (анализ)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://approvals/analysis.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+immune_system
+<- rrel_key_sc_element: ... 
+    (*
+        <- sc_definition;;
+        => nrel_main_idtf:
+            [Утв. (иммунная система)] (* <- lang_ru;; *);;
+        
+            <= nrel_sc_text_translation: ... 
+            (*
+                -> rrel_example: "file://approvals/immune_system.html" (*
+                        <- lang_ru;;
+                        => nrel_format: format_html;;
+                    *);;
+            *);;
+    *);;
+
+chromosome
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (хромосома)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://approvals/chromosome.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+tissue
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (ткань)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://approvals/tissue.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+antibody
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (антитело)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://approvals/antibody.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);; 

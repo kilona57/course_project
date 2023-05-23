@@ -4,6 +4,7 @@ section_of_lithotherapy
 			(* <- lang_ru;; *);
 		[Section. Subject domain of lithotherapy] (* <- lang_en;; *);;
 section_of_lithotherapy->rrel_key_sc_element:
-		subject_domain_of_lithotherapy;;
+		subject_domain_of_lithotherapy;
+		lithotherapy;;
 
 section_of_lithotherapy<-non_atomic_section;;

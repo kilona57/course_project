@@ -4,6 +4,7 @@ section_of_phytotherapy
 			(* <- lang_ru;; *);
 		[Section. Subject domain of phytotherapy] (* <- lang_en;; *);;
 section_of_phytotherapy->rrel_key_sc_element:
-		subject_domain_of_phytotherapy;;
+		subject_domain_of_phytotherapy;
+		hytotherapy;;
 
 section_of_phytotherapy<-non_atomic_section;;

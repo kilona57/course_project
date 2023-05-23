@@ -1,0 +1,21 @@
+florotherapy
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [флоротерапии]
+            (*<-lang_ru;;*);
+          [florotherapy]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (флоротерапии)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Florotherapy_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

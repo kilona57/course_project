@@ -1,0 +1,21 @@
+thalassotherapy
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [талассотерапия]
+            (*<-lang_ru;;*);
+          [thalassotherapy]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (талассотерапия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Thalassotherapy_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;

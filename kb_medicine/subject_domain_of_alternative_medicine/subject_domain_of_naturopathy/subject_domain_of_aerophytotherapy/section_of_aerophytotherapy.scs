@@ -1,0 +1,22 @@
+aerophytotherapy
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [аэрофитотерапия]
+            (*<-lang_ru;;*);
+          [aerophytotherapy]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (аэрофитотерапия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://HTML/Aerophytotherapy_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+

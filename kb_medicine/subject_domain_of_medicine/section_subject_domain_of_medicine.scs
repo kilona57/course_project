@@ -29,8 +29,19 @@ section_of_medicine->rrel_key_sc_element:
         nrel_cure;//лечение
         nrel_active_substance;//действующее вещество
         nrel_structure;//строение 
-        nrel_location;//месторасположение //профилактика
-        prevention;;
+        nrel_location;//месторасположение 
+        prevention;//профилакика
+        blood;//кровь
+        red_blood_celss;//эритроциты
+        white_blood_cells;//лейкоциты
+        platelet;//тромбоциты
+        urine;//моча
+        analysis;//анализ
+        immune_system;//иммунная система
+        chromosome;//хромосома
+        tissue;//ткань//антитело
+        antibody;;
+
 section_of_alternative_medicine<-non_atomic_section;;
 	
 	
