@@ -375,7 +375,7 @@ paranoid_personality_disorder
             
              <= nrel_sc_text_translation: ... 
                 (*
-                    -> rrel_example: "file://aprovals/paranoid_personality_disorder.html" (*
+                    -> rrel_example: "file://approvals/paranoid_personality_disorder.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
