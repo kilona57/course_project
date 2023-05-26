@@ -1,15 +1,117 @@
-schizophrenia
-<- rrel_key_sc_element: ... 
-        (*
-          <- sc_definition;;
-            => nrel_main_idtf:
-                [Утв. (шизофрения)] (* <- lang_ru;; *);;
-            
-             <= nrel_sc_text_translation: ... 
-                (*
-                    -> nrel_symptom: "file://symptom/schizophrenia_symptoms.html" (*
+disorders_mood=> nrel_symptom: "file://symptom/disorders_mood_symptoms.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+disorders_personality=> nrel_symptom: "file://symptom/disorders_personality_symptoms.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+disorder_neurotic_disorders=> nrel_symptom: "file://symptom/disorder_neurotic_disorders_symptoms.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+behavioral_syndrome=> nrel_symptom: "file://symptom/behavioral_syndrome_symptoms.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+schizoactive_disorders=> nrel_symptom: "file://symptom/schizoactive_disorders_symptoms.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+
+//------------------------------------------------------------------------------------------------------------------------->
+depressive_spectrum=> nrel_symptom: "file://symptom/depressive_spectrum_symptoms.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
-                *);;
-        *);;
+
+disorders_bipolar_spectrum=> nrel_symptom: "file://symptom/disorders_bipolar_spectrum_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+disorders_manic_spectrum_disorders=> nrel_symptom: "file://symptom/disorders_manic_spectrum_disorders_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+paranoid_personality_disorder=> nrel_symptom: "file://symptom/paranoid_personality_disorder_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                
+schizoid_personality_disorder=> nrel_symptom: "file://symptom/schizoid_personality_disorder_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                
+
+dissocial_personality_disorder=> nrel_symptom: "file://symptom/dissocial_personality_disorder_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+emotionally_unstable_personality_disorder=> nrel_symptom: "file://symptom/emotionally_unstable_personality_disorder_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+hysterical_personality_disorder=> nrel_symptom: "file://symptom/hysterical_personality_disorder_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+anancastic_personality_disorder=> nrel_symptom: "file://symptom/anancastic_personality_disorder_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+anxiety_personality_disorder=> nrel_symptom: "file://symptom/anxiety_personality_disorder_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+dependent_personality_disorder=> nrel_symptom: "file://symptom/dependent_personality_disorder_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+neurasthenia=> nrel_symptom: "file://symptom/neurasthenia_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+hysteric_neurosis=> nrel_symptom: "file://symptom/hysteric_neurosis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+obsessive_compulsive_disorder=> nrel_symptom: "file://symptom/obsessive_compulsive_disorder_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+schizotypal_disorder=> nrel_symptom: "file://symptom/schizotypal_disorder_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+delusional_disorder=> nrel_symptom: "file://symptom/delusional_disorder_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+schizophreniform_disorder=> nrel_symptom: "file://symptom/schizophreniform_disorder_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+schizophrenia=> nrel_symptom: "file://symptom/schizophrenia_symptoms.html"
+                (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
