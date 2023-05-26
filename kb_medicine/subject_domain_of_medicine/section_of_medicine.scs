@@ -586,6 +586,13 @@ red_blood_cells
 							=> nrel_format: format_html;;
 						*);;
                 *);;
+                <- illustration;;
+            <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://images//Red_blood_cells.png"
+                (*
+                    => nrel_format: format_png;;
+                *);;
+                *);;
         *);;
 
 white_blood_cells
@@ -608,6 +615,13 @@ white_blood_cells
 							=> nrel_format: format_html;;
 						*);;
                 *);;
+
+                <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://images//White_blood_cells.png"
+                (*
+                    => nrel_format: format_png;;
+                *);;
+                *);;
         *);;
 
 platelet
@@ -629,6 +643,12 @@ platelet
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
+                *);;
+            <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://images//Platelet.png"
+                (*
+                    => nrel_format: format_png;;
+                *);;
                 *);;
         *);;
 
@@ -718,6 +738,12 @@ chromosome
 							=> nrel_format: format_html;;
 						*);;
                 *);;
+               <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://images//Chromosome.png"
+                (*
+                    => nrel_format: format_png;;
+                *);;
+                *);; 
         *);;
 
 tissue
@@ -761,5 +787,11 @@ antibody
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
+                *);;
+                <= nrel_sc_text_translation: ... (*
+                -> rrel_example: "file://images//Antibody.png"
+                (*
+                    => nrel_format: format_png;;
+                *);;
                 *);;
         *);;      

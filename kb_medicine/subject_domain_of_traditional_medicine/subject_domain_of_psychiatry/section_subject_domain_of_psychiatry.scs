@@ -11,7 +11,7 @@ section_of_psychiatry<=nrel_section_decomposition:{
 };;		
 
 section_of_psychiatry->rrel_key_sc_element:
-subject_domain_of_psychiatry;
+        subject_domain_of_psychiatry;
         psychiatry;
         mentality;//психика
         psychiatrist;
@@ -27,5 +27,9 @@ subject_domain_of_psychiatry;
         delusion;//бред
         excitement;//возбуждение
         anxiety;
-        schizophrenia;;
-section_of_alternative_medicine<-non_atomic_section;;
+        disorders_mood;//расстройства настроения
+        disorders_personality;//расстройство личности
+        disorder_neurotic_disorders;//невротические расстройства
+        behavioral_syndrome;//поведенческий синдром //шизоактивные расстройства
+        schizoactive_disorders;;
+section_of_psychiatry<-non_atomic_section;;

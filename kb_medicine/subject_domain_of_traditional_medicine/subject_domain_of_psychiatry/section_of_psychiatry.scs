@@ -313,6 +313,523 @@ anxiety
 						*);;
                 *);;
         *);; 
+//------------------------------------------------------------------------------------------------------------------------->
+disorders_mood 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [расстройства настроения]
+            (*<-lang_ru;;*);
+            [disorders_mood]
+            (* <- lang_en;;*);;
+
+    disorders_mood=>nrel_inclusion: 
+        
+            depressive_spectrum;//расстройства депрессивного спектра
+            disorders_bipolar_spectrum;//расстройства биполярного спектра//расстройства маниакального спектра
+            disorders_manic_spectrum_disorders;;
+        
+    disorders_mood <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (расстройства настроения)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Disorders_mood_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+
+disorders_personality 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [расстройство личности]
+            (*<-lang_ru;;*);
+            [disorders_personality]
+            (* <- lang_en;;*);;
+
+            disorders_personality=>nrel_inclusion:         
+                paranoid_personality_disorder;//параноидное расстройство личности 
+                schizoid_personality_disorder;//шизоидное расстройство личности 
+                dissocial_personality_disorder;//диссоциальное расстройство личности
+                emotionally_unstable_personality_disorder;//эмоционально неустойчивое расстройство личности
+                hysterical_personality_disorder;//истерическое расстройство личности
+                anancastic_personality_disorder;//ананкастное расстройство личности 
+                anxiety_personality_disorder;//тревожное расстройство личности  //зависимое расстройство личности
+                dependent_personality_disorder;;
+          
+    disorders_personality <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (расстройство личности)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Disorders_personality_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+
+disorder_neurotic_disorders 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [невротические расстройства]
+            (*<-lang_ru;;*);
+            [disorder_neurotic_disorders]
+            (* <- lang_en;;*);;
+
+    disorder_neurotic_disorders=>nrel_inclusion: 
+        
+            neurasthenia;//неврастения 
+            hysteric_neurosis;//истерический_невроз //невроз навязчивых состояний 
+            obsessive_compulsive_disorder;;
+        
+    disorder_neurotic_disorders <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (невротические расстройства)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Disorder_neurotic_disorders_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+
+behavioral_syndrome 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [поведенческий синдром]
+            (*<-lang_ru;;*);
+            [behavioral_syndrome]
+            (* <- lang_en;;*);;
+
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (поведенческий синдром)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Behavioral_syndrome_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+
+schizoactive_disorders 
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+            [шизоактивные расстройства]
+            (*<-lang_ru;;*);
+            [schizoactive_disorders]
+            (* <- lang_en;;*);;
+
+    schizoactive_disorders=>nrel_inclusion: 
+        
+            schizotypal_disorder;//шизотипическое расстройство
+            delusional_disorder;//бредовое расстройство
+            schizophreniform_disorder;//шизофреноформное расстройство //шизофрения
+            schizophrenia;;
+    schizoactive_disorders <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (шизоактивные расстройства)] (* <- lang_ru;; *);;
+            
+                <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Schizoactive_disorders_idtf.html" (*
+                            <- lang_ru;;
+                            => nrel_format: format_html;;
+                        *);;
+                *);;
+     *);;
+//------------------------------------------------------------------------------------------------------------------------->
+depressive_spectrum
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [расстройства депрессивного спектра]
+            (*<-lang_ru;;*);
+          [depressive_spectrum]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (расстройства депрессивного спектра)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Depressive_spectrum_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+disorders_bipolar_spectrum
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [расстройства биполярного спектра]
+            (*<-lang_ru;;*);
+          [disorders_bipolar_spectrum]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (расстройства биполярного спектра)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Disorders_bipolar_spectrum_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+disorders_manic_spectrum_disorders
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [расстройства маниакального спектра]
+            (*<-lang_ru;;*);
+          [disorders_manic_spectrum_disorders]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (расстройства маниакального спектра)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Disorders_manic_spectrum_disorders_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+paranoid_personality_disorder
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [параноидное расстройство личности]
+            (*<-lang_ru;;*);
+          [paranoid_personality_disorder]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (параноидное расстройство личности)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Paranoid_personality_disorder_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+schizoid_personality_disorder
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [шизоидное расстройство личности]
+            (*<-lang_ru;;*);
+          [schizoid_personality_disorder]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (шизоидное расстройство личности)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Schizoid_personality_disorder_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+dissocial_personality_disorder
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [диссоциальное расстройство личности]
+            (*<-lang_ru;;*);
+          [dissocial_personality_disorder]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (диссоциальное расстройство личности)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Dissocial_personality_disorder_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+emotionally_unstable_personality_disorder
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [эмоционально неустойчивое расстройство личности]
+            (*<-lang_ru;;*);
+          [emotionally_unstable_personality_disorder]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (эмоционально неустойчивое расстройство личности)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Emotionally_unstable_personality_disorder_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+hysterical_personality_disorder
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [истерическое расстройство личности]
+            (*<-lang_ru;;*);
+          [hysterical_personality_disorder]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (истерическое расстройство личности)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Hysterical_personality_disorder_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+anancastic_personality_disorder
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [ананкастное расстройство личности]
+            (*<-lang_ru;;*);
+          [anancastic_personality_disorder]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ананкастное расстройство личности)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Anancastic_personality_disorder_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+anxiety_personality_disorder
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [тревожное расстройство личности]
+            (*<-lang_ru;;*);
+          [anxiety_personality_disorder]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (тревожное расстройство личности)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Anxiety_personality_disorder_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+dependent_personality_disorder
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [зависимое расстройство личности]
+            (*<-lang_ru;;*);
+          [dependent_personality_disorder]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (зависимое расстройство личности)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Dependent_personality_disorder_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+neurasthenia
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [неврастения]
+            (*<-lang_ru;;*);
+          [neurasthenia]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (неврастения)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Neurasthenia_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+hysteric_neurosis
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [истерический невроз]
+            (*<-lang_ru;;*);
+          [hysteric_neurosis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (истерический невроз)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Hysteric_neurosis_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+obsessive_compulsive_disorder
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [невроз навязчивых состояний]
+            (*<-lang_ru;;*);
+          [obsessive_compulsive_disorder]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (невроз навязчивых состояний)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Obsessive_compulsive_disorder_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+schizotypal_disorder
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [шизотипическое расстройство]
+            (*<-lang_ru;;*);
+          [schizotypal_disorder]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (шизотипическое расстройство)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Schizotypal_disorder_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+delusional_disorder
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [бредовое расстройство]
+            (*<-lang_ru;;*);
+          [delusional_disorder]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (бредовое расстройство)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Delusional_disorder_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+
+schizophreniform_disorder
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [шизофреноформное расстройство]
+            (*<-lang_ru;;*);
+          [schizophreniform_disorder]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (шизофреноформное расстройство)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Schizophreniform_disorder_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
 
 schizophrenia
     <-sc_node_not_relation;

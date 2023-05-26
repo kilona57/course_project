@@ -9,7 +9,7 @@ subject_domain_of_psychiatry=>nrel_private_subject_domain:
 		subject_domain_of_military_psychiatry(*<-sc_node_struct;;*);
 		subject_domain_of_forensic_psychiatry(*<-sc_node_struct;;*);;
 
-subject_domain_of_alternative_medicine->rrel_not_maximum_studied_object_class:
+subject_domain_of_psychiatry->rrel_not_maximum_studied_object_class:
 		child_psychiatry;
 		geriatric_psychiatry;
 		military_psychiatry;
