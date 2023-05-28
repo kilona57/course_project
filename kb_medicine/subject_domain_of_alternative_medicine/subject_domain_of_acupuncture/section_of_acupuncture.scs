@@ -24,7 +24,7 @@ needle
     => nrel_main_idtf:
             [игла медицинская]
             (*<-lang_ru;;*);
-            [needle]
+            [medical needle]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*

@@ -243,7 +243,7 @@ disorders_mood
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Утв. (расстройства настроения)] (* <- lang_ru;; *);;
+                [Утв. (расстройство настроения)] (* <- lang_ru;; *);;
             
                 <= nrel_sc_text_translation: ... 
                 (*
@@ -275,7 +275,7 @@ disorder_neurotic_disorders
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Утв. (невротические расстройства)] (* <- lang_ru;; *);;
+                [Утв. (невротическое расстройство)] (* <- lang_ru;; *);;
             
                 <= nrel_sc_text_translation: ... 
                 (*
@@ -307,7 +307,7 @@ schizoactive_disorders
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Утв. (шизоактивные расстройства)] (* <- lang_ru;; *);;
+                [Утв. (шизоактивное расстройство)] (* <- lang_ru;; *);;
             
                 <= nrel_sc_text_translation: ... 
                 (*
@@ -323,7 +323,7 @@ depressive_spectrum
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Утв. (расстройства депрессивного спектра)] (* <- lang_ru;; *);;
+                [Утв. (расстройство депрессивного спектра)] (* <- lang_ru;; *);;
             
              <= nrel_sc_text_translation: ... 
                 (*
@@ -339,7 +339,7 @@ disorders_bipolar_spectrum
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Утв. (расстройства биполярного спектра)] (* <- lang_ru;; *);;
+                [Утв. (расстройство биполярного спектра)] (* <- lang_ru;; *);;
             
              <= nrel_sc_text_translation: ... 
                 (*
@@ -355,7 +355,7 @@ disorders_manic_spectrum_disorders
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Утв. (расстройства маниакального спектра)] (* <- lang_ru;; *);;
+                [Утв. (расстройство маниакального спектра)] (* <- lang_ru;; *);;
             
              <= nrel_sc_text_translation: ... 
                 (*

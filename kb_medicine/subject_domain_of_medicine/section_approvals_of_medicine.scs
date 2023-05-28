@@ -67,7 +67,7 @@ nrel_disease
                 (*
                     <- sc_definition;;
                     => nrel_main_idtf:
-                        [Утв.(болезнь)] (* <- lang_ru;;*);;
+                        [Утв.(заболевание)] (* <- lang_ru;;*);;
                     <= nrel_sc_text_translation:...
                     (*
                         -> rrel_example: "file://approvals/nrel_disease.html"
@@ -325,7 +325,7 @@ nrel_location
                     *);;
             *);;
 
-prevention
+nrel_prevention
 <- rrel_key_sc_element: ... 
                 (*
                     <- sc_definition;;

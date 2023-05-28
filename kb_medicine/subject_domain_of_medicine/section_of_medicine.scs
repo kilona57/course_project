@@ -94,7 +94,7 @@ nrel_disease
 <- antisymmetric_relation;
 <- antitransitive_relation;
     => nrel_main_idtf:
-          [болезнь*]
+          [заболевание*]
             (*<-lang_ru;;*);
           [disease*]
             (* <- lang_en;;*);
@@ -102,7 +102,7 @@ nrel_disease
         (*
             <- definition;;
             => nrel_main_idtf:
-                [Опр. (болезнь)] (* <- lang_ru;; *);;
+                [Опр. (заболевание)] (* <- lang_ru;; *);;
             
              <= nrel_sc_text_translation: ... 
                 (*
@@ -462,7 +462,7 @@ nrel_active_substance
 => nrel_main_idtf:
 	[действующее вещество*]
     (* <- lang_ru;;	*);
-        [active_substance*]
+        [active substance*]
         (* <- lang_en;;*);
   <- rrel_key_sc_element: ... 
         (*
@@ -491,7 +491,7 @@ nrel_structure
 => nrel_main_idtf:
 	[строение*]
     (* <- lang_ru;;	*);
-        [nrel_structure*]
+        [structure*]
         (* <- lang_en;;*);
   <- rrel_key_sc_element: ... 
         (*
@@ -519,7 +519,7 @@ nrel_location
 => nrel_main_idtf:
 	[месторасположение*]
     (* <- lang_ru;;	*);
-        [nrel_location*]
+        [location*]
         (* <- lang_en;;*);
   <- rrel_key_sc_element: ... 
         (*
@@ -571,7 +571,7 @@ red_blood_cells
     => nrel_main_idtf:
           [эритроциты]
             (*<-lang_ru;;*);
-          [red_blood_cells]
+          [red blood cells]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -600,7 +600,7 @@ white_blood_cells
     => nrel_main_idtf:
           [лейкоциты]
             (*<-lang_ru;;*);
-          [white_blood_cells]
+          [white blood cells]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -701,7 +701,7 @@ immune_system
     => nrel_main_idtf:
           [иммунная система]
             (*<-lang_ru;;*);
-          [immune_system]
+          [immune system]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*

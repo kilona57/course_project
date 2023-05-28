@@ -3,7 +3,7 @@ therapeutic_fasting
     => nrel_main_idtf:
           [лечебное голодание]
             (*<-lang_ru;;*);
-          [therapeutic_fasting]
+          [therapeutic fasting]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*

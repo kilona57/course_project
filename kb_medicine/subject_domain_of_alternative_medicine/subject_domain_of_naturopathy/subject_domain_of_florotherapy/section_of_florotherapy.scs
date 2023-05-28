@@ -1,7 +1,7 @@
 florotherapy
     <-sc_node_not_relation;
     => nrel_main_idtf:
-          [флоротерапии]
+          [флоротерапия]
             (*<-lang_ru;;*);
           [florotherapy]
             (* <- lang_en;;*);
@@ -9,7 +9,7 @@ florotherapy
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (флоротерапии)] (* <- lang_ru;; *);;
+                [Опр. (флоротерапия)] (* <- lang_ru;; *);;
             
              <= nrel_sc_text_translation: ... 
                 (*

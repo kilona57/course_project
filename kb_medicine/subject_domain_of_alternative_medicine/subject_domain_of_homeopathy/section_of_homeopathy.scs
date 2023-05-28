@@ -45,7 +45,7 @@ nrel_homeopathic_drug
     => nrel_main_idtf:
           [гомеопатический препарат*]
             (*<-lang_ru;;*);
-          [homeopathic_drug*]
+          [homeopathic drug*]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*

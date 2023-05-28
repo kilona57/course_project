@@ -30,9 +30,9 @@ section_of_medicine->rrel_key_sc_element:
         nrel_active_substance;//действующее вещество
         nrel_structure;//строение 
         nrel_location;//месторасположение 
-        prevention;//профилакика
+        nrel_prevention;//профилакика
         blood;//кровь
-        red_blood_celss;//эритроциты
+        red_blood_cells;//эритроциты
         white_blood_cells;//лейкоциты
         platelet;//тромбоциты
         urine;//моча

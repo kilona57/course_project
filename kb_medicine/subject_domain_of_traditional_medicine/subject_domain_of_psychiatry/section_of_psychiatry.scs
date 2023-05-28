@@ -87,7 +87,7 @@ psychiatric_disorder
     => nrel_main_idtf:
           [психическое расстройство]
             (*<-lang_ru;;*);
-          [psychiatric_disorder]
+          [psychiatric disorder]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -317,22 +317,22 @@ anxiety
 disorders_mood 
     <-sc_node_not_relation;
     => nrel_main_idtf:
-            [расстройства настроения]
+            [расстройство настроения]
             (*<-lang_ru;;*);
-            [disorders_mood]
+            [disorder mood]
             (* <- lang_en;;*);;
 
     disorders_mood=>nrel_inclusion: 
         
-            depressive_spectrum;//расстройства депрессивного спектра
-            disorders_bipolar_spectrum;//расстройства биполярного спектра//расстройства маниакального спектра
+            depressive_spectrum;//расстройство депрессивного спектра
+            disorders_bipolar_spectrum;//расстройство биполярного спектра//расстройство маниакального спектра
             disorders_manic_spectrum_disorders;;
         
     disorders_mood <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (расстройства настроения)] (* <- lang_ru;; *);;
+                [Опр. (расстройство настроения)] (* <- lang_ru;; *);;
             
                 <= nrel_sc_text_translation: ... 
                 (*
@@ -348,7 +348,7 @@ disorders_personality
     => nrel_main_idtf:
             [расстройство личности]
             (*<-lang_ru;;*);
-            [disorders_personality]
+            [disorder personality]
             (* <- lang_en;;*);;
 
             disorders_personality=>nrel_inclusion:         
@@ -379,9 +379,9 @@ disorders_personality
 disorder_neurotic_disorders 
     <-sc_node_not_relation;
     => nrel_main_idtf:
-            [невротические расстройства]
+            [невротическое расстройство]
             (*<-lang_ru;;*);
-            [disorder_neurotic_disorders]
+            [disorder neurotic disorder]
             (* <- lang_en;;*);;
 
     disorder_neurotic_disorders=>nrel_inclusion: 
@@ -394,7 +394,7 @@ disorder_neurotic_disorders
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (невротические расстройства)] (* <- lang_ru;; *);;
+                [Опр. (невротическое расстройство)] (* <- lang_ru;; *);;
             
                 <= nrel_sc_text_translation: ... 
                 (*
@@ -410,7 +410,7 @@ behavioral_syndrome
     => nrel_main_idtf:
             [поведенческий синдром]
             (*<-lang_ru;;*);
-            [behavioral_syndrome]
+            [behavioral syndrome]
             (* <- lang_en;;*);
 
 <- rrel_key_sc_element: ... 
@@ -431,9 +431,9 @@ behavioral_syndrome
 schizoactive_disorders 
     <-sc_node_not_relation;
     => nrel_main_idtf:
-            [шизоактивные расстройства]
+            [шизоактивное расстройство]
             (*<-lang_ru;;*);
-            [schizoactive_disorders]
+            [schizoactive disorder]
             (* <- lang_en;;*);;
 
     schizoactive_disorders=>nrel_inclusion: 
@@ -446,7 +446,7 @@ schizoactive_disorders
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (шизоактивные расстройства)] (* <- lang_ru;; *);;
+                [Опр. (шизоактивное расстройство)] (* <- lang_ru;; *);;
             
                 <= nrel_sc_text_translation: ... 
                 (*
@@ -460,15 +460,15 @@ schizoactive_disorders
 depressive_spectrum
     <-sc_node_not_relation;
     => nrel_main_idtf:
-          [расстройства депрессивного спектра]
+          [расстройство депрессивного спектра]
             (*<-lang_ru;;*);
-          [depressive_spectrum]
+          [depressive spectrum]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (расстройства депрессивного спектра)] (* <- lang_ru;; *);;
+                [Опр. (расстройство депрессивного спектра)] (* <- lang_ru;; *);;
             
              <= nrel_sc_text_translation: ... 
                 (*
@@ -482,15 +482,15 @@ depressive_spectrum
 disorders_bipolar_spectrum
     <-sc_node_not_relation;
     => nrel_main_idtf:
-          [расстройства биполярного спектра]
+          [расстройство биполярного спектра]
             (*<-lang_ru;;*);
-          [disorders_bipolar_spectrum]
+          [disorder bipolar spectrum]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (расстройства биполярного спектра)] (* <- lang_ru;; *);;
+                [Опр. (расстройство биполярного спектра)] (* <- lang_ru;; *);;
             
              <= nrel_sc_text_translation: ... 
                 (*
@@ -504,15 +504,15 @@ disorders_bipolar_spectrum
 disorders_manic_spectrum_disorders
     <-sc_node_not_relation;
     => nrel_main_idtf:
-          [расстройства маниакального спектра]
+          [расстройство маниакального спектра]
             (*<-lang_ru;;*);
-          [disorders_manic_spectrum_disorders]
+          [disorder manic spectrum disorders]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
             <- sc_definition;;
             => nrel_main_idtf:
-                [Опр. (расстройства маниакального спектра)] (* <- lang_ru;; *);;
+                [Опр. (расстройство маниакального спектра)] (* <- lang_ru;; *);;
             
              <= nrel_sc_text_translation: ... 
                 (*
@@ -528,7 +528,7 @@ paranoid_personality_disorder
     => nrel_main_idtf:
           [параноидное расстройство личности]
             (*<-lang_ru;;*);
-          [paranoid_personality_disorder]
+          [paranoid personality disorder]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -550,7 +550,7 @@ schizoid_personality_disorder
     => nrel_main_idtf:
           [шизоидное расстройство личности]
             (*<-lang_ru;;*);
-          [schizoid_personality_disorder]
+          [schizoid personality disorder]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -572,7 +572,7 @@ dissocial_personality_disorder
     => nrel_main_idtf:
           [диссоциальное расстройство личности]
             (*<-lang_ru;;*);
-          [dissocial_personality_disorder]
+          [dissocial personality disorder]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -594,7 +594,7 @@ emotionally_unstable_personality_disorder
     => nrel_main_idtf:
           [эмоционально неустойчивое расстройство личности]
             (*<-lang_ru;;*);
-          [emotionally_unstable_personality_disorder]
+          [emotionally unstable personality disorder]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -616,7 +616,7 @@ hysterical_personality_disorder
     => nrel_main_idtf:
           [истерическое расстройство личности]
             (*<-lang_ru;;*);
-          [hysterical_personality_disorder]
+          [hysterical personality disorder]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -638,7 +638,7 @@ anancastic_personality_disorder
     => nrel_main_idtf:
           [ананкастное расстройство личности]
             (*<-lang_ru;;*);
-          [anancastic_personality_disorder]
+          [anancastic personality disorder]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -660,7 +660,7 @@ anxiety_personality_disorder
     => nrel_main_idtf:
           [тревожное расстройство личности]
             (*<-lang_ru;;*);
-          [anxiety_personality_disorder]
+          [anxiety personality disorder]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -682,7 +682,7 @@ dependent_personality_disorder
     => nrel_main_idtf:
           [зависимое расстройство личности]
             (*<-lang_ru;;*);
-          [dependent_personality_disorder]
+          [dependent personality disorder]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -726,7 +726,7 @@ hysteric_neurosis
     => nrel_main_idtf:
           [истерический невроз]
             (*<-lang_ru;;*);
-          [hysteric_neurosis]
+          [hysteric neurosis]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -748,7 +748,7 @@ obsessive_compulsive_disorder
     => nrel_main_idtf:
           [невроз навязчивых состояний]
             (*<-lang_ru;;*);
-          [obsessive_compulsive_disorder]
+          [obsessive compulsive disorder]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -770,7 +770,7 @@ schizotypal_disorder
     => nrel_main_idtf:
           [шизотипическое расстройство]
             (*<-lang_ru;;*);
-          [schizotypal_disorder]
+          [schizotypal disorder]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -792,7 +792,7 @@ delusional_disorder
     => nrel_main_idtf:
           [бредовое расстройство]
             (*<-lang_ru;;*);
-          [delusional_disorder]
+          [delusional disorder]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
@@ -814,7 +814,7 @@ schizophreniform_disorder
     => nrel_main_idtf:
           [шизофреноформное расстройство]
             (*<-lang_ru;;*);
-          [schizophreniform_disorder]
+          [schizophreniform disorder]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*

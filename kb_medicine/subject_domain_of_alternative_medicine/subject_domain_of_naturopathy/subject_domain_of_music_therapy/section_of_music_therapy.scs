@@ -3,7 +3,7 @@ music_therapy
     => nrel_main_idtf:
           [музыкотерапия]
             (*<-lang_ru;;*);
-          [music_therapy]
+          [music therapy]
             (* <- lang_en;;*);
     <- rrel_key_sc_element: ... 
         (*
