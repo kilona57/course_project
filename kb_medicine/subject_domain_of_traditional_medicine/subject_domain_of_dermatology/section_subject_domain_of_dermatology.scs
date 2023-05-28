@@ -19,7 +19,6 @@ section_of_dermatology<=nrel_section_decomposition:{
         dermatologist_cosmetologist;//дерматолог-косметолог
         dermatologist_allergist;//дерматолог-аллерголог
         skin_covers;//кожные покровы
-        //structure;//строение
         epidermis;//эпидермис
         derma;//дерма
         hypoderm;//гиподерма
@@ -47,7 +46,59 @@ section_of_dermatology<=nrel_section_decomposition:{
         free_edge;//свободный край
         hyponychius;//гипонихий
         itching;//зуд
-        peeling;//шелушение //перхоть
-        dandruff;
+        peeling;//шелушение 
+        dandruff;//перхоть
+//------------------------------------------------------------------------------------------------------------------------->
+        skin_diseases_due_to_fungal_lesions_of_the_skin_area;//кожные заболевания вследствие грибкового поражения участка кожного покрова
+        skin_lesions_of_an_infectious_nature;//поражения кожи инфекционного характера
+        viral_skin_lesions ;//поражения кожи вирусного характера 
+        parasitic_skin_lesions;//поражения кожи паразитного типа
+        inflammation_of_the_glands;//воспаления желез
+        dermatitis_and_problematic_skin_in_adolescents;//дерматиты и проблемная кожа у подростков
+        allergic_rashes;//аллергические высыпания
+//------------------------------------------------------------------------------------------------------------------------->
+        fungal_infection_of_the_skin;//грибковая инфекция кожи
+        fungal_infection_of_the_nails;//грибковая инфекция ногтей(онихомикоз)
+        mycosis_of_the_feet;//микоз стоп
+        mycosis_of_the_smooth_skin_of_the_trunk;//микоз гладкой кожи туловища
+        inguinal_mycosis;//паховый микоз
+        mycosis_of_the_scalp;//микоз волосистой части головы
+        mycosis_of_the_hands;//микоз кистей
+        mycosis_of_the_face;//микоз лица
+//------------------------------------------------------------------------------------------------------------------------->
+        ostiofolliculitis;//остиофолликулит
+        folliculitis;//фолликулит
+        furuncle;//фурункул
+        carbuncle;//карбункул
+        staphylococcal_pyoderma_in_infants;//стафилококковые пиодермии у детей грудного возраста
+        sweating;//потница 
+        epidemic_pemphigus_of_newborns;//эпидемическая пузырчатка новорожденных
+        exfoliative_dermatitis_of_newborns_Ritter;//эксфолиативный дерматит новорожденных Риттера
+        streptococcal_impetigo;//стрептококковое импетиго
+        bullous_impetigo;//буллезное импетиго
+        slit_like_impetigo;//щелевидное импетиго
+        lichen_simplex;//простой лишай
+        erysipelas;//рожистое воспаление
+        erythrasma;//эритразма
+//------------------------------------------------------------------------------------------------------------------------->        
+        contagious_mollusc;//контагиозный моллюск
+        herpes;//герпес
+        papilloma;//папиллома
+        condyloma;//кондилома
+        wart;//бородавка
+//------------------------------------------------------------------------------------------------------------------------->
+        pediculosis;//педикулез
+        demodecosis;//демодекоз
+        scabies;//чесотка
+//------------------------------------------------------------------------------------------------------------------------->
+        anhidrosis;//ангидроз 
+        hydradenitis;//гидраденит 
+        rosacea;//розацеа
+//------------------------------------------------------------------------------------------------------------------------->
+        atopic_dermatitis;//атопический дерматит
+//------------------------------------------------------------------------------------------------------------------------->
+        urticaria;//крапивница 
+        eczema;//экзема//псориаз
         psoriasis;;
+
         section_of_dermatology<-non_atomic_section;;

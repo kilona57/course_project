@@ -1,15 +1,199 @@
-psoriasis
-<- rrel_key_sc_element: ... 
-        (*
-          <- sc_definition;;
-            => nrel_main_idtf:
-                [Утв. (псориаз)] (* <- lang_ru;; *);;
-            
-             <= nrel_sc_text_translation: ... 
-                (*
-                    -> nrel_symptom: "file://symptom/psoriasis_symptoms.html" (*
+skin_diseases_due_to_fungal_lesions_of_the_skin_area=> nrel_symptom: "file://symptom/skin_diseases_due_to_fungal_lesions_of_the_skin_area_symptoms.html" (*
 							<- lang_ru;;
 							=> nrel_format: format_html;;
 						*);;
-                *);;
-        *);;
+
+skin_lesions_of_an_infectious_nature=> nrel_symptom: "file://symptom/skin_lesions_of_an_infectious_nature_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+viral_skin_lesions=> nrel_symptom: "file://symptom/viral_skin_lesions_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+parasitic_skin_lesions=> nrel_symptom: "file://symptom/parasitic_skin_lesions_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+inflammation_of_the_glands=> nrel_symptom: "file://symptom/inflammation_of_the_glands_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+dermatitis_and_problematic_skin_in_adolescents=> nrel_symptom: "file://symptom/dermatitis_and_problematic_skin_in_adolescents_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+allergic_rashes=> nrel_symptom: "file://symptom/allergic_rashes_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+fungal_infection_of_the_skin=> nrel_symptom: "file://symptom/fungal_infection_of_the_skin_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+fungal_infection_of_the_nails=> nrel_symptom: "file://symptom/fungal_infection_of_the_nails_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+mycosis_of_the_feet=> nrel_symptom: "file://symptom/mycosis_of_the_feet_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+mycosis_of_the_smooth_skin_of_the_trunk=> nrel_symptom: "file://symptom/mycosis_of_the_smooth_skin_of_the_trunk_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+inguinal_mycosis=> nrel_symptom: "file://symptom/inguinal_mycosis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+mycosis_of_the_scalp=> nrel_symptom: "file://symptom/mycosis_of_the_scalp_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+mycosis_of_the_hands=> nrel_symptom: "file://symptom/mycosis_of_the_hands_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+						
+ostiofolliculitis=> nrel_symptom: "file://symptom/ostiofolliculitis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+folliculitis=> nrel_symptom: "file://symptom/folliculitis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+furuncle=> nrel_symptom: "file://symptom/furuncle_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+carbuncle=> nrel_symptom: "file://symptom/carbuncle_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+sweating=> nrel_symptom: "file://symptom/sweating_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+epidemic_pemphigus_of_newborns=> nrel_symptom: "file://symptom/epidemic_pemphigus_of_newborns_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+exfoliative_dermatitis_of_newborns_Ritter=> nrel_symptom: "file://symptom/exfoliative_dermatitis_of_newborns_Ritter_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+streptococcal_impetigo=> nrel_symptom: "file://symptom/streptococcal_impetigo_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+						
+lichen_simplex=> nrel_symptom: "file://symptom/lichen_simplex_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+erysipelas=> nrel_symptom: "file://symptom/erysipelas_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+erythrasma=> nrel_symptom: "file://symptom/erythrasma_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+contagious_mollusc=> nrel_symptom: "file://symptom/contagious_mollusc_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+herpes=> nrel_symptom: "file://symptom/herpes_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+papilloma=> nrel_symptom: "file://symptom/papilloma_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+condyloma=> nrel_symptom: "file://symptom/condyloma_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+wart=> nrel_symptom: "file://symptom/wart_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+pediculosis=> nrel_symptom: "file://symptom/pediculosis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+demodecosis=> nrel_symptom: "file://symptom/demodecosis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+scabies=> nrel_symptom: "file://symptom/scabies_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+anhidrosis=> nrel_symptom: "file://symptom/anhidrosis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+hydradenitis=> nrel_symptom: "file://symptom/hydradenitis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+rosacea=> nrel_symptom: "file://symptom/rosacea_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+atopic_dermatitis=> nrel_symptom: "file://symptom/atopic_dermatitis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+urticaria=> nrel_symptom: "file://symptom/urticaria_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+eczema=> nrel_symptom: "file://symptom/eczema_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+
+psoriasis=> nrel_symptom: "file://symptom/psoriasis_symptoms.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;                        
