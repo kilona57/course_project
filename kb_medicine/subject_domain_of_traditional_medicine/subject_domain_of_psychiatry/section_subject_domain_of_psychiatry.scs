@@ -6,8 +6,8 @@ section_of_psychiatry
 section_of_psychiatry<=nrel_section_decomposition:{
 	        section_of_child_psychiatry;
 		section_of_geriatric_psychiatry;//позднего возраста
-		section_of_military_psychiatry;//военная
-		section_of_forensic_psychiatry //судебная
+		section_of_military_psychiatry;//военная //судебная
+		section_of_forensic_psychiatry 
 };;		
 
 section_of_psychiatry->rrel_key_sc_element:
