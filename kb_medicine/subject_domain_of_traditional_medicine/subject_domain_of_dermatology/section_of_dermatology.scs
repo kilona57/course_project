@@ -167,7 +167,7 @@ skin_lesions_of_an_infectious_nature=>nrel_inclusion:
         keratinocytes;//кератиноциты
         sebaceous_gland;//сальная железа
         deep_vascular_network;//глубокая сосудистая сеть //фибробласты  
-        fibroblasts;;     
+        fibroblasts;  
 
  <- rrel_key_sc_element: ... 
         (*
@@ -576,7 +576,7 @@ nail=>nrel_inclusion:
         nail_sinus;//ногтевая пазуха
         nail_body;//тело ногтя
         free_edge;//свободный край //гипонихий
-        hyponychius;;
+        hyponychius;
 
     <- rrel_key_sc_element: ... 
         (*
@@ -975,8 +975,8 @@ viral_skin_lesions
             contagious_mollusc;//контагиозный моллюск
             herpes;//герпес
             papilloma;//папиллома
-            condyloma;//кондилома /бородавка
-            wart;;/
+            condyloma;//кондилома //бородавка
+            wart;;
         
     viral_skin_lesions <- rrel_key_sc_element: ... 
         (*
