@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GWF version="2.0">
     <staticSector>
-        <node type="node/const/perm/relation" idtf="nrel_inclusion" shapeColor="193" id="1843708173616" parent="1843706292240" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1192.56" y="796.67" haveBus="false" idtf_pos="0">
+        <node type="node/const/perm/general" idtf="psoriasis" shapeColor="193" id="2169489205120" parent="2169487695744" left="0" top="0" right="78" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="767.568" y="273.261" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/perm/general" idtf="viral_skin_lesions" shapeColor="0" id="1843708177776" parent="1843706292240" left="0" top="0" right="145" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1093.58" y="732.9" haveBus="false" idtf_pos="0">
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="2169489207200" parent="2169487695744" x="776.133" y="420.221" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/perm/relation" idtf="nrel_symptom" shapeColor="0" id="1843705012208" parent="1843706292240" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1205" y="913" haveBus="false" idtf_pos="0">
+        <node type="node/const/perm/relation" idtf="nrel_symptom" shapeColor="0" id="2169489206992" parent="2169487695744" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="866.545" y="337.031" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1843705014288" parent="1843706292240" x="1102.15" y="879.86" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1843705010960" parent="1843706292240" x="1106" y="973" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1843708180640" parent="1843706292240" id_b="1843708177776" id_e="1843705014288" b_x="1093.58" b_y="732.9" e_x="1102.15" e_y="879.86" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="2169487529904" parent="2169487695744" id_b="2169489205120" id_e="2169489207200" b_x="767.568" b_y="273.261" e_x="776.133" e_y="420.221" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1843708181840" parent="1843706292240" id_b="1843705012208" id_e="1843708184720" b_x="1205" b_y="913" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.508188">
-            <points/>
-        </pair>
-        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1843708184720" parent="1843706292240" id_b="1843705014288" id_e="1843705010960" b_x="1102.15" b_y="879.86" e_x="1106" e_y="973" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </pair>
-        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1843708181600" parent="1843706292240" id_b="1843708173616" id_e="1843708180640" b_x="1192.56" b_y="796.67" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.489483">
-            <points>
-                <point x="1156.46" y="829.75"/>
-            </points>
-        </pair>
-        <contour type="contour/const/perm" idtf="Симптомы всех видов нарушения рефракции глаза" shapeColor="0" id="1843706292240" parent="0" left="0" top="0" right="443" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-216" idtf_pos_y="150">
-            <points>
-                <point x="1054.5" y="649.35"/>
-                <point x="1519.07" y="652.125"/>
-                <point x="1517.39" y="758.24"/>
-                <point x="1519.08" y="1049.71"/>
-                <point x="1054.5" y="1051.31"/>
-            </points>
-        </contour>
-        <node type="node/const/perm/general" idtf="herpes" shapeColor="0" id="1843705011376" parent="1843706290896" left="0" top="0" right="61" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="767.568" y="273.261" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/const/perm/relation" idtf="nrel_symptom" shapeColor="0" id="1843705009088" parent="1843706290896" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="866.545" y="337.031" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1843705014912" parent="1843706290896" x="776.133" y="420.221" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1843708182080" parent="1843706290896" id_b="1843705009088" id_e="1843708182560" b_x="866.545" b_y="337.031" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.489483">
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="2169487529664" parent="2169487695744" id_b="2169489206992" id_e="2169487529904" b_x="866.545" b_y="337.031" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.489483">
             <points>
                 <point x="830.447" y="370.111"/>
             </points>
         </pair>
-        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1843708182560" parent="1843706290896" id_b="1843705011376" id_e="1843705014912" b_x="767.568" b_y="273.261" e_x="776.133" e_y="420.221" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </pair>
-        <contour type="contour/const/perm" idtf="Заболевания глаза" shapeColor="0" id="1843706290896" parent="0" left="0" top="0" right="170" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-114" idtf_pos_y="67">
+        <contour type="contour/const/perm" idtf="Заболевания глаза" shapeColor="0" id="2169487695744" parent="0" left="0" top="0" right="170" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-114" idtf_pos_y="67">
             <points>
                 <point x="728.486" y="189.711"/>
                 <point x="980.378" y="192.528"/>
                 <point x="981.378" y="308.601"/>
                 <point x="983.388" y="601.481"/>
                 <point x="728.486" y="591.671"/>
+            </points>
+        </contour>
+        <node type="node/const/perm/general" idtf="viral_skin_lesions" shapeColor="0" id="2169489208032" parent="2169487696128" left="0" top="0" right="145" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1093.58" y="732.9" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_inclusion" shapeColor="0" id="2169415404608" parent="2169487696128" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1192.56" y="796.67" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="2169489208240" parent="2169487696128" x="1102.15" y="879.86" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_symptom" shapeColor="0" id="2169489202000" parent="2169487696128" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1205" y="913" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="2169489207616" parent="2169487696128" x="1106" y="973" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="2169487530384" parent="2169487696128" id_b="2169489208240" id_e="2169489207616" b_x="1102.15" b_y="879.86" e_x="1106" e_y="973" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="2169487527024" parent="2169487696128" id_b="2169489202000" id_e="2169487530384" b_x="1205" b_y="913" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.508188">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="2169487529424" parent="2169487696128" id_b="2169415404608" id_e="2169487529184" b_x="1192.56" b_y="796.67" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.489483">
+            <points>
+                <point x="1156.46" y="829.75"/>
+            </points>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="2169487529184" parent="2169487696128" id_b="2169489208032" id_e="2169489208240" b_x="1093.58" b_y="732.9" e_x="1102.15" e_y="879.86" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Симптомы всех видов нарушения рефракции глаза" shapeColor="0" id="2169487696128" parent="0" left="0" top="0" right="443" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-216" idtf_pos_y="150">
+            <points>
+                <point x="1054.5" y="649.35"/>
+                <point x="1519.07" y="652.125"/>
+                <point x="1517.39" y="758.24"/>
+                <point x="1519.08" y="1049.71"/>
+                <point x="1054.5" y="1051.31"/>
             </points>
         </contour>
     </staticSector>
