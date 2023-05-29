@@ -154,7 +154,7 @@ skin_covers
             (*<-lang_ru;;*);
             [skin covers]
             (* <- lang_en;;*);;
-skin_lesions_of_an_infectious_nature=>nrel_inclusion:         
+skin_lesions_of_an_infectious_nature=>nrel_structure:         
         epidermis;//эпидермис
         derma;//дерма
         hypoderm;//гиподерма

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/perm/relation" idtf="nrel_symptom" shapeColor="0" id="2370755821456" parent="2370756140048" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="874" y="-174" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="2370755816464" parent="2370756140048" x="788" y="-124" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="schizophrenia" shapeColor="0" id="2370755821664" parent="2370756140048" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="792" y="-245" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="2370710299568" parent="2370756140048" id_b="2370755821456" id_e="2370710304128" b_x="874" b_y="-174" e_x="-117.986" e_y="-366.435" dotBBalance="0" dotEBalance="0.587209">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="2370710304128" parent="2370756140048" id_b="2370755821664" id_e="2370755816464" b_x="792" b_y="-245" e_x="788" e_y="-124" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Все симптомы шизофрении" shapeColor="0" id="2370756140048" parent="0" left="0" top="0" right="247" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="31" idtf_pos_y="-112">
+            <points>
+                <point x="770.049" y="-270.161"/>
+                <point x="1022.05" y="-271.161"/>
+                <point x="1019.05" y="-44.161"/>
+                <point x="769.049" y="-43.161"/>
+            </points>
+        </contour>
+        <node type="node/const/perm/relation" idtf="nrel_symptom" shapeColor="0" id="2370755815840" parent="2370756140240" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="150" y="90" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="2370755816256" parent="2370756140240" x="75" y="135" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_inclusion" shapeColor="0" id="2370755822704" parent="2370756140240" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="150" y="0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="2370755818752" parent="2370756140240" x="75" y="45" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="disorders_personality " shapeColor="0" id="2370755819792" parent="2370756140240" left="0" top="0" right="180" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="75" y="-45" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="2370710299808" parent="2370756140240" id_b="2370755818752" id_e="2370755816256" b_x="75" b_y="45" e_x="75" e_y="135" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="2370710302928" parent="2370756140240" id_b="2370755815840" id_e="2370710299808" b_x="150" b_y="90" e_x="-743" e_y="-602.97" dotBBalance="0" dotEBalance="0.5">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="2370710305088" parent="2370756140240" id_b="2370755822704" id_e="2370710303408" b_x="150" b_y="0" e_x="-743" e_y="-602.97" dotBBalance="0" dotEBalance="0.5">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="2370710303408" parent="2370756140240" id_b="2370755819792" id_e="2370755818752" b_x="75" b_y="-45" e_x="75" e_y="45" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Симптомы всех видов личностных растройств" shapeColor="0" id="2370756140240" parent="0" left="0" top="0" right="421" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-489" idtf_pos_y="-91">
+            <points>
+                <point x="45" y="-60"/>
+                <point x="495" y="-60"/>
+                <point x="495" y="195"/>
+                <point x="45" y="195"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>

@@ -9,6 +9,6 @@ section_of_alternative_medicine	<=nrel_section_decomposition:{
 };;		
 		section_of_alternative_medicine->rrel_key_sc_element:
 		subject_domain_of_alternative_medicine;
-			alternative_medicine;;
+		alternative_medicine;;
 
 section_of_alternative_medicine<-non_atomic_section;;

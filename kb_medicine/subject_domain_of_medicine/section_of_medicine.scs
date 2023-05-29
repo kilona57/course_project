@@ -337,7 +337,7 @@ nrel_prevention
 						*);;
                 *);;
         *);
-=> nrel_first_domain: nrel_disease;
+=> nrel_first_domain: patient;
 => nrel_second_domain: health;;
 
 nrel_examination
@@ -422,7 +422,7 @@ nrel_syndrome
                 *);;
         *);
 => nrel_first_domain: nrel_disease;
-=> nrel_second_domain: diagnosis;;   
+=> nrel_second_domain: nrel_symptom;;   
 
 nrel_cure
 <-sc_node_norole_relation;
@@ -478,7 +478,7 @@ nrel_active_substance
                 *);;
         *);
 
-=> nrel_first_domain: nrel_cure;
+=> nrel_first_domain: substance;
 => nrel_second_domain: drug;;      
 
 nrel_structure
