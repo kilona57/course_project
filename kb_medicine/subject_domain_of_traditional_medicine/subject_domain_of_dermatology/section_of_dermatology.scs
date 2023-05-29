@@ -154,7 +154,7 @@ skin_covers
             (*<-lang_ru;;*);
             [skin covers]
             (* <- lang_en;;*);;
-skin_lesions_of_an_infectious_nature<=nrel_structure:         
+skin_lesions_of_an_infectious_nature=>nrel_inclusion:         
         epidermis;//эпидермис
         derma;//дерма
         hypoderm;//гиподерма
@@ -218,7 +218,8 @@ epidermis
                         => nrel_format: format_png;;
                     *);;
                     *);;
-        *);;
+        *);
+<=nrel_structure:skin_covers;;
 derma 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -247,7 +248,8 @@ derma
                         => nrel_format: format_jpg;;
                     *);;
                     *);;
-        *);;
+        *);
+        <=nrel_structure:skin_covers;;
 hypoderm 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -275,7 +277,8 @@ hypoderm
                         => nrel_format: format_png;;
                     *);;
                     *);;
-        *);;
+        *);
+        <=nrel_structure:skin_covers;;
 
 hair 
     <-sc_node_not_relation;
@@ -332,7 +335,8 @@ stratum_corneum
                         => nrel_format: format_png;;
                     *);;
                     *);;
-        *);;
+        *);
+        <=nrel_structure:epidermis;;
 basal_layer 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -360,7 +364,8 @@ basal_layer
                         => nrel_format: format_png;;
                     *);;
                     *);;
-        *);;
+        *);
+        <=nrel_structure:epidermis;;
 papillary_layer 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -381,7 +386,8 @@ papillary_layer
                             => nrel_format: format_html;;
                         *);;
                 *);;
-        *);;
+        *);
+        <=nrel_structure:epidermis;;
 collagen_fibers 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -409,7 +415,8 @@ collagen_fibers
                         => nrel_format: format_jpg;;
                     *);;
                     *);;
-        *);;
+        *);
+         <=nrel_structure:skin_covers;;
 mesh_layer 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -437,7 +444,8 @@ mesh_layer
                         => nrel_format: format_jpg;;
                     *);;
                     *);;
-        *);;
+        *);
+         <=nrel_structure:skin_covers;;
 keratinocytes 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -458,7 +466,8 @@ keratinocytes
                             => nrel_format: format_html;;
                         *);;
                 *);;
-        *);;
+        *);
+         <=nrel_structure:skin_covers;;
 sebaceous_gland 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -479,7 +488,8 @@ sebaceous_gland
                             => nrel_format: format_html;;
                         *);;
                 *);;
-        *);;
+        *);
+         <=nrel_structure:skin_covers;;
 deep_vascular_network 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -507,7 +517,8 @@ deep_vascular_network
                         => nrel_format: format_jpg;;
                     *);;
                     *);;
-        *);;
+        *);
+         <=nrel_structure:skin_covers;;
 fibroblasts 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -535,7 +546,8 @@ fibroblasts
                         => nrel_format: format_png;;
                     *);;
                     *);;
-        *);;
+        *);
+         <=nrel_structure:skin_covers;;
 skin_functions 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -565,7 +577,7 @@ nail
             [nail]
             (* <- lang_en;;*);;
 
-nail<=nrel_structure:         
+nail=>nrel_inclusion:         
         matrix;//матрикс
         eponychius;//эпонихий
         cuticle;//кутикула
@@ -619,7 +631,8 @@ matrix
                             => nrel_format: format_html;;
                         *);;
                 *);;
-        *);;
+        *);
+         <=nrel_structure:nail;;
 eponychius 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -640,7 +653,8 @@ eponychius
                             => nrel_format: format_html;;
                         *);;
                 *);;
-        *);;
+        *);
+        <=nrel_structure:nail;;
 cuticle 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -661,7 +675,8 @@ cuticle
                             => nrel_format: format_html;;
                         *);;
                 *);;
-        *);;
+        *);
+        <=nrel_structure:nail;;
 hole 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -682,7 +697,8 @@ hole
                             => nrel_format: format_html;;
                         *);;
                 *);;
-        *);;
+        *);
+        <=nrel_structure:nail;;
 nail_bed 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -703,7 +719,8 @@ nail_bed
                             => nrel_format: format_html;;
                         *);;
                 *);;
-        *);;
+        *);
+        <=nrel_structure:nail;;
 nail_plate 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -724,7 +741,8 @@ nail_plate
                             => nrel_format: format_html;;
                         *);;
                 *);;
-        *);;
+        *);
+        <=nrel_structure:nail;;
 side_nail_roller 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -745,7 +763,8 @@ side_nail_roller
                             => nrel_format: format_html;;
                         *);;
                 *);;
-        *);;
+        *);
+        <=nrel_structure:nail;;
 nail_sinus 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -766,7 +785,8 @@ nail_sinus
                             => nrel_format: format_html;;
                         *);;
                 *);;
-        *);;
+        *);
+        <=nrel_structure:nail;;
 nail_body 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -787,7 +807,8 @@ nail_body
                             => nrel_format: format_html;;
                         *);;
                 *);;
-        *);;
+        *);
+        <=nrel_structure:nail;;
 free_edge 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -808,7 +829,8 @@ free_edge
                             => nrel_format: format_html;;
                         *);;
                 *);;
-        *);;
+        *);
+        <=nrel_structure:nail;;
 hyponychius 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -829,7 +851,8 @@ hyponychius
                             => nrel_format: format_html;;
                         *);;
                 *);;
-        *);;
+        *);
+        <=nrel_structure:nail;;
 itching 
     <-sc_node_not_relation;
     => nrel_main_idtf:
