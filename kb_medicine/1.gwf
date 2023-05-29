@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/perm/general" idtf="schizophrenia" shapeColor="0" id="1843705013248" parent="1843703407168" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-50" y="166" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="" shapeColor="0" id="1843705012208" parent="1843703407168" x="-59" y="326" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_symptom" shapeColor="0" id="1843705008048" parent="1843703407168" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="187" y="253" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1843705399936" parent="1843703407168" id_b="1843705013248" id_e="1843705012208" b_x="-50" b_y="166" e_x="-59" e_y="326" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1843705401136" parent="1843703407168" id_b="1843705008048" id_e="1843705399936" b_x="187" b_y="253" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.491564">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="включение" shapeColor="0" id="1843703407168" parent="0" left="0" top="0" right="100" bottom="28" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-17" idtf_pos_y="95">
+            <points>
+                <point x="-151" y="130"/>
+                <point x="353" y="142"/>
+                <point x="325" y="380"/>
+                <point x="-173" y="380"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>
