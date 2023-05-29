@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/perm/relation" idtf="nrel_symptom" shapeColor="0" id="1643487570496" parent="1643482310464" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="300" y="279" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_inclusion" shapeColor="0" id="1643487570288" parent="1643482310464" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="311" y="195" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="skin_lesions_of_an_infectious_nature" shapeColor="0" id="1643487569248" parent="1643482310464" left="0" top="0" right="298" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="234" y="171" haveBus="false" idtf_pos="3">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1643487568000" parent="1643482310464" x="234" y="248" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1643487571744" parent="1643482310464" x="234" y="311" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1643484880800" parent="1643482310464" id_b="1643487568000" id_e="1643487571744" b_x="234" b_y="248" e_x="234" e_y="311" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1643484883920" parent="1643482310464" id_b="1643487570496" id_e="1643484880800" b_x="300" b_y="279" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.375">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1643484882720" parent="1643482310464" id_b="1643487569248" id_e="1643487568000" b_x="234" b_y="171" e_x="234" e_y="248" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1643484883200" parent="1643482310464" id_b="1643487570288" id_e="1643484882720" b_x="311" b_y="195" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.267241">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Все симптомы инфекционных заолеваний кожи" shapeColor="0" id="1643482310464" parent="0" left="0" top="0" right="418" bottom="28" textColor="244" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-88" idtf_pos_y="127">
+            <points>
+                <point x="195" y="120"/>
+                <point x="390" y="120"/>
+                <point x="390" y="435"/>
+                <point x="195" y="435"/>
+            </points>
+        </contour>
+        <node type="node/const/perm/relation" idtf="nrel_structure" shapeColor="0" id="1643487566752" parent="1643482312192" left="0" top="0" right="118" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="4" y="187" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="epidermis" shapeColor="0" id="1643487568416" parent="1643482312192" left="0" top="0" right="82" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-51" y="156" haveBus="false" idtf_pos="3">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1643487572784" parent="1643482312192" x="-52" y="252" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1643484882000" parent="1643482312192" id_b="1643487566752" id_e="1643484882240" b_x="4" b_y="187" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.291501">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1643484882240" parent="1643482312192" id_b="1643487568416" id_e="1643487572784" b_x="-51" b_y="156" e_x="-52" e_y="252" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Строение эпидермиса" shapeColor="0" id="1643482312192" parent="0" left="0" top="0" right="193" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="0" idtf_pos_y="0">
+            <points>
+                <point x="-75" y="120"/>
+                <point x="120" y="120"/>
+                <point x="120" y="420"/>
+                <point x="-75" y="420"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>

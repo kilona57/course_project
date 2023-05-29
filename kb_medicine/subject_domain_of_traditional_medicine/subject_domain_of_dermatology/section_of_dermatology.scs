@@ -307,7 +307,8 @@ hair
                         => nrel_format: format_png;;
                     *);;
                     *);;
-        *);;
+        *);
+        <=nrel_structure:skin_covers;;
 stratum_corneum 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -387,7 +388,7 @@ papillary_layer
                         *);;
                 *);;
         *);
-        <=nrel_structure:epidermis;;
+        <=nrel_structure:derma;;
 collagen_fibers 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -445,7 +446,7 @@ mesh_layer
                     *);;
                     *);;
         *);
-         <=nrel_structure:skin_covers;;
+         <=nrel_structure:derma;;
 keratinocytes 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -467,7 +468,7 @@ keratinocytes
                         *);;
                 *);;
         *);
-         <=nrel_structure:skin_covers;;
+         <=nrel_structure:epidermis;;
 sebaceous_gland 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -518,7 +519,7 @@ deep_vascular_network
                     *);;
                     *);;
         *);
-         <=nrel_structure:skin_covers;;
+         <=nrel_structure:derma;;
 fibroblasts 
     <-sc_node_not_relation;
     => nrel_main_idtf:
@@ -547,7 +548,7 @@ fibroblasts
                     *);;
                     *);;
         *);
-         <=nrel_structure:skin_covers;;
+         <=nrel_structure:derma;;
 skin_functions 
     <-sc_node_not_relation;
     => nrel_main_idtf:
