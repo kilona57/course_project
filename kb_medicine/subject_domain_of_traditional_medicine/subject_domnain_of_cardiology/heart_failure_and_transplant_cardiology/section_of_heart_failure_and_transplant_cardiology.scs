@@ -1,0 +1,358 @@
+myocarditis
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [миокардит]
+            (*<-lang_ru;;*);
+          [myocarditis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (миокардит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/myocarditis_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);
+<=nrel_disease:myocardium;;
+myocarditis
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (миокардит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://html/myocarditis_symptom.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+myocarditis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (миокардит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/myocarditis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;
+heart_failure
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [сердечная недостаточность]
+            (*<-lang_ru;;*);
+          [heart failure]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (сердечная недостаточность)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/heart_failure_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);
+<=nrel_disease:heart;;
+heart_failure
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (сердечная недостаточность)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://html/heart_failure_symptom.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+heart_failure
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (сердечная недостаточность)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/heart_failure_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;
+cardiac_reflex
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [кардиальный рефлекс]
+            (*<-lang_ru;;*);
+          [cardiac reflex]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (кардиальный рефлекс)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/cardiac_reflex_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+cardiac_reflex
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (кардиальный рефлекс)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/cardiac_reflex_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;
+postload
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [постнагрузка]
+            (*<-lang_ru;;*);
+          [postload]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (постнагрузка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/postload_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+postload
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (постнагрузка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/postload_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;
+preload
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [преднагрузка]
+            (*<-lang_ru;;*);
+          [preload]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (преднагрузка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/preload_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+preload
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (преднагрузка)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/preload_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;
+cardiac_output
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [сердечный выброс]
+            (*<-lang_ru;;*);
+          [cardiac output]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (сердечный выброс)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/cardiac_output_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+cardiac_output
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (сердечный выброс)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/cardiac_output_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;
+tachyarrhythmia
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [тахиаритмия]
+            (*<-lang_ru;;*);
+          [tachyarrhythmia]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (тахиаритмия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/tachyarrhythmia_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+tachyarrhythmia
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (тахиаритмия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://html/tachyarrhythmia_symptom.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+tachyarrhythmia
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (тахиаритмия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/tachyarrhythmia_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;
+thrombophlebitis
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [тромбофлебит]
+            (*<-lang_ru;;*);
+          [thrombophlebitis]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (тромбофлебит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/thrombophlebitis_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+thrombophlebitis
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (тромбофлебит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://html/thrombophlebitis_symptom.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+thrombophlebitis
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (тромбофлебит)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/thrombophlebitis_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;

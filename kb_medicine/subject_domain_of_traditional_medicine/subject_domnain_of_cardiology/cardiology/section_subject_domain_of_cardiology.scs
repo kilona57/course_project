@@ -1,0 +1,40 @@
+section_of_cardiology
+	    => nrel_main_idtf:
+		       [Раздел. Предметная область кардиологии]
+			            (* <- lang_ru;; *);
+[Section. Subject domain of cardiology] (* <- lang_en;; *);;
+section_of_cardiology<=nrel_section_decomposition:{
+        section_of_clinical_electrophysiology_of_the_heart;
+        section_of_congenital_heart_disease_in_adults;
+        section_of_echocardiography;
+        section_of_heart_failure_and_transplant_cardiology;
+        section_of_nuclear_cardiology
+};;
+section_of_cardiology->rrel_key_sc_element:
+        aorta;
+        artery;
+        end_artery;
+        vienna;
+        apex_beat;
+        ascending_aorta;
+        aortic_arch;
+        valvula;
+        valve;
+        aortic_valve;
+        blood_vessel;
+        myocardium;
+        pericardium;
+        atrium;
+        pulse;
+        serous_pericardium;
+        sinus_atrial_node;
+        cardiovascular_system;
+        systole;
+        blood_clot;
+        cardiology;
+        atrioventricular_node;
+        fibrous_pericardium;
+        cardiac_cycle;
+        endocardium;
+        heart;
+        epicardium;;

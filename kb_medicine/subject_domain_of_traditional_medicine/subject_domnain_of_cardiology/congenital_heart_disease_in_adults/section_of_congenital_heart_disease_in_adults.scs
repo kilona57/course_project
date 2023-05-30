@@ -1,0 +1,336 @@
+nrel_congenital_defect
+    <-sc_node_norole_relation;
+    <- binary_relation;
+    <- oriented_relation;
+    <- antireflexive_relation;
+    <- antysimmetric_relation;
+    <- antitransitive_relation;
+    => nrel_main_idtf:
+          [врождённый порок*]
+            (*<-lang_ru;;*);
+          [congenital_defect*]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (врождённый порок)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/congenital_defect_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+acardia
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [акардия]
+            (*<-lang_ru;;*);
+          [acardia]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (акардия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/Acardia_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+acardia
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (акардия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/acardia_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_congenital_defect:heart;
+<=nrel_disease:heart;;
+dextrocardia
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [декстрокардия]
+            (*<-lang_ru;;*);
+          [dextrocardia]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (декстрокардия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/dextrocardia_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+dextrocardia
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (декстрокардия)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/dextrocardia_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_congenital_defect:heart;
+<=nrel_disease:heart;;
+septal_defect
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [дефект перегородки]
+            (*<-lang_ru;;*);
+          [septal defect]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (дефект перегородки)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/septal_defect_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+septal_defect
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (дефект перегородки)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/septal_defect_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:heart;;       
+coartation
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [коарктация]
+            (*<-lang_ru;;*);
+          [coartation]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (коарктация)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/coartation_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+coartation
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (коарктация)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/coartation_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:aorta;
+<=nrel_congenital_defect:aorta;;
+cor_triloculare
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [трёхкамерное сердце]
+            (*<-lang_ru;;*);
+          [cor triloculare]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (трёхкамерное сердце)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/cor_triloculare_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+cor_triloculare
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (трёхкамерное сердце)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/cor_triloculare_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:heart;
+<=nrel_congenital_defect:heart;;
+wolff_parkinson_white_syndrome
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [синдром Вольффа-Паркинсона-Уайта]
+            (*<-lang_ru;;*);
+          [wolff parkinson white syndrome]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (синдром Вольффа-Паркинсона-Уайта)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/wolff_parkinson_white_syndrome_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+wolff_parkinson_white_syndrome
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (синдром Вольффа-Паркинсона-Уайта)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/wolff_parkinson_white_syndrome_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:myocardium;; 
+tetralogy_of_fallof
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [тетрада Фалло]
+            (*<-lang_ru;;*);
+          [tetralogy of fallof]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (тетрада Фалло)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/tetralogy_of_fallof_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+tetralogy_of_fallof
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (тетрада Фалло)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/tetralogy_of_fallof_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_disease:heart;
+<=nrel_congenital_defect:heart;; 
+transposition_of_great_vessels
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [транспозиция магистральных сосудов]
+            (*<-lang_ru;;*);
+          [transposition of great vessels]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (транспозиция магистральных сосудов)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/transposition_of_great_vessels_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+transposition_of_great_vessels
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (транспозиция магистральных сосудов)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/transposition_of_great_vessels_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);
+<=nrel_congenital_defect:heart;
+<=nrel_disease:heart;;

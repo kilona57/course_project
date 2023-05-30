@@ -1,0 +1,9 @@
+subject_domain_of_heart_failure_and_transplant_cardiology
+=>nrel_main_idtf: [Предметная область сердечной недостаточности и трансплантационной кардиологии] (* <- lang_ru;; *);
+[Subject domain of heart failure and transplant cardiology] (* <- lang_en;; *);
+	<- not_enough_formed_structure;;
+
+  
+subject_domain_of_heart_failure_and_transplant_cardiology->rrel_maximum_studied_object_class:myocarditis;;
+subject_domain_of_heart_failure_and_transplant_cardiology->rrel_not_maximum_studied_object_class:myocardium;;
+subject_domain_of_heart_failure_and_transplant_cardiology<-subject_domain;;	

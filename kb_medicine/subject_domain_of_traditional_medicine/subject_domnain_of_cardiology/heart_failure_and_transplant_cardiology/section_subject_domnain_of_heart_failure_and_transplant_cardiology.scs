@@ -1,0 +1,17 @@
+section_of_heart_failure_and_transplant_cardiology
+	    => nrel_main_idtf:
+		       [Раздел. Предметная область сердечной недостаточности и трансплантационной кардиологии]
+			            (* <- lang_ru;; *);
+[Section. Subject domain of heart failure and transplant cardiology] (* <- lang_en;; *);;
+section_of_heart_failure_and_transplant_cardiology<=nrel_section_decomposition:{
+	subject_domain_of_heart_failure_and_transplant_cardiology
+};;
+section_of_heart_failure_and_transplant_cardiology->rrel_key_sc_element:
+        myocarditis;
+        heart_failure;
+        cardiac_reflex;
+        postload;
+        preload;
+        cardiac_output;
+        tachyarrhythmia;
+        thrombophlebitis;;

@@ -1,0 +1,9 @@
+subject_domain_of_congenital_heart_disease_in_adults
+=>nrel_main_idtf: [Предметная область врождённый пороков сердца у взрослых] (* <- lang_ru;; *);
+[Subject domain of congenital heart disease in adults] (* <- lang_en;; *);
+	<- not_enough_formed_structure;;
+
+  
+subject_domain_of_congenital_heart_disease_in_adults->rrel_maximum_studied_object_class:acardia;;
+subject_domain_of_congenital_heart_disease_in_adults->rrel_not_maximum_studied_object_class:heart;;
+subject_domain_of_congenital_heart_disease_in_adults<-subject_domain;;	

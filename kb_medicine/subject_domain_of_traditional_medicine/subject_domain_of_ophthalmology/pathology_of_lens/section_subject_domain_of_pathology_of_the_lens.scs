@@ -1,7 +1,0 @@
-section_of_pathology_of_the_lens
-	=> nrel_main_idtf:
-		[Раздел. Патологии хрусталика]
-			(* <- lang_ru;; *);;
-
-section_of_pathology_of_the_lens->rrel_key_sc_element:
-    cataract;;

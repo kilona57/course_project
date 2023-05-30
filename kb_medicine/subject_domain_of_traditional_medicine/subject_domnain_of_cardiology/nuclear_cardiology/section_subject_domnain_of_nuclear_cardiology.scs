@@ -1,0 +1,12 @@
+section_of_nuclear_cardiology
+	    => nrel_main_idtf:
+		       [Раздел. Предметная область ядерной кардиологии]
+			            (* <- lang_ru;; *);
+[Section. Subject domain of nuclear cardiology] (* <- lang_en;; *);;
+section_of_nuclear_cardiology<=nrel_section_decomposition:{
+	subject_domain_of_nuclear_cardiology
+};;
+section_of_nuclear_cardiology->rrel_key_sc_element:
+        radionuclide_diagnostics;
+        radiopharmaceutical;
+        nuclear_cardiology;;

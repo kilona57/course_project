@@ -1,0 +1,165 @@
+dopplerography
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [допплерография]
+            (*<-lang_ru;;*);
+          [dopplerography]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (допплерография)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/dopplerography_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);; 
+dopplerography
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (допплерография)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/dopplerography_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;  
+coronary_heart_disease
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [ишемическая болезнь сердца]
+            (*<-lang_ru;;*);
+          [coronary heart disease]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (ишемическая болезнь сердца)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/coronary_heart_disease_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);
+<=nrel_disease:myocardium;;
+coronary_heart_disease
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Утв. (ишемическая болезнь сердца)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> nrel_symptom: "file://html/coronary_heart_disease_symptom.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+coronary_heart_disease
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (ишемическая болезнь сердца)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/coronary_heart_disease_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;  
+cardiovascular_diseases
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [сердечно-сосудистые заболевания]
+            (*<-lang_ru;;*);
+          [cardiovascular diseases]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (сердечно-сосудистые заболевания)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/cardiovascular_diseases_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);
+<=nrel_disease:cardiovascular_system;;
+cardiovascular_diseases
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (сердечно-сосудистые заболевания)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/cardiovascular_diseases_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;  
+echogardiography
+    <-sc_node_not_relation;
+    => nrel_main_idtf:
+          [эхокардиография]
+            (*<-lang_ru;;*);
+          [echogardiography]
+            (* <- lang_en;;*);
+    <- rrel_key_sc_element: ... 
+        (*
+            <- sc_definition;;
+            => nrel_main_idtf:
+                [Опр. (эхокардиография)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/echogardiography_idtf.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        *);;
+echogardiography
+<- rrel_key_sc_element: ... 
+        (*
+            <- sc_statement;;
+            => nrel_main_idtf:
+                [Утв. (эхокардиография)] (* <- lang_ru;; *);;
+            
+             <= nrel_sc_text_translation: ... 
+                (*
+                    -> rrel_example: "file://html/echogardiography_lat.html" (*
+							<- lang_ru;;
+							=> nrel_format: format_html;;
+						*);;
+                *);;
+        
+        *);;  

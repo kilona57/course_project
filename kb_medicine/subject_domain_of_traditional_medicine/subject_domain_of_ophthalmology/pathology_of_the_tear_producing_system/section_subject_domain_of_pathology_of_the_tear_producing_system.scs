@@ -1,8 +1,0 @@
-section_of_pathology_of_the_tear_producing_system
-	=> nrel_main_idtf:
-		[Раздел. Патологии слезопродуцирующей системы]
-			(* <- lang_ru;; *);;
-
-section_of_pathology_of_the_tear_producing_system->rrel_key_sc_element:
-    dacryodenite; 
-    lacrimal_gland_cancer;;

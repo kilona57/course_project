@@ -1,8 +1,0 @@
-section_of_pathology_of_the_connective_membrane_of_the_eye
-	=> nrel_main_idtf:
-		[Раздел. Патологии соединительной оболочки глаза]
-			(* <- lang_ru;; *);;
-
-section_of_pathology_of_the_connective_membrane_of_the_eye->rrel_key_sc_element:
-    xerophthalmia;
-    conjunctivitis;;

@@ -1,0 +1,9 @@
+subject_domain_of_echocardiography
+=>nrel_main_idtf: [Предметная область Эхокардиографии] (* <- lang_ru;; *);
+[Subject domain of anatomy of echocardiography] (* <- lang_en;; *);
+	<- not_enough_formed_structure;;
+
+  
+subject_domain_of_echocardiography->rrel_maximum_studied_object_class:cardiovascular_diseases;;
+subject_domain_of_echocardiography->rrel_not_maximum_studied_object_class:artery;;
+subject_domain_of_echocardiography<-subject_domain;;	

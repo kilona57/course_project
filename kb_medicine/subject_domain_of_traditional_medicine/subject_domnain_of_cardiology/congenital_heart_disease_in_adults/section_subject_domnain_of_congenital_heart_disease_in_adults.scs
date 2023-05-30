@@ -1,0 +1,19 @@
+section_of_congenital_heart_disease_in_adults
+	    => nrel_main_idtf:
+		       [Раздел. Предметная область врождённых пороков сердца у взрослых]
+			            (* <- lang_ru;; *);
+[Section. Subject domain of congenital heart disease in adults] (* <- lang_en;; *);;
+section_of_congenital_heart_disease_in_adults<=nrel_section_decomposition:{
+	subject_domain_of_congenital_heart_disease_in_adults
+};;
+section_of_congenital_heart_disease_in_adults->rrel_key_sc_element:
+        acardia;
+        dextrocardia;
+        septal_defect;
+        coartation;
+        cor_triloculare;
+        wolff_parkinson_white_syndrome;
+        tetralogy_of_fallof;
+        transposition_of_great_vessels;;
+        section_of_congenital_heart_disease_in_adults->rrel_explored_relation:
+        nrel_congenital_defect;;

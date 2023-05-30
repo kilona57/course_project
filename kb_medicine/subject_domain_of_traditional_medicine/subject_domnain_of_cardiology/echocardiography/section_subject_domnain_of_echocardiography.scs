@@ -1,0 +1,13 @@
+section_of_echocardiography
+	    => nrel_main_idtf:
+		       [Раздел. Предметная область эхокардиографии]
+			            (* <- lang_ru;; *);
+[Section. Subject domain of echocardiography] (* <- lang_en;; *);;
+section_of_echocardiography<=nrel_section_decomposition:{
+	subject_domain_of_echocardiography
+};;
+section_of_echocardiography->rrel_key_sc_element:
+        dopplerography;
+        coronary_heart_disease;
+        cardiovascular_diseases;
+        echogardiography;;

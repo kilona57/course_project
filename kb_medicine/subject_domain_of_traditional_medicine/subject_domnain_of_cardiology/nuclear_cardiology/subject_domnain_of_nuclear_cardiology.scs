@@ -1,0 +1,9 @@
+subject_domain_of_nuclear_cardiology
+=>nrel_main_idtf: [Предметная область ядерной кардиологии] (* <- lang_ru;; *);
+[Subject domain of nuclear cardiology] (* <- lang_en;; *);
+	<- not_enough_formed_structure;;
+
+  
+subject_domain_of_nuclear_cardiology->rrel_maximum_studied_object_class:nuclear_cardiology;;
+subject_domain_of_nuclear_cardiology->rrel_not_maximum_studied_object_class:cardiology;;
+subject_domain_of_nuclear_cardiology<-subject_domain;;
