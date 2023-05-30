@@ -1,6 +1,6 @@
 section_of_periods_of_development
 	=> nrel_main_idtf:
-		[Раздел. Предметноая область диагностики развития]
+		[Раздел. Предметная область диагностики развития]
 			(* <- lang_ru;; *);
 		[Section. Subject domain of periods of development] (* <- lang_en;; *);;
 	

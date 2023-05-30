@@ -1,5 +1,5 @@
 subject_domain_of_diagnosis_diseases
-=>nrel_main_idtf: [Предметная область диагности заболеваний] (* <- lang_ru;; *);
+=>nrel_main_idtf: [Предметная область диагностики заболеваний] (* <- lang_ru;; *);
 [Subject domain of diagnosis diseases] (* <- lang_en;; *);
 	<- not_enough_formed_structure;;
 
@@ -7,5 +7,5 @@ subject_domain_of_diagnosis_diseases->rrel_not_maximum_studied_object_class:
 		blood_test;		
 		immunological_studies;;
 	
-ject_domain_of_diagnosis_diseases->rrel_maximum_studied_object_class:diagnosis_diseases;;
-ject_domain_of_diagnosis_diseases<-subject_domain;;
+subject_domain_of_diagnosis_diseases->rrel_maximum_studied_object_class:diagnosis_diseases;;
+subject_domain_of_diagnosis_diseases<-subject_domain;;
