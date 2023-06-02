@@ -548,7 +548,7 @@ blood
     blood=>nrel_inclusion: 
 
             red_blood_cells;
-            white_blood_celss;
+            white_blood_cells;
             platelet;;
 
     blood<- rrel_key_sc_element: ... 
